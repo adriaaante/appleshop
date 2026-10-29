@@ -1,0 +1,12 @@
+{
+  "brand": "TiMobile 148",
+  "channel": "Tm148sg",
+  "channelId": -1001204672105,
+  "siteUrl": "",
+  "city": "",
+  "contacts": { "telegram": "", "phone": "", "address": "", "hours": "" },
+  "markupPercent": 0,
+  "updatePostTtlDays": 14,
+  "excludeSections": ["Пломбы"],
+  "metrikaId": ""
+}

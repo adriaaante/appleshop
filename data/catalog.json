@@ -1,0 +1,8360 @@
+{
+ "updatedAt": "2026-10-29T10:21:19.149Z",
+ "products": [
+  {
+   "id": "airpods-4-in",
+   "model": "AirPods 4",
+   "modelSlug": "airpods-4",
+   "category": "airpods",
+   "title": "AirPods 4",
+   "variant": {},
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 8600,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 0,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods 4 - 8600 🇮🇳"
+  },
+  {
+   "id": "airpods-4-eu",
+   "model": "AirPods 4",
+   "modelSlug": "airpods-4",
+   "category": "airpods",
+   "title": "AirPods 4",
+   "variant": {},
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 8700,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 1,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods 4 - 8700 🇪🇺"
+  },
+  {
+   "id": "airpods-4-anc-in",
+   "model": "AirPods 4 ANC",
+   "modelSlug": "airpods-4-anc",
+   "category": "airpods",
+   "title": "AirPods 4 ANC",
+   "variant": {},
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 10200,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 2,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods 4 ANC - 10200 🇮🇳"
+  },
+  {
+   "id": "airpods-5-eu",
+   "model": "AirPods 5",
+   "modelSlug": "airpods-5",
+   "category": "airpods",
+   "title": "AirPods 5",
+   "variant": {},
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 10900,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 3,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods 5 - 10900 🇪🇺"
+  },
+  {
+   "id": "airpods-5-wireless-eu",
+   "model": "AirPods 5 Wireless",
+   "modelSlug": "airpods-5-wireless",
+   "category": "airpods",
+   "title": "AirPods 5 Wireless",
+   "variant": {},
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 13000,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 4,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods 5 Wireless - 13000 🇪🇺"
+  },
+  {
+   "id": "airpods-pro-3-eu",
+   "model": "AirPods Pro 3",
+   "modelSlug": "airpods-pro-3",
+   "category": "airpods",
+   "title": "AirPods Pro 3",
+   "variant": {},
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 16800,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 5,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods Pro 3 - 16800 🇪🇺"
+  },
+  {
+   "id": "airpods-max-2-midnight-232a35-eu",
+   "model": "AirPods Max 2",
+   "modelSlug": "airpods-max-2",
+   "category": "airpods",
+   "title": "AirPods Max 2 Midnight",
+   "variant": {
+    "color": "Midnight",
+    "colorHex": "#232a35"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 39400,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 8,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods Max 2 Midnight - 39400 🇪🇺"
+  },
+  {
+   "id": "airpods-max-2-starlight-ece4d6-eu",
+   "model": "AirPods Max 2",
+   "modelSlug": "airpods-max-2",
+   "category": "airpods",
+   "title": "AirPods Max 2 Starlight",
+   "variant": {
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 39400,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 9,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods Max 2 Starlight - 39400 🇪🇺"
+  },
+  {
+   "id": "airpods-max-2-orange-f07a2c-eu",
+   "model": "AirPods Max 2",
+   "modelSlug": "airpods-max-2",
+   "category": "airpods",
+   "title": "AirPods Max 2 Orange",
+   "variant": {
+    "color": "Orange",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 37700,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 10,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods Max 2 Orange - 37700 🇪🇺"
+  },
+  {
+   "id": "airpods-max-2-purple-a48fd0-eu",
+   "model": "AirPods Max 2",
+   "modelSlug": "airpods-max-2",
+   "category": "airpods",
+   "title": "AirPods Max 2 Purple",
+   "variant": {
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 36400,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 11,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "🎧Air Pods Max 2 Purple - 36400 🇪🇺"
+  },
+  {
+   "id": "naushnik-airpods-pro-3-pravyy",
+   "model": "Наушник AirPods Pro 3 правый",
+   "modelSlug": "naushnik-airpods-pro-3-pravyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods Pro 3 правый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6800,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 15,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods Pro 3 правое 6800"
+  },
+  {
+   "id": "naushnik-airpods-pro-3-levyy",
+   "model": "Наушник AirPods Pro 3 левый",
+   "modelSlug": "naushnik-airpods-pro-3-levyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods Pro 3 левый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6200,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 16,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods Pro 3 левое- 6200"
+  },
+  {
+   "id": "keys-airpods-pro-3",
+   "model": "Кейс AirPods Pro 3",
+   "modelSlug": "keys-airpods-pro-3",
+   "category": "airpods-parts",
+   "title": "Кейс AirPods Pro 3",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 7500,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 17,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Кейс Pods Pro 3 - 7500"
+  },
+  {
+   "id": "keys-airpods-pro-2-usb-c",
+   "model": "Кейс AirPods Pro 2 USB-C",
+   "modelSlug": "keys-airpods-pro-2-usb-c",
+   "category": "airpods-parts",
+   "title": "Кейс AirPods Pro 2 USB-C",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 7000,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 18,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Кейс Pods Pro 2 TYPE C -7000"
+  },
+  {
+   "id": "naushnik-airpods-pro-2-levyy",
+   "model": "Наушник AirPods Pro 2 левый",
+   "modelSlug": "naushnik-airpods-pro-2-levyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods Pro 2 левый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6800,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 19,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods Pro 2 левое- 6800"
+  },
+  {
+   "id": "naushnik-airpods-pro-2-pravyy",
+   "model": "Наушник AirPods Pro 2 правый",
+   "modelSlug": "naushnik-airpods-pro-2-pravyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods Pro 2 правый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 7000,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 20,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods Pro 2 правое - 7000"
+  },
+  {
+   "id": "keys-airpods-4",
+   "model": "Кейс AirPods 4",
+   "modelSlug": "keys-airpods-4",
+   "category": "airpods-parts",
+   "title": "Кейс AirPods 4",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 4000,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 21,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Кейс  Pods 4  - 4000"
+  },
+  {
+   "id": "naushnik-airpods-4-levyy",
+   "model": "Наушник AirPods 4 левый",
+   "modelSlug": "naushnik-airpods-4-levyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods 4 левый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 3800,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 22,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods 4 левое-3800"
+  },
+  {
+   "id": "naushnik-airpods-4-pravyy",
+   "model": "Наушник AirPods 4 правый",
+   "modelSlug": "naushnik-airpods-4-pravyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods 4 правый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 4100,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 23,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods 4 правое-4100"
+  },
+  {
+   "id": "keys-airpods-4-anc",
+   "model": "Кейс AirPods 4 ANC",
+   "modelSlug": "keys-airpods-4-anc",
+   "category": "airpods-parts",
+   "title": "Кейс AirPods 4 ANC",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 5500,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 24,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Кейс Pods 4 ANC - 5500"
+  },
+  {
+   "id": "naushnik-airpods-4-anc-levyy",
+   "model": "Наушник AirPods 4 ANC левый",
+   "modelSlug": "naushnik-airpods-4-anc-levyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods 4 ANC левый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 5400,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 25,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods 4 левое ANC-5400"
+  },
+  {
+   "id": "naushnik-airpods-4-anc-pravyy",
+   "model": "Наушник AirPods 4 ANC правый",
+   "modelSlug": "naushnik-airpods-4-anc-pravyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods 4 ANC правый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6900,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 26,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods 4 правое ANC -6900"
+  },
+  {
+   "id": "ambushyury-airpods-pro-2",
+   "model": "Амбушюры AirPods Pro 2",
+   "modelSlug": "ambushyury-airpods-pro-2",
+   "category": "airpods-parts",
+   "title": "Амбушюры AirPods Pro 2",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 500,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 27,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Амбушюры Pro2  - 500"
+  },
+  {
+   "id": "ambushyury-airpods-pro-3",
+   "model": "Амбушюры AirPods Pro 3",
+   "modelSlug": "ambushyury-airpods-pro-3",
+   "category": "airpods-parts",
+   "title": "Амбушюры AirPods Pro 3",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 700,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 28,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Амбушюры Pro3 - 700"
+  },
+  {
+   "id": "keys-airpods-5",
+   "model": "Кейс AirPods 5",
+   "modelSlug": "keys-airpods-5",
+   "category": "airpods-parts",
+   "title": "Кейс AirPods 5",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 5000,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 29,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Кейс  Pods 5  - 5000"
+  },
+  {
+   "id": "naushnik-airpods-5-levyy",
+   "model": "Наушник AirPods 5 левый",
+   "modelSlug": "naushnik-airpods-5-levyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods 5 левый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 4500,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 30,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods 5 левое-4500"
+  },
+  {
+   "id": "naushnik-airpods-5-pravyy",
+   "model": "Наушник AirPods 5 правый",
+   "modelSlug": "naushnik-airpods-5-pravyy",
+   "category": "airpods-parts",
+   "title": "Наушник AirPods 5 правый",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 4700,
+   "inStock": true,
+   "source": {
+    "post": 9533,
+    "line": 31,
+    "date": "2026-07-18T13:59:39+00:00",
+    "update": false
+   },
+   "raw": "Pods 5 правое-4700"
+  },
+  {
+   "id": "apple-pencil-pro-eu",
+   "model": "Apple Pencil Pro",
+   "modelSlug": "apple-pencil-pro",
+   "category": "accessories",
+   "title": "Apple Pencil Pro",
+   "variant": {},
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 9900,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 0,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "✏️ Pencil Pro - 9900 🇪🇺"
+  },
+  {
+   "id": "google-fitbit-lavender-c8bfe4",
+   "model": "Google Fitbit",
+   "modelSlug": "google-fitbit",
+   "category": "watch",
+   "title": "Google Fitbit Lavender",
+   "variant": {
+    "color": "Lavender",
+    "colorHex": "#c8bfe4"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 10300,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 3,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "Google fit bit  Lavender - 10300 🩵"
+  },
+  {
+   "id": "samsung-galaxy-smarttag-2-novyy-ne-aktivirovan-bez-korobki",
+   "model": "Samsung Galaxy SmartTag 2",
+   "modelSlug": "samsung-galaxy-smarttag-2",
+   "category": "accessories",
+   "title": "Samsung Galaxy SmartTag 2",
+   "variant": {},
+   "regions": [],
+   "notes": [
+    "Новый, не активирован, без коробки"
+   ],
+   "price": 1900,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 6,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "Galaxy SmartTag 2 -  (новый , не актив, без коробки ) 1900"
+  },
+  {
+   "id": "magic-mouse-usb-c-white-f4f4f2",
+   "model": "Magic Mouse USB-C",
+   "modelSlug": "magic-mouse-usb-c",
+   "category": "accessories",
+   "title": "Magic Mouse USB-C White",
+   "variant": {
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 7800,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 8,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "Magic Mouse USB-C⚪️ - 7800"
+  },
+  {
+   "id": "magic-mouse-usb-c-black-1c1d20",
+   "model": "Magic Mouse USB-C",
+   "modelSlug": "magic-mouse-usb-c",
+   "category": "accessories",
+   "title": "Magic Mouse USB-C Black",
+   "variant": {
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 9100,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 9,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "Magic Mouse USB-C⚫️ -9100"
+  },
+  {
+   "id": "adapter-pitaniya-apple-20-vt",
+   "model": "Адаптер питания Apple 20 Вт",
+   "modelSlug": "adapter-pitaniya-apple-20-vt",
+   "category": "accessories",
+   "title": "Адаптер питания Apple 20 Вт",
+   "variant": {
+    "tiers": [
+     {
+      "from": 5,
+      "price": 1400
+     }
+    ]
+   },
+   "regions": [],
+   "notes": [],
+   "price": 1500,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 12,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "20 W - 1500₽"
+  },
+  {
+   "id": "adapter-pitaniya-apple-35-vt-usb-c",
+   "model": "Адаптер питания Apple 35 Вт USB-C",
+   "modelSlug": "adapter-pitaniya-apple-35-vt-usb-c",
+   "category": "accessories",
+   "title": "Адаптер питания Apple 35 Вт USB-C",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6500,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 14,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "35w usb-c  6500₽"
+  },
+  {
+   "id": "zaschitnoe-steklo-remax-dlya-iphone-11-xr-11-pro-max-object-object",
+   "model": "Защитное стекло Remax для iPhone",
+   "modelSlug": "zaschitnoe-steklo-remax-dlya-iphone",
+   "category": "accessories",
+   "title": "Защитное стекло Remax для iPhone 11/XR/11 Pro Max",
+   "variant": {
+    "compat": "11/XR/11 Pro Max",
+    "tiers": [
+     {
+      "from": 10,
+      "price": 150
+     }
+    ]
+   },
+   "regions": [],
+   "notes": [],
+   "price": 300,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 18,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "• 11/XR/11pro Max - 150 ₽"
+  },
+  {
+   "id": "zaschitnoe-steklo-remax-dlya-iphone-12-13-14-object-object",
+   "model": "Защитное стекло Remax для iPhone",
+   "modelSlug": "zaschitnoe-steklo-remax-dlya-iphone",
+   "category": "accessories",
+   "title": "Защитное стекло Remax для iPhone 12/13/14",
+   "variant": {
+    "compat": "12/13/14",
+    "tiers": [
+     {
+      "from": 10,
+      "price": 150
+     }
+    ]
+   },
+   "regions": [],
+   "notes": [],
+   "price": 300,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 19,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "• 12/13/14 - 150₽"
+  },
+  {
+   "id": "zaschitnoe-steklo-remax-dlya-iphone-12-13-14-pro-object-object",
+   "model": "Защитное стекло Remax для iPhone",
+   "modelSlug": "zaschitnoe-steklo-remax-dlya-iphone",
+   "category": "accessories",
+   "title": "Защитное стекло Remax для iPhone 12/13/14 Pro",
+   "variant": {
+    "compat": "12/13/14 Pro",
+    "tiers": [
+     {
+      "from": 10,
+      "price": 150
+     }
+    ]
+   },
+   "regions": [],
+   "notes": [],
+   "price": 300,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 20,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "• 12/13/14 pro - 150₽"
+  },
+  {
+   "id": "zaschitnoe-steklo-remax-dlya-iphone-12-13-14-pro-max-object-object",
+   "model": "Защитное стекло Remax для iPhone",
+   "modelSlug": "zaschitnoe-steklo-remax-dlya-iphone",
+   "category": "accessories",
+   "title": "Защитное стекло Remax для iPhone 12/13/14 Pro Max",
+   "variant": {
+    "compat": "12/13/14 Pro Max",
+    "tiers": [
+     {
+      "from": 10,
+      "price": 150
+     }
+    ]
+   },
+   "regions": [],
+   "notes": [],
+   "price": 300,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 21,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "• 12/13/14 pro Max - 150₽"
+  },
+  {
+   "id": "zaschitnoe-steklo-remax-dlya-iphone-15-15-plus-15-pro-15-pro-max-object-object",
+   "model": "Защитное стекло Remax для iPhone",
+   "modelSlug": "zaschitnoe-steklo-remax-dlya-iphone",
+   "category": "accessories",
+   "title": "Защитное стекло Remax для iPhone 15/15 Plus/15 Pro/15 Pro Max",
+   "variant": {
+    "compat": "15/15 Plus/15 Pro/15 Pro Max",
+    "tiers": [
+     {
+      "from": 10,
+      "price": 150
+     }
+    ]
+   },
+   "regions": [],
+   "notes": [],
+   "price": 300,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 22,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "• 15/15 plus/15 pro/15 pro Max-150 ₽"
+  },
+  {
+   "id": "zaschitnoe-steklo-remax-dlya-iphone-16-16-plus-16-pro-16-pro-max-object-object",
+   "model": "Защитное стекло Remax для iPhone",
+   "modelSlug": "zaschitnoe-steklo-remax-dlya-iphone",
+   "category": "accessories",
+   "title": "Защитное стекло Remax для iPhone 16/16 Plus/16 Pro/16 Pro Max",
+   "variant": {
+    "compat": "16/16 Plus/16 Pro/16 Pro Max",
+    "tiers": [
+     {
+      "from": 10,
+      "price": 150
+     }
+    ]
+   },
+   "regions": [],
+   "notes": [],
+   "price": 300,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 23,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "• 16/16 plus/16 pro/16 pro Max-150 ₽"
+  },
+  {
+   "id": "zaschitnoe-steklo-remax-dlya-iphone-17-17-air-17-pro-17-pro-max-object-object",
+   "model": "Защитное стекло Remax для iPhone",
+   "modelSlug": "zaschitnoe-steklo-remax-dlya-iphone",
+   "category": "accessories",
+   "title": "Защитное стекло Remax для iPhone 17/17 Air/17 Pro/17 Pro Max",
+   "variant": {
+    "compat": "17/17 Air/17 Pro/17 Pro Max",
+    "tiers": [
+     {
+      "from": 10,
+      "price": 150
+     }
+    ]
+   },
+   "regions": [],
+   "notes": [],
+   "price": 300,
+   "inStock": true,
+   "source": {
+    "post": 9534,
+    "line": 24,
+    "date": "2026-07-18T14:02:15+00:00",
+    "update": false
+   },
+   "raw": "• 17/17 air/17 pro/17 pro Max-200 ₽"
+  },
+  {
+   "id": "apple-watch-se-3-40-mm-midnight-232a35-s-m-us",
+   "model": "Apple Watch SE 3",
+   "modelSlug": "apple-watch-se-3",
+   "category": "watch",
+   "title": "Apple Watch SE 3 40 mm Midnight",
+   "variant": {
+    "size": "40 мм",
+    "color": "Midnight",
+    "colorHex": "#232a35",
+    "band": "S/M"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 18200,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 2,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "SE3 40 mm Midnight - 18200 🇺🇸S/M"
+  },
+  {
+   "id": "apple-watch-se-3-40-mm-midnight-232a35-s-m-2026-us",
+   "model": "Apple Watch SE 3",
+   "modelSlug": "apple-watch-se-3",
+   "category": "watch",
+   "title": "Apple Watch SE 3 40 mm Midnight",
+   "variant": {
+    "size": "40 мм",
+    "color": "Midnight",
+    "colorHex": "#232a35",
+    "band": "S/M",
+    "year": 2026
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 20900,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 4,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "SE3 40 mm Midnight - 20900 🇺🇸S/M (2026)"
+  },
+  {
+   "id": "apple-watch-se-3-40-mm-starlight-ece4d6-s-m-2026-us",
+   "model": "Apple Watch SE 3",
+   "modelSlug": "apple-watch-se-3",
+   "category": "watch",
+   "title": "Apple Watch SE 3 40 mm Starlight",
+   "variant": {
+    "size": "40 мм",
+    "color": "Starlight",
+    "colorHex": "#ece4d6",
+    "band": "S/M",
+    "year": 2026
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 20400,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 5,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "SE3 40 mm Starlight - 20400 🇺🇸S/M (2026)"
+  },
+  {
+   "id": "apple-watch-se-3-40-mm-starlight-ece4d6-m-l-2026-us",
+   "model": "Apple Watch SE 3",
+   "modelSlug": "apple-watch-se-3",
+   "category": "watch",
+   "title": "Apple Watch SE 3 40 mm Starlight",
+   "variant": {
+    "size": "40 мм",
+    "color": "Starlight",
+    "colorHex": "#ece4d6",
+    "band": "M/L",
+    "year": 2026
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 20900,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 6,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "SE3 40 mm Starlight - 20900 🇺🇸M/L (2026)"
+  },
+  {
+   "id": "apple-watch-se-3-44-mm-midnight-232a35-m-l-s-m-2026-us",
+   "model": "Apple Watch SE 3",
+   "modelSlug": "apple-watch-se-3",
+   "category": "watch",
+   "title": "Apple Watch SE 3 44 mm Midnight",
+   "variant": {
+    "size": "44 мм",
+    "color": "Midnight",
+    "colorHex": "#232a35",
+    "band": "M/L, S/M",
+    "year": 2026
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 23400,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 8,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "SE3 44 mm Midnight - 23400 🇺🇸M/L,S/M (2026)"
+  },
+  {
+   "id": "apple-watch-series-12-42-mm-black-1c1d20-s-m-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 42 mm Black",
+   "variant": {
+    "size": "42 мм",
+    "color": "Black",
+    "colorHex": "#1c1d20",
+    "band": "S/M"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 33000,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 11,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 42 mm Black - 33000 🇺🇸 S/M"
+  },
+  {
+   "id": "apple-watch-series-12-42-mm-black-1c1d20-m-l-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 42 mm Black",
+   "variant": {
+    "size": "42 мм",
+    "color": "Black",
+    "colorHex": "#1c1d20",
+    "band": "M/L"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 33200,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 12,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 42 mm Black - 33200 🇺🇸 M/L"
+  },
+  {
+   "id": "apple-watch-series-12-42-mm-gold-e2cfa6-s-m-m-l-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 42 mm Gold",
+   "variant": {
+    "size": "42 мм",
+    "color": "Gold",
+    "colorHex": "#e2cfa6",
+    "band": "S/M, M/L"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 33200,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 13,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 42 mm Gold - 33200 🇺🇸 S/M, M/L"
+  },
+  {
+   "id": "apple-watch-series-12-42-mm-bronze-a77b55-m-l-s-m-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 42 mm Bronze",
+   "variant": {
+    "size": "42 мм",
+    "color": "Bronze",
+    "colorHex": "#a77b55",
+    "band": "M/L, S/M"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 33400,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 14,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 42 mm Bronze - 33400 🇺🇸 M/L,S/M"
+  },
+  {
+   "id": "apple-watch-series-12-42-mm-gold-e2cfa6-m-l-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 42 mm Gold",
+   "variant": {
+    "size": "42 мм",
+    "color": "Gold",
+    "colorHex": "#e2cfa6",
+    "band": "M/L"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 33200,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 15,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 42 mm Gold - 33200 🇺🇸 M/L"
+  },
+  {
+   "id": "apple-watch-series-12-46-mm-gray-8e9298-s-m-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 46 mm Grey",
+   "variant": {
+    "size": "46 мм",
+    "color": "Gray",
+    "colorHex": "#8e9298",
+    "band": "S/M"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 36700,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 18,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 46 mm Grey - 36700 🇺🇸 S/M"
+  },
+  {
+   "id": "apple-watch-series-12-46-mm-gray-8e9298-m-l-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 46 mm Grey",
+   "variant": {
+    "size": "46 мм",
+    "color": "Gray",
+    "colorHex": "#8e9298",
+    "band": "M/L"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 35900,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 19,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 46 mm Grey - 35900 🇺🇸 M/L"
+  },
+  {
+   "id": "apple-watch-series-12-46-mm-black-1c1d20-m-l-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 46 mm Black",
+   "variant": {
+    "size": "46 мм",
+    "color": "Black",
+    "colorHex": "#1c1d20",
+    "band": "M/L"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 38500,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 20,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 46 mm Black - 38500 🇺🇸 M/L"
+  },
+  {
+   "id": "apple-watch-series-12-46-mm-gold-e2cfa6-m-l-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 46 mm Gold",
+   "variant": {
+    "size": "46 мм",
+    "color": "Gold",
+    "colorHex": "#e2cfa6",
+    "band": "M/L"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 38000,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 21,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 46 mm Gold - 38000 🇺🇸 M/L"
+  },
+  {
+   "id": "apple-watch-series-12-46-mm-bronze-a77b55-s-m-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 46 mm Bronze",
+   "variant": {
+    "size": "46 мм",
+    "color": "Bronze",
+    "colorHex": "#a77b55",
+    "band": "S/M"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 37500,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 22,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 46 mm Bronze - 37500 🇺🇸 S/M"
+  },
+  {
+   "id": "apple-watch-series-12-46-mm-bronze-a77b55-m-l-us",
+   "model": "Apple Watch Series 12",
+   "modelSlug": "apple-watch-series-12",
+   "category": "watch",
+   "title": "Apple Watch Series 12 46 mm Bronze",
+   "variant": {
+    "size": "46 мм",
+    "color": "Bronze",
+    "colorHex": "#a77b55",
+    "band": "M/L"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 36700,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 23,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "S12 46 mm Bronze - 36700 🇺🇸 M/L"
+  },
+  {
+   "id": "apple-watch-ultra-2-49-mm-black-ocean-1d2733-us",
+   "model": "Apple Watch Ultra 2",
+   "modelSlug": "apple-watch-ultra-2",
+   "category": "watch",
+   "title": "Apple Watch Ultra 2 49 mm Black Ocean",
+   "variant": {
+    "size": "49 мм",
+    "color": "Black Ocean",
+    "colorHex": "#1d2733"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 44200,
+   "inStock": true,
+   "source": {
+    "post": 9535,
+    "line": 25,
+    "date": "2026-07-18T14:03:45+00:00",
+    "update": false
+   },
+   "raw": "Ultra 2 49 mm Black Ocean - 44200 🇺🇸"
+  },
+  {
+   "id": "iphone-duo-256-white-f4f4f2-jp",
+   "model": "iPhone Duo",
+   "modelSlug": "iphone-duo",
+   "category": "iphone",
+   "title": "iPhone Duo 256 Gb White",
+   "variant": {
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 212000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 3,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "iPhone Duo 256 Gb White - 212000 🇯🇵"
+  },
+  {
+   "id": "iphone-duo-256-night-sky-2b3142-jp",
+   "model": "iPhone Duo",
+   "modelSlug": "iphone-duo",
+   "category": "iphone",
+   "title": "iPhone Duo 256 Gb Night Sky",
+   "variant": {
+    "storage": 256,
+    "color": "Night Sky",
+    "colorHex": "#2b3142"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 213000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 4,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "iPhone Duo 256 Gb Night Sky - 213000 🇯🇵"
+  },
+  {
+   "id": "iphone-duo-512-white-f4f4f2-hk-jp",
+   "model": "iPhone Duo",
+   "modelSlug": "iphone-duo",
+   "category": "iphone",
+   "title": "iPhone Duo 512 Gb White",
+   "variant": {
+    "storage": 512,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "HK",
+    "JP"
+   ],
+   "notes": [],
+   "price": 247000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 6,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "iPhone Duo 512 Gb White - 247000 🇭🇰🇯🇵"
+  },
+  {
+   "id": "iphone-duo-512-night-sky-2b3142-hk-jp",
+   "model": "iPhone Duo",
+   "modelSlug": "iphone-duo",
+   "category": "iphone",
+   "title": "iPhone Duo 512 Gb Night Sky",
+   "variant": {
+    "storage": 512,
+    "color": "Night Sky",
+    "colorHex": "#2b3142"
+   },
+   "regions": [
+    "HK",
+    "JP"
+   ],
+   "notes": [],
+   "price": 249000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 7,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "iPhone Duo 512 Gb Night Sky - 249000 🇭🇰🇯🇵"
+  },
+  {
+   "id": "iphone-duo-1024-white-f4f4f2-hk",
+   "model": "iPhone Duo",
+   "modelSlug": "iphone-duo",
+   "category": "iphone",
+   "title": "iPhone Duo 1 TB White",
+   "variant": {
+    "storage": 1024,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 358000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 9,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "iPhone Duo 1 TB White - 358000 🇭🇰"
+  },
+  {
+   "id": "iphone-duo-1024-night-sky-2b3142-jp",
+   "model": "iPhone Duo",
+   "modelSlug": "iphone-duo",
+   "category": "iphone",
+   "title": "iPhone Duo 1 TB Night Sky",
+   "variant": {
+    "storage": 1024,
+    "color": "Night Sky",
+    "colorHex": "#2b3142"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 367000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 10,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "iPhone Duo 1 TB Night Sky - 367000 🇯🇵"
+  },
+  {
+   "id": "iphone-duo-2048-white-f4f4f2-hk",
+   "model": "iPhone Duo",
+   "modelSlug": "iphone-duo",
+   "category": "iphone",
+   "title": "iPhone Duo 2 TB White",
+   "variant": {
+    "storage": 2048,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 435000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 12,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "iPhone Duo 2 TB White - 435000 🇭🇰"
+  },
+  {
+   "id": "iphone-duo-2048-night-sky-2b3142-jp",
+   "model": "iPhone Duo",
+   "modelSlug": "iphone-duo",
+   "category": "iphone",
+   "title": "iPhone Duo 2 TB Night Sky",
+   "variant": {
+    "storage": 2048,
+    "color": "Night Sky",
+    "colorHex": "#2b3142"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 470000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 13,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "iPhone Duo 2 TB Night Sky - 470000 🇯🇵"
+  },
+  {
+   "id": "iphone-18-pro-256-white-f4f4f2-hk",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 256 Gb White",
+   "variant": {
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 116500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 16,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 256 Gb White - 116500 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-256-glacier-cfe1ea-hk",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 256 Gb Glacier",
+   "variant": {
+    "storage": 256,
+    "color": "Glacier",
+    "colorHex": "#cfe1ea"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 116200,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 17,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 256 Gb Glacier - 116200 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-256-burgundy-6e2433-tolko-esim-us",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 256 Gb Burgundy",
+   "variant": {
+    "storage": 256,
+    "color": "Burgundy",
+    "colorHex": "#6e2433",
+    "sim": "Только eSIM"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 106500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 18,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 256 Gb Burgundy - 106500 🇺🇸(е-sim)"
+  },
+  {
+   "id": "iphone-18-pro-256-burgundy-6e2433-hk",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 256 Gb Burgundy",
+   "variant": {
+    "storage": 256,
+    "color": "Burgundy",
+    "colorHex": "#6e2433"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 118500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 19,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 256 Gb Burgundy - 118500 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-512-black-1c1d20-tolko-esim-jp",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 512 Gb Black",
+   "variant": {
+    "storage": 512,
+    "color": "Black",
+    "colorHex": "#1c1d20",
+    "sim": "Только eSIM"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 122400,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 22,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 512 Gb Black - 122400 🇯🇵(е-sim)"
+  },
+  {
+   "id": "iphone-18-pro-512-black-1c1d20-hk",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 512 Gb Black",
+   "variant": {
+    "storage": 512,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 132200,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 23,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 512 Gb Black - 132200 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-512-burgundy-6e2433-hk",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 512 Gb Burgundy",
+   "variant": {
+    "storage": 512,
+    "color": "Burgundy",
+    "colorHex": "#6e2433"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 138300,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 24,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 512 Gb Burgundy - 138300 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-1024-black-1c1d20-hk",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 1 TB Black",
+   "variant": {
+    "storage": 1024,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 173700,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 27,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 1 TB Black - 173700 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-1024-silver-d6d8db-hk",
+   "model": "iPhone 18 Pro",
+   "modelSlug": "iphone-18-pro",
+   "category": "iphone",
+   "title": "iPhone 18 Pro 1 TB Silver",
+   "variant": {
+    "storage": 1024,
+    "color": "Silver",
+    "colorHex": "#d6d8db"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 176500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 28,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro 1 TB Silver - 176500 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-256-black-1c1d20-hk",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 256 Gb Black",
+   "variant": {
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 122000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 31,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 256 Gb Black - 122000 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-256-silver-d6d8db-hk",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 256 Gb Silver",
+   "variant": {
+    "storage": 256,
+    "color": "Silver",
+    "colorHex": "#d6d8db"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 120500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 32,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 256 Gb Silver - 120500 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-256-glacier-cfe1ea-hk",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 256 Gb Glacier",
+   "variant": {
+    "storage": 256,
+    "color": "Glacier",
+    "colorHex": "#cfe1ea"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 122700,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 33,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 256 Gb Glacier - 122700 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-256-burgundy-6e2433-tolko-esim-us",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 256 Gb Burgundy",
+   "variant": {
+    "storage": 256,
+    "color": "Burgundy",
+    "colorHex": "#6e2433",
+    "sim": "Только eSIM"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 126000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 34,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 256 Gb Burgundy - 126000 🇺🇸(e-sim)"
+  },
+  {
+   "id": "iphone-18-pro-max-256-burgundy-6e2433-hk",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 256 Gb Burgundy",
+   "variant": {
+    "storage": 256,
+    "color": "Burgundy",
+    "colorHex": "#6e2433"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 131900,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 35,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 256 Gb Burgundy - 131900 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-512-black-1c1d20-hk",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 512 Gb Black",
+   "variant": {
+    "storage": 512,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 142500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 38,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 512 Gb Black - 142500 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-512-silver-d6d8db-kr",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 512 Gb Silver",
+   "variant": {
+    "storage": 512,
+    "color": "Silver",
+    "colorHex": "#d6d8db"
+   },
+   "regions": [
+    "KR"
+   ],
+   "notes": [],
+   "price": 146000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 39,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 512 Gb Silver - 146000 🇰🇷"
+  },
+  {
+   "id": "iphone-18-pro-max-512-glacier-cfe1ea-kr",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 512 Gb Glacier",
+   "variant": {
+    "storage": 512,
+    "color": "Glacier",
+    "colorHex": "#cfe1ea"
+   },
+   "regions": [
+    "KR"
+   ],
+   "notes": [],
+   "price": 147000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 40,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 512 Gb Glacier - 147000 🇰🇷"
+  },
+  {
+   "id": "iphone-18-pro-max-512-glacier-cfe1ea-hk",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 512 Gb Glacier",
+   "variant": {
+    "storage": 512,
+    "color": "Glacier",
+    "colorHex": "#cfe1ea"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 147500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 41,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 512 Gb Glacier - 147500 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-512-burgundy-6e2433-kr",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 512 Gb Burgundy",
+   "variant": {
+    "storage": 512,
+    "color": "Burgundy",
+    "colorHex": "#6e2433"
+   },
+   "regions": [
+    "KR"
+   ],
+   "notes": [],
+   "price": 146900,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 42,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 512 Gb Burgundy - 146900 🇰🇷"
+  },
+  {
+   "id": "iphone-18-pro-max-1024-black-1c1d20-kr",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 1 TB Black",
+   "variant": {
+    "storage": 1024,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "KR"
+   ],
+   "notes": [],
+   "price": 181500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 45,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 1 TB Black - 181500 🇰🇷"
+  },
+  {
+   "id": "iphone-18-pro-max-1024-black-1c1d20-hk",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 1 TB Black",
+   "variant": {
+    "storage": 1024,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 182000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 46,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 1 TB Black - 182000 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-1024-glacier-cfe1ea-kr",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 1 TB Glacier",
+   "variant": {
+    "storage": 1024,
+    "color": "Glacier",
+    "colorHex": "#cfe1ea"
+   },
+   "regions": [
+    "KR"
+   ],
+   "notes": [],
+   "price": 184900,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 47,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 1 TB Glacier - 184900 🇰🇷"
+  },
+  {
+   "id": "iphone-18-pro-max-1024-glacier-cfe1ea-hk",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 1 TB Glacier",
+   "variant": {
+    "storage": 1024,
+    "color": "Glacier",
+    "colorHex": "#cfe1ea"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 185200,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 48,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 1 TB Glacier - 185200 🇭🇰"
+  },
+  {
+   "id": "iphone-18-pro-max-1024-burgundy-6e2433-kr",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 1 TB Burgundy",
+   "variant": {
+    "storage": 1024,
+    "color": "Burgundy",
+    "colorHex": "#6e2433"
+   },
+   "regions": [
+    "KR"
+   ],
+   "notes": [],
+   "price": 186300,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 49,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 1 TB Burgundy - 186300 🇰🇷"
+  },
+  {
+   "id": "iphone-18-pro-max-1024-burgundy-6e2433-au",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 1 TB Burgundy",
+   "variant": {
+    "storage": 1024,
+    "color": "Burgundy",
+    "colorHex": "#6e2433"
+   },
+   "regions": [
+    "AU"
+   ],
+   "notes": [],
+   "price": 186700,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 50,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 1 TB Burgundy - 186700 🇦🇺"
+  },
+  {
+   "id": "iphone-air-256-white-f4f4f2-ae",
+   "model": "iPhone Air",
+   "modelSlug": "iphone-air",
+   "category": "iphone",
+   "title": "iPhone Air 256 Gb White",
+   "variant": {
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 72300,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 53,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "Air 256 Gb White - 72300 🇦🇪"
+  },
+  {
+   "id": "iphone-air-256-gold-e2cfa6-cn",
+   "model": "iPhone Air",
+   "modelSlug": "iphone-air",
+   "category": "iphone",
+   "title": "iPhone Air 256 Gb Gold",
+   "variant": {
+    "storage": 256,
+    "color": "Gold",
+    "colorHex": "#e2cfa6"
+   },
+   "regions": [
+    "CN"
+   ],
+   "notes": [],
+   "price": 70900,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 54,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "Air 256 Gb Gold - 70900 🇨🇳"
+  },
+  {
+   "id": "iphone-air-512-blue-4f79b8-jp",
+   "model": "iPhone Air",
+   "modelSlug": "iphone-air",
+   "category": "iphone",
+   "title": "iPhone Air 512 Gb Blue",
+   "variant": {
+    "storage": 512,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 77200,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 56,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "Air 512 Gb Blue - 77200 🇯🇵"
+  },
+  {
+   "id": "iphone-air-512-gold-e2cfa6-ae",
+   "model": "iPhone Air",
+   "modelSlug": "iphone-air",
+   "category": "iphone",
+   "title": "iPhone Air 512 Gb Gold",
+   "variant": {
+    "storage": 512,
+    "color": "Gold",
+    "colorHex": "#e2cfa6"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 76500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 57,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "Air 512 Gb Gold - 76500 🇦🇪"
+  },
+  {
+   "id": "iphone-air-1024-black-1c1d20-eu",
+   "model": "iPhone Air",
+   "modelSlug": "iphone-air",
+   "category": "iphone",
+   "title": "iPhone Air 1 TB Black",
+   "variant": {
+    "storage": 1024,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 89500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 59,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "Air 1 TB Black - 89500 🇪🇺"
+  },
+  {
+   "id": "iphone-17-256-white-f4f4f2-in",
+   "model": "iPhone 17",
+   "modelSlug": "iphone-17",
+   "category": "iphone",
+   "title": "iPhone 17 256 Gb White",
+   "variant": {
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 73400,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 62,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 256 Gb White - 73400 🇮🇳"
+  },
+  {
+   "id": "iphone-17-256-blue-4f79b8-in",
+   "model": "iPhone 17",
+   "modelSlug": "iphone-17",
+   "category": "iphone",
+   "title": "iPhone 17 256 Gb Blue",
+   "variant": {
+    "storage": 256,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 72900,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 63,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 256 Gb Blue - 72900 🇮🇳"
+  },
+  {
+   "id": "iphone-17-256-sage-a9b79b-in",
+   "model": "iPhone 17",
+   "modelSlug": "iphone-17",
+   "category": "iphone",
+   "title": "iPhone 17 256 Gb Sage",
+   "variant": {
+    "storage": 256,
+    "color": "Sage",
+    "colorHex": "#a9b79b"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 72900,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 64,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 256 Gb Sage - 72900 🇮🇳"
+  },
+  {
+   "id": "iphone-17-256-lavender-c8bfe4-in",
+   "model": "iPhone 17",
+   "modelSlug": "iphone-17",
+   "category": "iphone",
+   "title": "iPhone 17 256 Gb Lavender",
+   "variant": {
+    "storage": 256,
+    "color": "Lavender",
+    "colorHex": "#c8bfe4"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 73500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 65,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 256 Gb Lavender - 73500 🇮🇳"
+  },
+  {
+   "id": "iphone-17-pro-256-blue-4f79b8-in",
+   "model": "iPhone 17 Pro",
+   "modelSlug": "iphone-17-pro",
+   "category": "iphone",
+   "title": "iPhone 17 Pro 256 Gb Blue",
+   "variant": {
+    "storage": 256,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 95000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 68,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro 256 Gb Blue - 95000 🇮🇳"
+  },
+  {
+   "id": "iphone-17-pro-256-orange-f07a2c-hk",
+   "model": "iPhone 17 Pro",
+   "modelSlug": "iphone-17-pro",
+   "category": "iphone",
+   "title": "iPhone 17 Pro 256 Gb Orange",
+   "variant": {
+    "storage": 256,
+    "color": "Orange",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 91500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 69,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro 256 Gb Orange - 91500 🇭🇰"
+  },
+  {
+   "id": "iphone-17-pro-max-256-blue-4f79b8-in",
+   "model": "iPhone 17 Pro Max",
+   "modelSlug": "iphone-17-pro-max",
+   "category": "iphone",
+   "title": "iPhone 17 Pro Max 256 Gb Blue",
+   "variant": {
+    "storage": 256,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 101500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 72,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro Max 256 Gb Blue - 101500 🇮🇳"
+  },
+  {
+   "id": "iphone-17-pro-max-256-orange-f07a2c-br",
+   "model": "iPhone 17 Pro Max",
+   "modelSlug": "iphone-17-pro-max",
+   "category": "iphone",
+   "title": "iPhone 17 Pro Max 256 Gb Orange",
+   "variant": {
+    "storage": 256,
+    "color": "Orange",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [
+    "BR"
+   ],
+   "notes": [],
+   "price": 99700,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 73,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro Max 256 Gb Orange - 99700 🇧🇷"
+  },
+  {
+   "id": "iphone-17-pro-max-256-orange-f07a2c-eu",
+   "model": "iPhone 17 Pro Max",
+   "modelSlug": "iphone-17-pro-max",
+   "category": "iphone",
+   "title": "iPhone 17 Pro Max 256 Gb Orange",
+   "variant": {
+    "storage": 256,
+    "color": "Orange",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 99900,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 74,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro Max 256 Gb Orange - 99900 🇪🇺"
+  },
+  {
+   "id": "iphone-17-pro-max-512-blue-4f79b8-eu",
+   "model": "iPhone 17 Pro Max",
+   "modelSlug": "iphone-17-pro-max",
+   "category": "iphone",
+   "title": "iPhone 17 Pro Max 512 Gb Blue",
+   "variant": {
+    "storage": 512,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 123900,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 77,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro Max 512 Gb Blue - 123900 🇪🇺"
+  },
+  {
+   "id": "iphone-17-pro-max-512-blue-4f79b8-hk-utsenka",
+   "model": "iPhone 17 Pro Max",
+   "modelSlug": "iphone-17-pro-max",
+   "category": "iphone",
+   "title": "iPhone 17 Pro Max 512 Gb Blue",
+   "variant": {
+    "storage": 512,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [
+    "Уценка"
+   ],
+   "price": 122000,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 78,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro Max 512 Gb Blue - 122000 🇭🇰 (уценка)"
+  },
+  {
+   "id": "iphone-17-pro-max-512-orange-f07a2c-eu",
+   "model": "iPhone 17 Pro Max",
+   "modelSlug": "iphone-17-pro-max",
+   "category": "iphone",
+   "title": "iPhone 17 Pro Max 512 Gb Orange",
+   "variant": {
+    "storage": 512,
+    "color": "Orange",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 119800,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 79,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro Max 512 Gb Orange - 119800 🇪🇺"
+  },
+  {
+   "id": "iphone-17-pro-max-1024-orange-f07a2c-kr",
+   "model": "iPhone 17 Pro Max",
+   "modelSlug": "iphone-17-pro-max",
+   "category": "iphone",
+   "title": "iPhone 17 Pro Max 1 TB Orange",
+   "variant": {
+    "storage": 1024,
+    "color": "Orange",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [
+    "KR"
+   ],
+   "notes": [],
+   "price": 153700,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 82,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "17 Pro Max 1 TB Orange - 153700 🇰🇷"
+  },
+  {
+   "id": "ipad-mini-7-256-wi-fi-plus-cellular-gray-8e9298",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 256 Gray LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 83500,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 1,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Gray LTE - 83.500"
+  },
+  {
+   "id": "ipad-mini-7-256-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 256 Blue LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 80900,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 2,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Blue LTE - 80.900"
+  },
+  {
+   "id": "ipad-mini-7-256-wi-fi-plus-cellular-purple-a48fd0",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 256 Purple LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 83900,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 3,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Purple LTE - 83.900"
+  },
+  {
+   "id": "ipad-mini-7-256-wi-fi-starlight-ece4d6",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 256 Starlight WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 56000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 4,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Starlight WiFi - 56.000"
+  },
+  {
+   "id": "ipad-mini-7-256-wi-fi-gray-8e9298",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 256 Gray WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 56000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 5,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Gray WiFi - 56.000"
+  },
+  {
+   "id": "ipad-mini-7-256-wi-fi-blue-4f79b8",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 256 Blue WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 56000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 6,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Blue WiFi - 56.000"
+  },
+  {
+   "id": "ipad-mini-7-256-wi-fi-purple-a48fd0",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 256 Purple WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 56000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 7,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Purple WiFi - 56.000"
+  },
+  {
+   "id": "ipad-mini-7-128-wi-fi-plus-cellular-gray-8e9298",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 128 Gray LTE",
+   "variant": {
+    "storage": 128,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 64000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 8,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "128 Gray LTE - 64.000"
+  },
+  {
+   "id": "ipad-mini-7-128-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 128 Blue LTE",
+   "variant": {
+    "storage": 128,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 64000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 9,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "128 Blue LTE - 64.000"
+  },
+  {
+   "id": "ipad-mini-7-128-wi-fi-plus-cellular-purple-a48fd0",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 128 Purple LTE",
+   "variant": {
+    "storage": 128,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 64900,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 10,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "128 Purple LTE - 64.900"
+  },
+  {
+   "id": "ipad-mini-7-128-wi-fi-gray-8e9298",
+   "model": "iPad mini 7",
+   "modelSlug": "ipad-mini-7",
+   "category": "ipad",
+   "title": "iPad mini 7 128 Gray WiFi",
+   "variant": {
+    "storage": 128,
+    "network": "Wi‑Fi",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 51000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 11,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "128 Gray WiFi - 51.000"
+  },
+  {
+   "id": "ipad-air-13-m3-2025-256-wi-fi-plus-cellular-purple-a48fd0",
+   "model": "iPad Air 13 M3 2025",
+   "modelSlug": "ipad-air-13-m3-2025",
+   "category": "ipad",
+   "title": "iPad Air 13 M3 2025 256 Purple LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 90000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 14,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Purple LTE - 90.000"
+  },
+  {
+   "id": "ipad-air-11-m3-2025-512-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad Air 11 M3 2025",
+   "modelSlug": "ipad-air-11-m3-2025",
+   "category": "ipad",
+   "title": "iPad Air 11 M3 2025 512 Blue LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 96000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 17,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Blue LTE - 96.000"
+  },
+  {
+   "id": "ipad-air-11-m3-2025-512-wi-fi-blue-4f79b8",
+   "model": "iPad Air 11 M3 2025",
+   "modelSlug": "ipad-air-11-m3-2025",
+   "category": "ipad",
+   "title": "iPad Air 11 M3 2025 512 Blue WiFi",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 94000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 18,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Blue WiFi  - 94.000"
+  },
+  {
+   "id": "ipad-pro-13-m5-2025-2048-wi-fi-plus-cellular-nanotekstura-black-1c1d20",
+   "model": "iPad Pro 13 M5 2025",
+   "modelSlug": "ipad-pro-13-m5-2025",
+   "category": "ipad",
+   "title": "iPad Pro 13 M5 2025 2Tb Black LTE Nano",
+   "variant": {
+    "storage": 2048,
+    "network": "Wi‑Fi + Cellular",
+    "glass": "Нанотекстура",
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 186000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 21,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "2Tb Black LTE Nano - 186.000"
+  },
+  {
+   "id": "ipad-pro-13-m5-2025-2048-wi-fi-plus-cellular-black-1c1d20",
+   "model": "iPad Pro 13 M5 2025",
+   "modelSlug": "ipad-pro-13-m5-2025",
+   "category": "ipad",
+   "title": "iPad Pro 13 M5 2025 2Tb Black LTE",
+   "variant": {
+    "storage": 2048,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 158000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 22,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "2Tb Black LTE - 158.000"
+  },
+  {
+   "id": "ipad-pro-13-m5-2025-1024-wi-fi-plus-cellular-nanotekstura-black-1c1d20",
+   "model": "iPad Pro 13 M5 2025",
+   "modelSlug": "ipad-pro-13-m5-2025",
+   "category": "ipad",
+   "title": "iPad Pro 13 M5 2025 1Tb Black LTE Nano",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "glass": "Нанотекстура",
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 158000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 23,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1Tb Black LTE Nano - 158.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-1024-wi-fi-plus-cellular-purple-a48fd0",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 1TB Purple LTE",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 162000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 26,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Purple LTE - 162.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-1024-wi-fi-plus-cellular-starlight-ece4d6",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 1TB Starlight LTE",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 162000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 27,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Starlight LTE - 162.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-1024-wi-fi-plus-cellular-gray-8e9298",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 1TB Gray LTE",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 162000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 28,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Gray LTE - 162.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-1024-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 1TB Blue LTE",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 162000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 29,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Blue LTE - 162.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-1024-wi-fi-black-1c1d20",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 1Tb Black WiFi",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi",
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 140000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 30,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1Tb Black WiFi - 140.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-1024-wi-fi-starlight-ece4d6",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 1Tb Starlight WiFi",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 140000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 31,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1Tb Starlight WiFi - 140.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-1024-wi-fi-purple-a48fd0",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 1TB Purple WiFi",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 138000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 32,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Purple WiFi - 138.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-512-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 512 Blue LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 136000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 33,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Blue LTE - 136.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-512-wi-fi-plus-cellular-gray-8e9298",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 512 Gray LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 134000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 34,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Gray LTE - 134.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-512-wi-fi-plus-cellular-purple-a48fd0",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 512 Purple LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 134000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 35,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Purple LTE - 134.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-512-wi-fi-plus-cellular-starlight-ece4d6",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 512 Starlight LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 136000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 36,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Starlight LTE - 136.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-512-wi-fi-gray-8e9298",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 512 Gray WiFi",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 122000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 37,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Gray WiFi - 122.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-512-wi-fi-starlight-ece4d6",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 512 Starlight WiFi",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 122000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 38,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Starlight WiFi - 122.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-512-wi-fi-purple-a48fd0",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 512 Purple WiFi",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 122000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 39,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Purple WiFi - 122.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-256-wi-fi-plus-cellular-gray-8e9298",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 256 Gray LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 114000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 40,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Gray LTE - 114.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-256-wi-fi-purple-a48fd0",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 256 Purple WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 94500,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 41,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Purple WiFi - 94.500"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-256-wi-fi-starlight-ece4d6",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 256 Starlight WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 93000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 42,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Starlight WiFi - 93.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-256-wi-fi-gray-8e9298",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 256 Gray WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 93000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 43,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Gray WiFi - 93.000"
+  },
+  {
+   "id": "ipad-air-13-m4-2026-256-wi-fi-blue-4f79b8",
+   "model": "iPad Air 13 M4 2026",
+   "modelSlug": "ipad-air-13-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 13 M4 2026 256 Blue WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 93000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 44,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Blue WiFi - 93.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-1024-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 1TB Blue LTE",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 144000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 47,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Blue LTE - 144.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-1024-wi-fi-plus-cellular-gray-8e9298",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 1TB Gray LTE",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 144000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 48,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Gray LTE - 144.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-1024-wi-fi-plus-cellular-purple-a48fd0",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 1TB Purple LTE",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 144000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 49,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Purple LTE - 144.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-1024-wi-fi-plus-cellular-starlight-ece4d6",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 1TB Starlight LTE",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 147500,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 50,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Starlight LTE - 147.500"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-1024-wi-fi-gray-8e9298",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 1TB Gray WiFi",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 127500,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 51,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Gray WiFi - 127.500"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-1024-wi-fi-purple-a48fd0",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 1TB Purple WiFi",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 127500,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 52,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Purple WiFi - 127.500"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-1024-wi-fi-starlight-ece4d6",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 1TB Starlight WiFi",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 127500,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 53,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Starlight WiFi - 127.500"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-1024-wi-fi-blue-4f79b8",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 1TB Blue WiFi",
+   "variant": {
+    "storage": 1024,
+    "network": "Wi‑Fi",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 122000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 54,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "1TB Blue WiFi - 122.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-512-wi-fi-plus-cellular-gray-8e9298",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 512 Gray LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 120000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 55,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Gray LTE - 120.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-512-wi-fi-plus-cellular-purple-a48fd0",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 512 Purple LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 120000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 56,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Purple LTE - 120.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-512-wi-fi-plus-cellular-starlight-ece4d6",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 512 Starlight LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 122000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 57,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Starlight LTE - 122.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-512-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 512 Blue LTE",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 120000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 58,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Blue LTE - 120.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-512-wi-fi-purple-a48fd0",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 512 Purple WiFi",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 109000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 59,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Purple WiFi - 109.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-512-wi-fi-starlight-ece4d6",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 512 Starlight WiFi",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 104000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 60,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Starlight WiFi - 104.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-512-wi-fi-blue-4f79b8",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 512 Blue WiFi",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 104000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 61,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Blue WiFi - 104.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-512-wi-fi-gray-8e9298",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 512 Gray WiFi",
+   "variant": {
+    "storage": 512,
+    "network": "Wi‑Fi",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 104000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 62,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "512 Gray WiFi - 104.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-256-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 256 Blue LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 96900,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 63,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Blue LTE - 96.900"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-256-wi-fi-plus-cellular-purple-a48fd0",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 256 Purple LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 97900,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 64,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Purple LTE - 97.900"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-256-wi-fi-plus-cellular-starlight-ece4d6",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 256 Starlight LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Starlight",
+    "colorHex": "#ece4d6"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 96000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 65,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Starlight LTE - 96.000"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-256-wi-fi-plus-cellular-gray-8e9298",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 256 Gray LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 96900,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 66,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Gray LTE - 96.900"
+  },
+  {
+   "id": "ipad-air-11-m4-2026-256-wi-fi-blue-4f79b8",
+   "model": "iPad Air 11 M4 2026",
+   "modelSlug": "ipad-air-11-m4-2026",
+   "category": "ipad",
+   "title": "iPad Air 11 M4 2026 256 Blue WiFi",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 72000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 67,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Blue WiFi - 72.000"
+  },
+  {
+   "id": "ipad-11-256-wi-fi-plus-cellular-silver-d6d8db",
+   "model": "iPad 11",
+   "modelSlug": "ipad-11",
+   "category": "ipad",
+   "title": "iPad 11 256 Silver LTE",
+   "variant": {
+    "storage": 256,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Silver",
+    "colorHex": "#d6d8db"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 67500,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 70,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "256 Silver LTE - 67.500"
+  },
+  {
+   "id": "ipad-11-128-wi-fi-plus-cellular-blue-4f79b8",
+   "model": "iPad 11",
+   "modelSlug": "ipad-11",
+   "category": "ipad",
+   "title": "iPad 11 128 Blue LTE",
+   "variant": {
+    "storage": 128,
+    "network": "Wi‑Fi + Cellular",
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 47000,
+   "inStock": true,
+   "source": {
+    "post": 9537,
+    "line": 71,
+    "date": "2026-07-18T14:06:42+00:00",
+    "update": false
+   },
+   "raw": "128 Blue LTE - 47.000"
+  },
+  {
+   "id": "samsung-galaxy-a07-4-64-black-1c1d20-ae",
+   "model": "Samsung Galaxy A07",
+   "modelSlug": "samsung-galaxy-a07",
+   "category": "android",
+   "title": "Samsung Galaxy A07 4/64 Black",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 11400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 0,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07 4/64 Black 11400 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07-4-64-green-5e8f6a-ae",
+   "model": "Samsung Galaxy A07",
+   "modelSlug": "samsung-galaxy-a07",
+   "category": "android",
+   "title": "Samsung Galaxy A07 4/64 Green",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Green",
+    "colorHex": "#5e8f6a"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 11400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 1,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07 4/64 Green 11400 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07-4-64-violet-7d5fb2-ae",
+   "model": "Samsung Galaxy A07",
+   "modelSlug": "samsung-galaxy-a07",
+   "category": "android",
+   "title": "Samsung Galaxy A07 4/64 Violet",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Violet",
+    "colorHex": "#7d5fb2"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 11400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 2,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07 4/64 Violet 11400 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07-4-128-black-1c1d20-ae",
+   "model": "Samsung Galaxy A07",
+   "modelSlug": "samsung-galaxy-a07",
+   "category": "android",
+   "title": "Samsung Galaxy A07 4/128 Black",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 12900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 3,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07 4/128 Black 12900 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07-4-128-green-5e8f6a-ae",
+   "model": "Samsung Galaxy A07",
+   "modelSlug": "samsung-galaxy-a07",
+   "category": "android",
+   "title": "Samsung Galaxy A07 4/128 Green",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Green",
+    "colorHex": "#5e8f6a"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 12900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 4,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07 4/128 Green 12900 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07-4-128-violet-7d5fb2-ae",
+   "model": "Samsung Galaxy A07",
+   "modelSlug": "samsung-galaxy-a07",
+   "category": "android",
+   "title": "Samsung Galaxy A07 4/128 Violet",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Violet",
+    "colorHex": "#7d5fb2"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 12900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 5,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07 4/128 Violet 12900 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07-6-128-green-5e8f6a-ru",
+   "model": "Samsung Galaxy A07",
+   "modelSlug": "samsung-galaxy-a07",
+   "category": "android",
+   "title": "Samsung Galaxy A07 6/128 Green",
+   "variant": {
+    "ram": 6,
+    "storage": 128,
+    "color": "Green",
+    "colorHex": "#5e8f6a"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 13900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 6,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07 6/128 Green 13900 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a07s-4-64-black-1c1d20-ae",
+   "model": "Samsung Galaxy A07s",
+   "modelSlug": "samsung-galaxy-a07s",
+   "category": "android",
+   "title": "Samsung Galaxy A07s 4/64 Black",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 11700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 7,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07s 4/64 Black 11700 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07s-4-64-black-1c1d20-ru",
+   "model": "Samsung Galaxy A07s",
+   "modelSlug": "samsung-galaxy-a07s",
+   "category": "android",
+   "title": "Samsung Galaxy A07s 4/64 Black",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 11800,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 8,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07s 4/64 Black 11800 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a07s-4-64-green-5e8f6a-ae",
+   "model": "Samsung Galaxy A07s",
+   "modelSlug": "samsung-galaxy-a07s",
+   "category": "android",
+   "title": "Samsung Galaxy A07s 4/64 Green",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Green",
+    "colorHex": "#5e8f6a"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 11700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 9,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07s 4/64 Green 11700 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07s-4-64-violet-7d5fb2-ae",
+   "model": "Samsung Galaxy A07s",
+   "modelSlug": "samsung-galaxy-a07s",
+   "category": "android",
+   "title": "Samsung Galaxy A07s 4/64 Violet",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Violet",
+    "colorHex": "#7d5fb2"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 11700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 10,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07s 4/64 Violet 11700 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a07s-4-128-black-1c1d20-kz",
+   "model": "Samsung Galaxy A07s",
+   "modelSlug": "samsung-galaxy-a07s",
+   "category": "android",
+   "title": "Samsung Galaxy A07s 4/128 Black",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "KZ"
+   ],
+   "notes": [],
+   "price": 13400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 11,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07s 4/128 Black 13400 🇰🇿"
+  },
+  {
+   "id": "samsung-galaxy-a07s-4-128-black-1c1d20-ru",
+   "model": "Samsung Galaxy A07s",
+   "modelSlug": "samsung-galaxy-a07s",
+   "category": "android",
+   "title": "Samsung Galaxy A07s 4/128 Black",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 13500,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 12,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07s 4/128 Black 13500 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a07s-4-128-green-5e8f6a-kz",
+   "model": "Samsung Galaxy A07s",
+   "modelSlug": "samsung-galaxy-a07s",
+   "category": "android",
+   "title": "Samsung Galaxy A07s 4/128 Green",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Green",
+    "colorHex": "#5e8f6a"
+   },
+   "regions": [
+    "KZ"
+   ],
+   "notes": [],
+   "price": 13400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 13,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07s 4/128 Green 13400 🇰🇿"
+  },
+  {
+   "id": "samsung-galaxy-a07s-4-128-violet-7d5fb2-kz",
+   "model": "Samsung Galaxy A07s",
+   "modelSlug": "samsung-galaxy-a07s",
+   "category": "android",
+   "title": "Samsung Galaxy A07s 4/128 Violet",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Violet",
+    "colorHex": "#7d5fb2"
+   },
+   "regions": [
+    "KZ"
+   ],
+   "notes": [],
+   "price": 13400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 14,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A07s 4/128 Violet 13400 🇰🇿"
+  },
+  {
+   "id": "samsung-galaxy-a17-4-128-black-1c1d20-ae",
+   "model": "Samsung Galaxy A17",
+   "modelSlug": "samsung-galaxy-a17",
+   "category": "android",
+   "title": "Samsung Galaxy A17 4/128 Black",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 15400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 15,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A17 4/128 Black 15400 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a17-4-128-blue-4f79b8-ae",
+   "model": "Samsung Galaxy A17",
+   "modelSlug": "samsung-galaxy-a17",
+   "category": "android",
+   "title": "Samsung Galaxy A17 4/128 Blue",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 15400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 16,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A17 4/128 Blue 15400 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a17-4-128-gray-8e9298-ae",
+   "model": "Samsung Galaxy A17",
+   "modelSlug": "samsung-galaxy-a17",
+   "category": "android",
+   "title": "Samsung Galaxy A17 4/128 Gray",
+   "variant": {
+    "ram": 4,
+    "storage": 128,
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 15400,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 17,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A17 4/128 Gray 15400 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a17-8-256-blue-4f79b8-ru",
+   "model": "Samsung Galaxy A17",
+   "modelSlug": "samsung-galaxy-a17",
+   "category": "android",
+   "title": "Samsung Galaxy A17 8/256 Blue",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 20000,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 18,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A17 8/256 Blue 20000 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a18-8-256-black-1c1d20-ru",
+   "model": "Samsung Galaxy A18",
+   "modelSlug": "samsung-galaxy-a18",
+   "category": "android",
+   "title": "Samsung Galaxy A18 8/256 Black",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 25000,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 19,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A18 8/256 Black 25000 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a18-8-256-blue-4f79b8-ru",
+   "model": "Samsung Galaxy A18",
+   "modelSlug": "samsung-galaxy-a18",
+   "category": "android",
+   "title": "Samsung Galaxy A18 8/256 Blue",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 25000,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 20,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A18 8/256 Blue 25000 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a18-8-256-gray-8e9298-ru",
+   "model": "Samsung Galaxy A18",
+   "modelSlug": "samsung-galaxy-a18",
+   "category": "android",
+   "title": "Samsung Galaxy A18 8/256 Gray",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 25000,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 21,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A18 8/256 Gray 25000 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a27-6-128-black-1c1d20-za",
+   "model": "Samsung Galaxy A27",
+   "modelSlug": "samsung-galaxy-a27",
+   "category": "android",
+   "title": "Samsung Galaxy A27 6/128 Black",
+   "variant": {
+    "ram": 6,
+    "storage": 128,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "ZA"
+   ],
+   "notes": [],
+   "price": 22200,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 22,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A27 6/128 Black 22200 🇿🇦"
+  },
+  {
+   "id": "samsung-galaxy-a27-6-128-blue-4f79b8-kz",
+   "model": "Samsung Galaxy A27",
+   "modelSlug": "samsung-galaxy-a27",
+   "category": "android",
+   "title": "Samsung Galaxy A27 6/128 Blue",
+   "variant": {
+    "ram": 6,
+    "storage": 128,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "KZ"
+   ],
+   "notes": [],
+   "price": 22100,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 23,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A27 6/128 Blue 22100 🇰🇿"
+  },
+  {
+   "id": "samsung-galaxy-a27-6-128-blue-4f79b8-ru",
+   "model": "Samsung Galaxy A27",
+   "modelSlug": "samsung-galaxy-a27",
+   "category": "android",
+   "title": "Samsung Galaxy A27 6/128 Blue",
+   "variant": {
+    "ram": 6,
+    "storage": 128,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 22200,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 24,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A27 6/128 Blue 22200 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a27-6-128-green-5e8f6a-za",
+   "model": "Samsung Galaxy A27",
+   "modelSlug": "samsung-galaxy-a27",
+   "category": "android",
+   "title": "Samsung Galaxy A27 6/128 Green",
+   "variant": {
+    "ram": 6,
+    "storage": 128,
+    "color": "Green",
+    "colorHex": "#5e8f6a"
+   },
+   "regions": [
+    "ZA"
+   ],
+   "notes": [],
+   "price": 22000,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 25,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A27 6/128 Green 22000 🇿🇦"
+  },
+  {
+   "id": "samsung-galaxy-a27-6-128-pink-efb7c4-za",
+   "model": "Samsung Galaxy A27",
+   "modelSlug": "samsung-galaxy-a27",
+   "category": "android",
+   "title": "Samsung Galaxy A27 6/128 Pink",
+   "variant": {
+    "ram": 6,
+    "storage": 128,
+    "color": "Pink",
+    "colorHex": "#efb7c4"
+   },
+   "regions": [
+    "ZA"
+   ],
+   "notes": [],
+   "price": 22200,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 26,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A27 6/128 Pink 22200 🇿🇦"
+  },
+  {
+   "id": "samsung-galaxy-a27-8-256-blue-4f79b8-my",
+   "model": "Samsung Galaxy A27",
+   "modelSlug": "samsung-galaxy-a27",
+   "category": "android",
+   "title": "Samsung Galaxy A27 8/256 Blue",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "MY"
+   ],
+   "notes": [],
+   "price": 25500,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 27,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A27 8/256 Blue 25500 🇲🇾"
+  },
+  {
+   "id": "samsung-galaxy-a27-8-256-pink-efb7c4-my",
+   "model": "Samsung Galaxy A27",
+   "modelSlug": "samsung-galaxy-a27",
+   "category": "android",
+   "title": "Samsung Galaxy A27 8/256 Pink",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Pink",
+    "colorHex": "#efb7c4"
+   },
+   "regions": [
+    "MY"
+   ],
+   "notes": [],
+   "price": 25800,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 28,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A27 8/256 Pink 25800 🇲🇾"
+  },
+  {
+   "id": "samsung-galaxy-a36-8-256-black-1c1d20-ae",
+   "model": "Samsung Galaxy A36",
+   "modelSlug": "samsung-galaxy-a36",
+   "category": "android",
+   "title": "Samsung Galaxy A36 8/256 Black",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 25900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 29,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A36 8/256 Black 25900 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a36-8-256-lime-cfe38a-ae",
+   "model": "Samsung Galaxy A36",
+   "modelSlug": "samsung-galaxy-a36",
+   "category": "android",
+   "title": "Samsung Galaxy A36 8/256 Lime",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Lime",
+    "colorHex": "#cfe38a"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 25900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 30,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A36 8/256 Lime 25900 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a36-8-256-white-f4f4f2-ae",
+   "model": "Samsung Galaxy A36",
+   "modelSlug": "samsung-galaxy-a36",
+   "category": "android",
+   "title": "Samsung Galaxy A36 8/256 White",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 25900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 31,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A36 8/256 White 25900 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a37-6-128-gray-green-7f8c80-ae",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 6/128 GrayGreen",
+   "variant": {
+    "ram": 6,
+    "storage": 128,
+    "color": "Gray Green",
+    "colorHex": "#7f8c80"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 24300,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 32,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 6/128 GrayGreen 24300 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-128-charcoal-3a3c40-ae",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/128 Charcoal",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Charcoal",
+    "colorHex": "#3a3c40"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 25700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 33,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/128 Charcoal 25700 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-128-charcoal-3a3c40-ru",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/128 Charcoal",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Charcoal",
+    "colorHex": "#3a3c40"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 25800,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 34,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/128 Charcoal 25800 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-128-gray-green-7f8c80-ae",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/128 GrayGreen",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Gray Green",
+    "colorHex": "#7f8c80"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 25700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 35,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/128 GrayGreen 25700 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-128-gray-green-7f8c80-ru",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/128 GrayGreen",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Gray Green",
+    "colorHex": "#7f8c80"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 25800,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 36,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/128 GrayGreen 25800 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-128-lavender-c8bfe4-ru",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/128 Lavender",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Lavender",
+    "colorHex": "#c8bfe4"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 25800,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 37,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/128 Lavender 25800 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-128-white-f4f4f2-ru",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/128 White",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 25800,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 38,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/128 White 25800 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-256-charcoal-3a3c40-ru",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/256 Charcoal",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Charcoal",
+    "colorHex": "#3a3c40"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 29500,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 39,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/256 Charcoal 29500 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-256-gray-green-7f8c80-ru",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/256 GrayGreen",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Gray Green",
+    "colorHex": "#7f8c80"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 29700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 40,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/256 GrayGreen 29700 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-256-lavender-c8bfe4-ru",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/256 Lavander",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Lavender",
+    "colorHex": "#c8bfe4"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 29700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 41,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/256 Lavander 29700 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a37-8-256-white-f4f4f2-ru",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 8/256 White",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 29700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 42,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 8/256 White 29700 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a37-12-256-charcoal-3a3c40-my",
+   "model": "Samsung Galaxy A37",
+   "modelSlug": "samsung-galaxy-a37",
+   "category": "android",
+   "title": "Samsung Galaxy A37 12/256 Charcoal",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Charcoal",
+    "colorHex": "#3a3c40"
+   },
+   "regions": [
+    "MY"
+   ],
+   "notes": [],
+   "price": 29800,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 43,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A37 12/256 Charcoal 29800 🇲🇾"
+  },
+  {
+   "id": "samsung-galaxy-a56-8-128-light-gray-c9ccd1-eu",
+   "model": "Samsung Galaxy A56",
+   "modelSlug": "samsung-galaxy-a56",
+   "category": "android",
+   "title": "Samsung Galaxy A56 8/128 LightGray",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Light Gray",
+    "colorHex": "#c9ccd1"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 28900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 44,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A56 8/128 LightGray 28900 🇪🇺"
+  },
+  {
+   "id": "samsung-galaxy-a57-8-128-gray-8e9298-kz",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 8/128 Gray",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [
+    "KZ"
+   ],
+   "notes": [],
+   "price": 29900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 45,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 8/128 Gray 29900 🇰🇿"
+  },
+  {
+   "id": "samsung-galaxy-a57-8-128-icy-blue-bcd6e8-ae",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 8/128 Icyblue",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Icy Blue",
+    "colorHex": "#bcd6e8"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 29900,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 46,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 8/128 Icyblue 29900 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a57-8-128-lilac-c6a9d6-ae",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 8/128 Lilac",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Lilac",
+    "colorHex": "#c6a9d6"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 30000,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 47,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 8/128 Lilac 30000 🇦🇪"
+  },
+  {
+   "id": "samsung-galaxy-a57-8-256-gray-8e9298-ru",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 8/256 Gray",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Gray",
+    "colorHex": "#8e9298"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 34200,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 48,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 8/256 Gray 34200 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a57-8-256-icy-blue-bcd6e8-ru",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 8/256 Icyblue",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Icy Blue",
+    "colorHex": "#bcd6e8"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 34200,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 49,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 8/256 Icyblue 34200 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a57-8-256-lilac-c6a9d6-ru",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 8/256 Lilac",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Lilac",
+    "colorHex": "#c6a9d6"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 34200,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 50,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 8/256 Lilac 34200 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a57-8-256-navy-22324f-ru",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 8/256 Navy",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Navy",
+    "colorHex": "#22324f"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 34200,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 51,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 8/256 Navy 34200 🇷🇺"
+  },
+  {
+   "id": "samsung-galaxy-a57-12-256-navy-22324f-ae",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 12/256 Navy",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Navy",
+    "colorHex": "#22324f"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 40000,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 52,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 12/256 Navy 40000 🇦🇪"
+  },
+  {
+   "id": "google-pixel-10-12-128-obsidian-26272b-ca",
+   "model": "Google Pixel 10",
+   "modelSlug": "google-pixel-10",
+   "category": "android",
+   "title": "Google Pixel 10 12/128GB Obsidian",
+   "variant": {
+    "ram": 12,
+    "storage": 128,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "CA"
+   ],
+   "notes": [],
+   "price": 50000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 0,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 10 12/128GB Obsidian CA - 50000"
+  },
+  {
+   "id": "google-pixel-10-12-256-obsidian-26272b-in",
+   "model": "Google Pixel 10",
+   "modelSlug": "google-pixel-10",
+   "category": "android",
+   "title": "Google Pixel 10 12/256GB Obsidian",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 62500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 1,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 10 12/256GB Obsidian 🇮🇳 - 62500"
+  },
+  {
+   "id": "google-pixel-10-pro-16-128-obsidian-26272b-ca",
+   "model": "Google Pixel 10 Pro",
+   "modelSlug": "google-pixel-10-pro",
+   "category": "android",
+   "title": "Google Pixel 10 Pro 16/128GB Obsidian",
+   "variant": {
+    "ram": 16,
+    "storage": 128,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "CA"
+   ],
+   "notes": [],
+   "price": 62500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 2,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 10 Pro 16/128GB Obsidian CA - 62500"
+  },
+  {
+   "id": "google-pixel-10-pro-16-128-obsidian-26272b-gb",
+   "model": "Google Pixel 10 Pro",
+   "modelSlug": "google-pixel-10-pro",
+   "category": "android",
+   "title": "Google Pixel 10 Pro 16/128GB Obsidian",
+   "variant": {
+    "ram": 16,
+    "storage": 128,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "GB"
+   ],
+   "notes": [],
+   "price": 62700,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 3,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 10 Pro 16/128GB Obsidian 🇬🇧 - 62700"
+  },
+  {
+   "id": "google-pixel-10a-8-128-lavender-c8bfe4-au",
+   "model": "Google Pixel 10a",
+   "modelSlug": "google-pixel-10a",
+   "category": "android",
+   "title": "Google Pixel 10a 8/128GB Lavender",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Lavender",
+    "colorHex": "#c8bfe4"
+   },
+   "regions": [
+    "AU"
+   ],
+   "notes": [],
+   "price": 38800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 4,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 10a 8/128GB Lavender AU - 38800"
+  },
+  {
+   "id": "google-pixel-10a-8-128-obsidian-26272b-gb",
+   "model": "Google Pixel 10a",
+   "modelSlug": "google-pixel-10a",
+   "category": "android",
+   "title": "Google Pixel 10a 8/128GB Obsidian",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "GB"
+   ],
+   "notes": [],
+   "price": 38500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 5,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 10a 8/128GB Obsidian 🇬🇧 - 38500"
+  },
+  {
+   "id": "google-pixel-10a-8-128-fog-c7cbd0-au",
+   "model": "Google Pixel 10a",
+   "modelSlug": "google-pixel-10a",
+   "category": "android",
+   "title": "Google Pixel 10a 8/128Gb Fog",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Fog",
+    "colorHex": "#c7cbd0"
+   },
+   "regions": [
+    "AU"
+   ],
+   "notes": [],
+   "price": 38800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 6,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 10a 8/128Gb Fog AU - 38800"
+  },
+  {
+   "id": "google-pixel-10a-12-256-berry-9b3a5a-in",
+   "model": "Google Pixel 10a",
+   "modelSlug": "google-pixel-10a",
+   "category": "android",
+   "title": "Google Pixel 10a 12/256GB Berry",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Berry",
+    "colorHex": "#9b3a5a"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 43000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 7,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 10a 12/256GB Berry 🇮🇳 - 43000"
+  },
+  {
+   "id": "google-pixel-11-12-512-frost-dfe7ee-ca",
+   "model": "Google Pixel 11",
+   "modelSlug": "google-pixel-11",
+   "category": "android",
+   "title": "Google Pixel 11 12/512GB Frost",
+   "variant": {
+    "ram": 12,
+    "storage": 512,
+    "color": "Frost",
+    "colorHex": "#dfe7ee"
+   },
+   "regions": [
+    "CA"
+   ],
+   "notes": [],
+   "price": 70000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 8,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 11 12/512GB Frost CA - 70000"
+  },
+  {
+   "id": "google-pixel-11-12-512-obsidian-26272b-ca",
+   "model": "Google Pixel 11",
+   "modelSlug": "google-pixel-11",
+   "category": "android",
+   "title": "Google Pixel 11 12/512GB Obsidian",
+   "variant": {
+    "ram": 12,
+    "storage": 512,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "CA"
+   ],
+   "notes": [],
+   "price": 70000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 9,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 11 12/512GB Obsidian CA - 70000"
+  },
+  {
+   "id": "google-pixel-11-pro-xl-16-256-obsidian-26272b-ca",
+   "model": "Google Pixel 11 Pro XL",
+   "modelSlug": "google-pixel-11-pro-xl",
+   "category": "android",
+   "title": "Google Pixel 11 Pro XL 16/256GB Obsidian",
+   "variant": {
+    "ram": 16,
+    "storage": 256,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "CA"
+   ],
+   "notes": [],
+   "price": 80000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 10,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 11 Pro XL 16/256GB Obsidian CA - 80000"
+  },
+  {
+   "id": "google-pixel-11-pro-fold-16-512-obsidian-26272b-us",
+   "model": "Google Pixel 11 Pro Fold",
+   "modelSlug": "google-pixel-11-pro-fold",
+   "category": "android",
+   "title": "Google Pixel 11 Pro Fold 16/512Gb Obsidian",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 124600,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 11,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 11 Pro Fold 16/512Gb Obsidian 🇺🇸 - 124600"
+  },
+  {
+   "id": "google-pixel-11-pro-xl-16-512-obsidian-26272b-ca",
+   "model": "Google Pixel 11 Pro XL",
+   "modelSlug": "google-pixel-11-pro-xl",
+   "category": "android",
+   "title": "Google Pixel 11 Pro XL 16/512GB Obsidian",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "CA"
+   ],
+   "notes": [],
+   "price": 103000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 12,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 11 Pro XL 16/512GB Obsidian CA - 103000"
+  },
+  {
+   "id": "google-pixel-8-8-256-obsidian-26272b-us",
+   "model": "Google Pixel 8",
+   "modelSlug": "google-pixel-8",
+   "category": "android",
+   "title": "Google Pixel 8 8/256GB Obsidian",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Obsidian",
+    "colorHex": "#26272b"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 39000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 13,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Google Pixel 8 8/256GB Obsidian 🇺🇸 - 39000"
+  },
+  {
+   "id": "honor-400-8-512-midnight-black-16181d-eu-bez-zaryadnogo-ustroystva",
+   "model": "Honor 400",
+   "modelSlug": "honor-400",
+   "category": "android",
+   "title": "Honor 400 8/512 Midnight Black без зарядки",
+   "variant": {
+    "ram": 8,
+    "storage": 512,
+    "color": "Midnight Black",
+    "colorHex": "#16181d"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [
+    "Без зарядного устройства"
+   ],
+   "price": 30400,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 14,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 400 8/512 Midnight Black без зарядки 🇪🇺 - 30400"
+  },
+  {
+   "id": "honor-600-8-256-golden-white-efe6d2-ru",
+   "model": "Honor 600",
+   "modelSlug": "honor-600",
+   "category": "android",
+   "title": "Honor 600 8/256Gb Golden White",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Golden White",
+    "colorHex": "#efe6d2"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 38500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 15,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 8/256Gb Golden White 🇷🇺 - 38500"
+  },
+  {
+   "id": "honor-600-8-256-orange-f07a2c-ru",
+   "model": "Honor 600",
+   "modelSlug": "honor-600",
+   "category": "android",
+   "title": "Honor 600 8/256Gb Orange",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Orange",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 38500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 16,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 8/256Gb Orange 🇷🇺 - 38500"
+  },
+  {
+   "id": "honor-600-12-256-black-1c1d20-eu",
+   "model": "Honor 600",
+   "modelSlug": "honor-600",
+   "category": "android",
+   "title": "Honor 600 12/256Gb Black",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 41500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 17,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 12/256Gb Black 🇪🇺 - 41500"
+  },
+  {
+   "id": "honor-600-12-256-golden-white-efe6d2-eu",
+   "model": "Honor 600",
+   "modelSlug": "honor-600",
+   "category": "android",
+   "title": "Honor 600 12/256Gb Golden White",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Golden White",
+    "colorHex": "#efe6d2"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 41500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 18,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 12/256Gb Golden White 🇪🇺 - 41500"
+  },
+  {
+   "id": "honor-600-12-512-golden-white-efe6d2-gb",
+   "model": "Honor 600",
+   "modelSlug": "honor-600",
+   "category": "android",
+   "title": "Honor 600 12/512Gb Golden White",
+   "variant": {
+    "ram": 12,
+    "storage": 512,
+    "color": "Golden White",
+    "colorHex": "#efe6d2"
+   },
+   "regions": [
+    "GB"
+   ],
+   "notes": [],
+   "price": 46000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 19,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 12/512Gb Golden White 🇬🇧 - 46000"
+  },
+  {
+   "id": "honor-600-12-512-orange-f07a2c-gb",
+   "model": "Honor 600",
+   "modelSlug": "honor-600",
+   "category": "android",
+   "title": "Honor 600 12/512Gb Orange",
+   "variant": {
+    "ram": 12,
+    "storage": 512,
+    "color": "Orange",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [
+    "GB"
+   ],
+   "notes": [],
+   "price": 46000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 20,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 12/512Gb Orange 🇬🇧 - 46000"
+  },
+  {
+   "id": "honor-600-lite-8-256-desert-gold-d9c3a0-gb",
+   "model": "Honor 600 Lite",
+   "modelSlug": "honor-600-lite",
+   "category": "android",
+   "title": "Honor 600 Lite 8/256 Desert Gold",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Desert Gold",
+    "colorHex": "#d9c3a0"
+   },
+   "regions": [
+    "GB"
+   ],
+   "notes": [],
+   "price": 27000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 21,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 Lite 8/256 Desert Gold 🇬🇧 - 27000"
+  },
+  {
+   "id": "honor-600-lite-8-256-sprout-green-b9cf9a-eu",
+   "model": "Honor 600 Lite",
+   "modelSlug": "honor-600-lite",
+   "category": "android",
+   "title": "Honor 600 Lite 8/256 Sprout Green",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Sprout Green",
+    "colorHex": "#b9cf9a"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 27500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 22,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 Lite 8/256 Sprout Green 🇪🇺 - 27500"
+  },
+  {
+   "id": "honor-600-lite-8-256-velvet-black-1b1b1d-eu",
+   "model": "Honor 600 Lite",
+   "modelSlug": "honor-600-lite",
+   "category": "android",
+   "title": "Honor 600 Lite 8/256 Velvet Black",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Velvet Black",
+    "colorHex": "#1b1b1d"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 27300,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 23,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 Lite 8/256 Velvet Black 🇪🇺 - 27300"
+  },
+  {
+   "id": "honor-600-lite-8-256-velvet-black-1b1b1d-ru",
+   "model": "Honor 600 Lite",
+   "modelSlug": "honor-600-lite",
+   "category": "android",
+   "title": "Honor 600 Lite 8/256 Velvet Black",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Velvet Black",
+    "colorHex": "#1b1b1d"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 27500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 24,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 Lite 8/256 Velvet Black 🇷🇺 - 27500"
+  },
+  {
+   "id": "honor-600-lite-8-256-velvet-gray-8a8d93-gb",
+   "model": "Honor 600 Lite",
+   "modelSlug": "honor-600-lite",
+   "category": "android",
+   "title": "Honor 600 Lite 8/256 Velvet Gray",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Velvet Gray",
+    "colorHex": "#8a8d93"
+   },
+   "regions": [
+    "GB"
+   ],
+   "notes": [],
+   "price": 27000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 25,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 Lite 8/256 Velvet Gray 🇬🇧 - 27000"
+  },
+  {
+   "id": "honor-600-pro-12-256-black-1c1d20-gb-defekt-korobki",
+   "model": "Honor 600 Pro",
+   "modelSlug": "honor-600-pro",
+   "category": "android",
+   "title": "Honor 600 Pro 12/256Gb Black Дефект коробки",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "GB"
+   ],
+   "notes": [
+    "Дефект коробки"
+   ],
+   "price": 57500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 26,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 Pro 12/256Gb Black Дефект коробки 🇬🇧 - 57500"
+  },
+  {
+   "id": "honor-600-pro-12-512-golden-white-efe6d2-ru",
+   "model": "Honor 600 Pro",
+   "modelSlug": "honor-600-pro",
+   "category": "android",
+   "title": "Honor 600 Pro 12/512Gb Golden White",
+   "variant": {
+    "ram": 12,
+    "storage": 512,
+    "color": "Golden White",
+    "colorHex": "#efe6d2"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 61500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 27,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 Pro 12/512Gb Golden White 🇷🇺 - 61500"
+  },
+  {
+   "id": "honor-600-pro-12-512-golden-white-efe6d2-eu",
+   "model": "Honor 600 Pro",
+   "modelSlug": "honor-600-pro",
+   "category": "android",
+   "title": "Honor 600 Pro 12/512Gb Golden White",
+   "variant": {
+    "ram": 12,
+    "storage": 512,
+    "color": "Golden White",
+    "colorHex": "#efe6d2"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 60500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 28,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor 600 Pro 12/512Gb Golden White 🇪🇺 - 60500"
+  },
+  {
+   "id": "honor-magic-7-12-256-white-f4f4f2-ru",
+   "model": "Honor Magic 7",
+   "modelSlug": "honor-magic-7",
+   "category": "android",
+   "title": "Honor Magic 7 12/256Gb White",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 53500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 29,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor Magic 7 12/256Gb White 🇷🇺 - 53500"
+  },
+  {
+   "id": "honor-turbo-5g-8-256-green-5e8f6a-ru",
+   "model": "Honor TURBO 5G",
+   "modelSlug": "honor-turbo-5g",
+   "category": "android",
+   "title": "Honor TURBO 5G 8/256GB Green",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Green",
+    "colorHex": "#5e8f6a"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 25800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 30,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor TURBO 5G 8/256GB Green 🇷🇺 - 25800"
+  },
+  {
+   "id": "honor-x5e-s-4-64-black-1c1d20-ru",
+   "model": "Honor X5e S",
+   "modelSlug": "honor-x5e-s",
+   "category": "android",
+   "title": "Honor X5e S 4/64GB Black",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 10900,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 31,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor X5e S 4/64GB Black 🇷🇺 - 10900"
+  },
+  {
+   "id": "honor-x5e-s-4-64-blue-4f79b8-ru",
+   "model": "Honor X5e S",
+   "modelSlug": "honor-x5e-s",
+   "category": "android",
+   "title": "Honor X5e S 4/64GB Blue",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 10900,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 32,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor X5e S 4/64GB Blue 🇷🇺 - 10900"
+  },
+  {
+   "id": "honor-x5e-s-4-64-purple-a48fd0-ru",
+   "model": "Honor X5e S",
+   "modelSlug": "honor-x5e-s",
+   "category": "android",
+   "title": "Honor X5e S 4/64GB Purple",
+   "variant": {
+    "ram": 4,
+    "storage": 64,
+    "color": "Purple",
+    "colorHex": "#a48fd0"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 10900,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 33,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor X5e S 4/64GB Purple 🇷🇺 - 10900"
+  },
+  {
+   "id": "honor-x8d-8-256-velvet-gray-8a8d93-ru",
+   "model": "Honor X8d",
+   "modelSlug": "honor-x8d",
+   "category": "android",
+   "title": "Honor X8d 8/256Gb Velvet Gray",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Velvet Gray",
+    "colorHex": "#8a8d93"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 22500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 34,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor X8d 8/256Gb Velvet Gray 🇷🇺 - 22500"
+  },
+  {
+   "id": "honor-x9d-12-256-forest-green-3d5a45-eu",
+   "model": "Honor X9d",
+   "modelSlug": "honor-x9d",
+   "category": "android",
+   "title": "Honor X9d 12/256Gb Forest Green",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Forest Green",
+    "colorHex": "#3d5a45"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 30800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 35,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor X9d 12/256Gb Forest Green 🇪🇺 - 30800"
+  },
+  {
+   "id": "honor-x9d-12-256-midnight-black-16181d-gb",
+   "model": "Honor X9d",
+   "modelSlug": "honor-x9d",
+   "category": "android",
+   "title": "Honor X9d 12/256Gb Midnight Black",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Midnight Black",
+    "colorHex": "#16181d"
+   },
+   "regions": [
+    "GB"
+   ],
+   "notes": [],
+   "price": 30500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 36,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor X9d 12/256Gb Midnight Black 🇬🇧 - 30500"
+  },
+  {
+   "id": "honor-x9d-12-256-sunrise-gold-e3c48e-eu",
+   "model": "Honor X9d",
+   "modelSlug": "honor-x9d",
+   "category": "android",
+   "title": "Honor X9d 12/256Gb Sunrise Gold",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Sunrise Gold",
+    "colorHex": "#e3c48e"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 30800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 37,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Honor X9d 12/256Gb Sunrise Gold 🇪🇺 - 30800"
+  },
+  {
+   "id": "huawei-mate-80-pro-16-512-gold-e2cfa6-ru",
+   "model": "Huawei Mate 80 Pro",
+   "modelSlug": "huawei-mate-80-pro",
+   "category": "android",
+   "title": "Huawei Mate 80 Pro 16/512Gb Gold",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "color": "Gold",
+    "colorHex": "#e2cfa6"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 60600,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 38,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Mate 80 Pro 16/512Gb Gold 🇷🇺 - 60600"
+  },
+  {
+   "id": "huawei-nova-16z-12-256-black-1c1d20-ru",
+   "model": "Huawei Nova 16z",
+   "modelSlug": "huawei-nova-16z",
+   "category": "android",
+   "title": "Huawei Nova 16z 12/256Gb Black",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 28500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 39,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Nova 16z 12/256Gb Black 🇷🇺 - 28500"
+  },
+  {
+   "id": "huawei-nova-16z-12-256-blue-4f79b8-ru",
+   "model": "Huawei Nova 16z",
+   "modelSlug": "huawei-nova-16z",
+   "category": "android",
+   "title": "Huawei Nova 16z 12/256Gb Blue",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 28500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 40,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Nova 16z 12/256Gb Blue 🇷🇺 - 28500"
+  },
+  {
+   "id": "huawei-nova-16z-12-256-white-f4f4f2-ru",
+   "model": "Huawei Nova 16z",
+   "modelSlug": "huawei-nova-16z",
+   "category": "android",
+   "title": "Huawei Nova 16z 12/256Gb White",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 28500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 41,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Nova 16z 12/256Gb White 🇷🇺 - 28500"
+  },
+  {
+   "id": "huawei-pura-80-12-256-black-1c1d20-kz",
+   "model": "Huawei Pura 80",
+   "modelSlug": "huawei-pura-80",
+   "category": "android",
+   "title": "Huawei Pura 80 12/256Gb Black",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "KZ"
+   ],
+   "notes": [],
+   "price": 38700,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 42,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Pura 80 12/256Gb Black 🇰🇿 - 38700"
+  },
+  {
+   "id": "huawei-pura-80-12-256-gold-e2cfa6-kz",
+   "model": "Huawei Pura 80",
+   "modelSlug": "huawei-pura-80",
+   "category": "android",
+   "title": "Huawei Pura 80 12/256Gb Gold",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Gold",
+    "colorHex": "#e2cfa6"
+   },
+   "regions": [
+    "KZ"
+   ],
+   "notes": [],
+   "price": 38700,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 43,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Pura 80 12/256Gb Gold 🇰🇿 - 38700"
+  },
+  {
+   "id": "huawei-pura-80-12-256-white-f4f4f2-ru",
+   "model": "Huawei Pura 80",
+   "modelSlug": "huawei-pura-80",
+   "category": "android",
+   "title": "Huawei Pura 80 12/256Gb White",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 38700,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 44,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Pura 80 12/256Gb White 🇷🇺 - 38700"
+  },
+  {
+   "id": "huawei-pura-90s-pro-max-5g-12-256-blaze-purple-7a4fa0-ru",
+   "model": "Huawei Pura 90S Pro Max 5G",
+   "modelSlug": "huawei-pura-90s-pro-max-5g",
+   "category": "android",
+   "title": "Huawei Pura 90S Pro Max 5G 12/256Gb Blaze Purple",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Blaze Purple",
+    "colorHex": "#7a4fa0"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 63800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 45,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Pura 90S Pro Max 5G 12/256Gb Blaze Purple 🇷🇺 - 63800"
+  },
+  {
+   "id": "huawei-pura-90s-pro-max-5g-12-256-blush-gold-e6c3ad-ru",
+   "model": "Huawei Pura 90S Pro Max 5G",
+   "modelSlug": "huawei-pura-90s-pro-max-5g",
+   "category": "android",
+   "title": "Huawei Pura 90S Pro Max 5G 12/256Gb Blush Gold",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Blush Gold",
+    "colorHex": "#e6c3ad"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 63800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 46,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Pura 90S Pro Max 5G 12/256Gb Blush Gold 🇷🇺 - 63800"
+  },
+  {
+   "id": "huawei-pura-90s-pro-max-5g-12-256-graphite-black-2a2c30-ru",
+   "model": "Huawei Pura 90S Pro Max 5G",
+   "modelSlug": "huawei-pura-90s-pro-max-5g",
+   "category": "android",
+   "title": "Huawei Pura 90S Pro Max 5G 12/256Gb Graphite Black",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Graphite Black",
+    "colorHex": "#2a2c30"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 63800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 47,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Pura 90S Pro Max 5G 12/256Gb Graphite Black 🇷🇺 - 63800"
+  },
+  {
+   "id": "huawei-pura-90s-pro-max-5g-12-256-orange-ocean-e9733c-ru",
+   "model": "Huawei Pura 90S Pro Max 5G",
+   "modelSlug": "huawei-pura-90s-pro-max-5g",
+   "category": "android",
+   "title": "Huawei Pura 90S Pro Max 5G 12/256Gb Orange Ocean",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Orange Ocean",
+    "colorHex": "#e9733c"
+   },
+   "regions": [
+    "RU"
+   ],
+   "notes": [],
+   "price": 63800,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 48,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Huawei Pura 90S Pro Max 5G 12/256Gb Orange Ocean 🇷🇺 - 63800"
+  },
+  {
+   "id": "nothing-phone-3-12-256-black-1c1d20-eu",
+   "model": "Nothing Phone 3",
+   "modelSlug": "nothing-phone-3",
+   "category": "android",
+   "title": "Nothing Phone 3 12/256GB Black",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 42000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 49,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 3 12/256GB Black 🇪🇺 - 42000"
+  },
+  {
+   "id": "nothing-phone-3-12-256-white-f4f4f2-eu",
+   "model": "Nothing Phone 3",
+   "modelSlug": "nothing-phone-3",
+   "category": "android",
+   "title": "Nothing Phone 3 12/256GB White",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 42000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 50,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 3 12/256GB White 🇪🇺 - 42000"
+  },
+  {
+   "id": "nothing-phone-3-16-512-black-1c1d20-eu",
+   "model": "Nothing Phone 3",
+   "modelSlug": "nothing-phone-3",
+   "category": "android",
+   "title": "Nothing Phone 3 16/512GB Black",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 44000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 51,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 3 16/512GB Black 🇪🇺 - 44000"
+  },
+  {
+   "id": "nothing-phone-3a-lite-8-128-black-1c1d20-eu",
+   "model": "Nothing Phone 3a Lite",
+   "modelSlug": "nothing-phone-3a-lite",
+   "category": "android",
+   "title": "Nothing Phone 3a Lite 8/128GB Black",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 20500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 52,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 3a Lite 8/128GB Black 🇪🇺 - 20500"
+  },
+  {
+   "id": "nothing-phone-3a-lite-8-128-white-f4f4f2-eu",
+   "model": "Nothing Phone 3a Lite",
+   "modelSlug": "nothing-phone-3a-lite",
+   "category": "android",
+   "title": "Nothing Phone 3a Lite 8/128GB White",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 20500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 53,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 3a Lite 8/128GB White 🇪🇺 - 20500"
+  },
+  {
+   "id": "nothing-phone-3a-lite-8-256-black-1c1d20-eu",
+   "model": "Nothing Phone 3a Lite",
+   "modelSlug": "nothing-phone-3a-lite",
+   "category": "android",
+   "title": "Nothing Phone 3a Lite 8/256GB Black",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 22700,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 54,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 3a Lite 8/256GB Black 🇪🇺 - 22700"
+  },
+  {
+   "id": "nothing-phone-4a-8-256-black-1c1d20-eu",
+   "model": "Nothing Phone 4a",
+   "modelSlug": "nothing-phone-4a",
+   "category": "android",
+   "title": "Nothing Phone 4a 8/256GB Black",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 35300,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 55,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 4a 8/256GB Black 🇪🇺 - 35300"
+  },
+  {
+   "id": "nothing-phone-4a-8-256-white-f4f4f2-eu",
+   "model": "Nothing Phone 4a",
+   "modelSlug": "nothing-phone-4a",
+   "category": "android",
+   "title": "Nothing Phone 4a 8/256GB White",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 35300,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 56,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 4a 8/256GB White 🇪🇺 - 35300"
+  },
+  {
+   "id": "nothing-phone-4a-12-256-black-1c1d20-eu",
+   "model": "Nothing Phone 4a",
+   "modelSlug": "nothing-phone-4a",
+   "category": "android",
+   "title": "Nothing Phone 4a 12/256GB Black",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 39500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 57,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 4a 12/256GB Black 🇪🇺 - 39500"
+  },
+  {
+   "id": "nothing-phone-4a-12-256-blue-4f79b8-eu",
+   "model": "Nothing Phone 4a",
+   "modelSlug": "nothing-phone-4a",
+   "category": "android",
+   "title": "Nothing Phone 4a 12/256GB Blue",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 39500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 58,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 4a 12/256GB Blue 🇪🇺 - 39500"
+  },
+  {
+   "id": "nothing-phone-4a-12-256-pink-efb7c4-eu",
+   "model": "Nothing Phone 4a",
+   "modelSlug": "nothing-phone-4a",
+   "category": "android",
+   "title": "Nothing Phone 4a 12/256GB Pink",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "Pink",
+    "colorHex": "#efb7c4"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 39500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 59,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 4a 12/256GB Pink 🇪🇺 - 39500"
+  },
+  {
+   "id": "nothing-phone-4a-12-256-white-f4f4f2-eu",
+   "model": "Nothing Phone 4a",
+   "modelSlug": "nothing-phone-4a",
+   "category": "android",
+   "title": "Nothing Phone 4a 12/256GB White",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 39500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 60,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 4a 12/256GB White 🇪🇺 - 39500"
+  },
+  {
+   "id": "nothing-phone-4b-8-128-black-1c1d20-eu",
+   "model": "Nothing Phone 4b",
+   "modelSlug": "nothing-phone-4b",
+   "category": "android",
+   "title": "Nothing Phone 4b 8/128GB Black",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [],
+   "price": 28600,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 61,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "Nothing Phone 4b 8/128GB Black 🇪🇺 - 28600"
+  },
+  {
+   "id": "oneplus-13s-12-512-black-velvet-1b1b1d-in",
+   "model": "OnePlus 13s",
+   "modelSlug": "oneplus-13s",
+   "category": "android",
+   "title": "OnePlus 13s 12/512Gb Black Velvet",
+   "variant": {
+    "ram": 12,
+    "storage": 512,
+    "color": "Black Velvet",
+    "colorHex": "#1b1b1d"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 42500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 62,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 13s 12/512Gb Black Velvet 🇮🇳 - 42500"
+  },
+  {
+   "id": "oneplus-13s-12-512-silk-green-9fb7a2-in",
+   "model": "OnePlus 13s",
+   "modelSlug": "oneplus-13s",
+   "category": "android",
+   "title": "OnePlus 13s 12/512Gb Silk Green",
+   "variant": {
+    "ram": 12,
+    "storage": 512,
+    "color": "Silk Green",
+    "colorHex": "#9fb7a2"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 42500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 63,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 13s 12/512Gb Silk Green 🇮🇳 - 42500"
+  },
+  {
+   "id": "oneplus-13s-16-512-black-velvet-1b1b1d-in",
+   "model": "OnePlus 13s",
+   "modelSlug": "oneplus-13s",
+   "category": "android",
+   "title": "OnePlus 13s 16/512Gb Black Velvet",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "color": "Black Velvet",
+    "colorHex": "#1b1b1d"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 45000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 64,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 13s 16/512Gb Black Velvet 🇮🇳 - 45000"
+  },
+  {
+   "id": "oneplus-13s-16-512-silk-green-9fb7a2-in",
+   "model": "OnePlus 13s",
+   "modelSlug": "oneplus-13s",
+   "category": "android",
+   "title": "OnePlus 13s 16/512Gb Silk Green",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "color": "Silk Green",
+    "colorHex": "#9fb7a2"
+   },
+   "regions": [
+    "IN"
+   ],
+   "notes": [],
+   "price": 45000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 65,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 13s 16/512Gb Silk Green 🇮🇳 - 45000"
+  },
+  {
+   "id": "oneplus-15-5g-16-1024-plk110-black-1c1d20-cn-s-russkim-yazykom",
+   "model": "OnePlus 15 5G",
+   "modelSlug": "oneplus-15-5g",
+   "category": "android",
+   "title": "OnePlus 15 5G 16/1Tb PLK110 Black с русским языком",
+   "variant": {
+    "ram": 16,
+    "storage": 1024,
+    "code": "PLK110",
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "CN"
+   ],
+   "notes": [
+    "С русским языком"
+   ],
+   "price": 80000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 66,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 15 5G 16/1Tb PLK110 Black с русским языком 🇨🇳 - 80000"
+  },
+  {
+   "id": "oneplus-15-5g-16-1024-plk110-sand-storm-cdb89a-cn-s-russkim-yazykom",
+   "model": "OnePlus 15 5G",
+   "modelSlug": "oneplus-15-5g",
+   "category": "android",
+   "title": "OnePlus 15 5G 16/1Tb PLK110 Sand Storm с русским языком",
+   "variant": {
+    "ram": 16,
+    "storage": 1024,
+    "code": "PLK110",
+    "color": "Sand Storm",
+    "colorHex": "#cdb89a"
+   },
+   "regions": [
+    "CN"
+   ],
+   "notes": [
+    "С русским языком"
+   ],
+   "price": 80000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 67,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 15 5G 16/1Tb PLK110 Sand Storm с русским языком 🇨🇳 - 80000"
+  },
+  {
+   "id": "oneplus-15-5g-12-256-cph2749-infinite-black-121316-us",
+   "model": "OnePlus 15 5G",
+   "modelSlug": "oneplus-15-5g",
+   "category": "android",
+   "title": "OnePlus 15 5G 12/256Gb CPH2749 Infinite Black",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "code": "CPH2749",
+    "color": "Infinite Black",
+    "colorHex": "#121316"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 74000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 68,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 15 5G 12/256Gb CPH2749 Infinite Black 🇺🇸 - 74000"
+  },
+  {
+   "id": "oneplus-15-5g-12-256-plk110-black-1c1d20-cn-s-russkim-yazykom",
+   "model": "OnePlus 15 5G",
+   "modelSlug": "oneplus-15-5g",
+   "category": "android",
+   "title": "OnePlus 15 5G 12/256Gb PLK110 Black с русским языком",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "code": "PLK110",
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "CN"
+   ],
+   "notes": [
+    "С русским языком"
+   ],
+   "price": 65000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 69,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 15 5G 12/256Gb PLK110 Black с русским языком 🇨🇳 - 65000"
+  },
+  {
+   "id": "oneplus-15-5g-12-256-plk110-sand-storm-cdb89a-cn-s-russkim-yazykom",
+   "model": "OnePlus 15 5G",
+   "modelSlug": "oneplus-15-5g",
+   "category": "android",
+   "title": "OnePlus 15 5G 12/256Gb PLK110 Sand Storm с русским языком",
+   "variant": {
+    "ram": 12,
+    "storage": 256,
+    "code": "PLK110",
+    "color": "Sand Storm",
+    "colorHex": "#cdb89a"
+   },
+   "regions": [
+    "CN"
+   ],
+   "notes": [
+    "С русским языком"
+   ],
+   "price": 65000,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 70,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 15 5G 12/256Gb PLK110 Sand Storm с русским языком 🇨🇳 - 65000"
+  },
+  {
+   "id": "oneplus-15-5g-16-512-cph2747-sand-storm-cdb89a-eu-bez-zaryadnogo-ustroystva",
+   "model": "OnePlus 15 5G",
+   "modelSlug": "oneplus-15-5g",
+   "category": "android",
+   "title": "OnePlus 15 5G 16/512Gb CPH2747 Sand Storm без зарядки",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "code": "CPH2747",
+    "color": "Sand Storm",
+    "colorHex": "#cdb89a"
+   },
+   "regions": [
+    "EU"
+   ],
+   "notes": [
+    "Без зарядного устройства"
+   ],
+   "price": 84500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 71,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 15 5G 16/512Gb CPH2747 Sand Storm без зарядки 🇪🇺 - 84500"
+  },
+  {
+   "id": "oneplus-15-5g-16-512-cph2749-infinite-black-121316-us",
+   "model": "OnePlus 15 5G",
+   "modelSlug": "oneplus-15-5g",
+   "category": "android",
+   "title": "OnePlus 15 5G 16/512Gb CPH2749 Infinite Black",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "code": "CPH2749",
+    "color": "Infinite Black",
+    "colorHex": "#121316"
+   },
+   "regions": [
+    "US"
+   ],
+   "notes": [],
+   "price": 82500,
+   "inStock": true,
+   "source": {
+    "post": 9540,
+    "line": 72,
+    "date": "2026-07-18T14:10:09+00:00",
+    "update": false
+   },
+   "raw": "OnePlus 15 5G 16/512Gb CPH2749 Infinite Black 🇺🇸 - 82500"
+  },
+  {
+   "id": "playstation-5-pro-2048-2-ya-reviziya-7100-jp",
+   "model": "PlayStation 5 Pro",
+   "modelSlug": "playstation-5-pro",
+   "category": "consoles",
+   "title": "PlayStation 5 Pro 2ТБ",
+   "variant": {
+    "storage": 2048,
+    "revision": "2-я ревизия",
+    "code": "7100"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 119500,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 0,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PlayStation 5 Pro 2ТБ -119.500 2 рев 7100 🇯🇵"
+  },
+  {
+   "id": "playstation-5-pro-2048-2-ya-reviziya-7121-ae-gb",
+   "model": "PlayStation 5 Pro",
+   "modelSlug": "playstation-5-pro",
+   "category": "consoles",
+   "title": "PlayStation 5 Pro 2ТБ",
+   "variant": {
+    "storage": 2048,
+    "revision": "2-я ревизия",
+    "code": "7121"
+   },
+   "regions": [
+    "AE",
+    "GB"
+   ],
+   "notes": [],
+   "price": 119500,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 1,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PlayStation 5 Pro 2ТБ - 119.500 2 рев 7121 🇦🇪🇬🇧"
+  },
+  {
+   "id": "playstation-5-slim-disk-1024-2-ya-reviziya-2116a-ae-gb",
+   "model": "PlayStation 5 Slim Disk",
+   "modelSlug": "playstation-5-slim-disk",
+   "category": "consoles",
+   "title": "PlayStation 5 Slim Disk 1тб",
+   "variant": {
+    "storage": 1024,
+    "revision": "2-я ревизия",
+    "code": "2116A"
+   },
+   "regions": [
+    "AE",
+    "GB"
+   ],
+   "notes": [],
+   "price": 65500,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 2,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PS5 Slim Disk 1тб - 65500 2116а 2 рев 🇦🇪🇬🇧"
+  },
+  {
+   "id": "playstation-5-slim-digital-825-2118b-hk",
+   "model": "PlayStation 5 Slim Digital",
+   "modelSlug": "playstation-5-slim-digital",
+   "category": "consoles",
+   "title": "PlayStation 5 Slim Digital 825гб",
+   "variant": {
+    "storage": 825,
+    "code": "2118B"
+   },
+   "regions": [
+    "HK"
+   ],
+   "notes": [],
+   "price": 60000,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 3,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PS5 Slim Digital 825гб - 60000 2118в 🇭🇰"
+  },
+  {
+   "id": "playstation-5-slim-digital-825-2-ya-reviziya-2118b-kr",
+   "model": "PlayStation 5 Slim Digital",
+   "modelSlug": "playstation-5-slim-digital",
+   "category": "consoles",
+   "title": "PlayStation 5 Slim Digital 825гб",
+   "variant": {
+    "storage": 825,
+    "revision": "2-я ревизия",
+    "code": "2118B"
+   },
+   "regions": [
+    "KR"
+   ],
+   "notes": [],
+   "price": 60500,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 4,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PS5 Slim Digital 825гб - рев2 60500 2118в 🇰🇷"
+  },
+  {
+   "id": "playstation-5-slim-digital-1024-2000b-jp",
+   "model": "PlayStation 5 Slim Digital",
+   "modelSlug": "playstation-5-slim-digital",
+   "category": "consoles",
+   "title": "PlayStation 5 Slim Digital 1tb",
+   "variant": {
+    "storage": 1024,
+    "code": "2000B"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 63500,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 5,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PS5 Slim Digital 1tb 63500 🇯🇵 2000в"
+  },
+  {
+   "id": "playstation-vr2",
+   "model": "PlayStation VR2",
+   "modelSlug": "playstation-vr2",
+   "category": "consoles",
+   "title": "PlayStation VR2",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 32500,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 6,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PS5 VR2 - 32.500"
+  },
+  {
+   "id": "playstation-vr2-plus-igra-horizon-call-of-the-mountain-jp",
+   "model": "PlayStation VR2 + игра Horizon Call of the Mountain",
+   "modelSlug": "playstation-vr2-plus-igra-horizon-call-of-the-mountain",
+   "category": "consoles",
+   "title": "PlayStation VR2 + игра Horizon Call of the Mountain",
+   "variant": {},
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 33500,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 7,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PS5 VR2 + 🇯🇵 Game Horizon Call of the Montain - 33.500"
+  },
+  {
+   "id": "playstation-portal-white-f4f4f2",
+   "model": "PlayStation Portal",
+   "modelSlug": "playstation-portal",
+   "category": "consoles",
+   "title": "PlayStation Portal White",
+   "variant": {
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 21000,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 8,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PS5 Portal White - 21.000"
+  },
+  {
+   "id": "playstation-portal-black-1c1d20",
+   "model": "PlayStation Portal",
+   "modelSlug": "playstation-portal",
+   "category": "consoles",
+   "title": "PlayStation Portal Black",
+   "variant": {
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 21000,
+   "inStock": true,
+   "source": {
+    "post": 9541,
+    "line": 9,
+    "date": "2026-07-18T14:11:09+00:00",
+    "update": false
+   },
+   "raw": "🎮 PS5 Portal Black - 21.000"
+  },
+  {
+   "id": "ledger-stax",
+   "model": "Ledger STAX",
+   "modelSlug": "ledger-stax",
+   "category": "crypto",
+   "title": "Ledger STAX",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 38000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 3,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Ledger STAX 38000"
+  },
+  {
+   "id": "ledger-flex",
+   "model": "Ledger FLEX",
+   "modelSlug": "ledger-flex",
+   "category": "crypto",
+   "title": "Ledger FLEX",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 25000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 4,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Ledger FLEX 25000"
+  },
+  {
+   "id": "ledger-nano-5",
+   "model": "Ledger Nano 5",
+   "modelSlug": "ledger-nano-5",
+   "category": "crypto",
+   "title": "Ledger Nano 5",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 22000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 5,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Ledger Nano 5 22000"
+  },
+  {
+   "id": "ledger-nano-x",
+   "model": "Ledger Nano X",
+   "modelSlug": "ledger-nano-x",
+   "category": "crypto",
+   "title": "Ledger Nano X",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 15000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 6,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Ledger Nano X - 15000"
+  },
+  {
+   "id": "ledger-nano-s-plus",
+   "model": "Ledger Nano S Plus",
+   "modelSlug": "ledger-nano-s-plus",
+   "category": "crypto",
+   "title": "Ledger Nano S Plus",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 9500,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 7,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Ledger Nano S Plus - 9500"
+  },
+  {
+   "id": "safepal-cypher",
+   "model": "SafePal Cypher",
+   "modelSlug": "safepal-cypher",
+   "category": "crypto",
+   "title": "SafePal Cypher",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 10,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• SafePal Cypher - 6.000"
+  },
+  {
+   "id": "safepal-x1",
+   "model": "SafePal X1",
+   "modelSlug": "safepal-x1",
+   "category": "crypto",
+   "title": "SafePal X1",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6500,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 11,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• SafePal X1 - 6.500"
+  },
+  {
+   "id": "safepal-s1",
+   "model": "SafePal S1",
+   "modelSlug": "safepal-s1",
+   "category": "crypto",
+   "title": "SafePal S1",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 7000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 12,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• SafePal S1 - 7000"
+  },
+  {
+   "id": "safepal-s1-pro",
+   "model": "SafePal S1 PRO",
+   "modelSlug": "safepal-s1-pro",
+   "category": "crypto",
+   "title": "SafePal S1 PRO",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 8000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 13,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• SafePal S1 PRO- 8.000"
+  },
+  {
+   "id": "tangem-wallet-2-0-2-karty",
+   "model": "Tangem wallet 2.0 2 карты",
+   "modelSlug": "tangem-wallet-2-0-2-karty",
+   "category": "crypto",
+   "title": "Tangem wallet 2.0 2 карты",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 17,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Tangem wallet 2.0  2 карты  - 6000"
+  },
+  {
+   "id": "tangem-wallet-2-0-3-karty",
+   "model": "Tangem wallet 2.0 3 карты",
+   "modelSlug": "tangem-wallet-2-0-3-karty",
+   "category": "crypto",
+   "title": "Tangem wallet 2.0 3 карты",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 7000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 18,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Tangem wallet 2.0  3 карты  - 7000"
+  },
+  {
+   "id": "tangem-note-btc",
+   "model": "Tangem Note BTC",
+   "modelSlug": "tangem-note-btc",
+   "category": "crypto",
+   "title": "Tangem Note BTC",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 2000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 19,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Tangem Note BTC - 2000"
+  },
+  {
+   "id": "tangem-note-eth",
+   "model": "Tangem Note ETH",
+   "modelSlug": "tangem-note-eth",
+   "category": "crypto",
+   "title": "Tangem Note ETH",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 2000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 20,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Tangem Note ETH - 2000"
+  },
+  {
+   "id": "coolwallet-pro",
+   "model": "CoolWallet Pro",
+   "modelSlug": "coolwallet-pro",
+   "category": "crypto",
+   "title": "CoolWallet Pro",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 13000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 23,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• CoolWallet Pro - 13000"
+  },
+  {
+   "id": "ellipal-titan",
+   "model": "Ellipal Titan",
+   "modelSlug": "ellipal-titan",
+   "category": "crypto",
+   "title": "Ellipal Titan",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 12990,
+   "inStock": false,
+   "source": {
+    "post": 9543,
+    "line": 26,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Ellipal Titan - 12.990 ✖️"
+  },
+  {
+   "id": "ellipal-joy",
+   "model": "Ellipal Joy",
+   "modelSlug": "ellipal-joy",
+   "category": "crypto",
+   "title": "Ellipal Joy",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 5000,
+   "inStock": false,
+   "source": {
+    "post": 9543,
+    "line": 27,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Ellipal Joy - 5.000 ✖️"
+  },
+  {
+   "id": "onekey-classic",
+   "model": "OneKey Classic",
+   "modelSlug": "onekey-classic",
+   "category": "crypto",
+   "title": "OneKey Classic",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 5000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 30,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• OneKey Classic - 5000"
+  },
+  {
+   "id": "onekey-keytag",
+   "model": "OneKey KeyTag",
+   "modelSlug": "onekey-keytag",
+   "category": "crypto",
+   "title": "OneKey KeyTag",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 8000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 31,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• OneKey KeyTag - 8.000"
+  },
+  {
+   "id": "onekey-lite",
+   "model": "OneKey Lite",
+   "modelSlug": "onekey-lite",
+   "category": "crypto",
+   "title": "OneKey Lite",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 4000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 32,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• OneKey Lite - 4.000"
+  },
+  {
+   "id": "keystone-essential",
+   "model": "Keystone Essential",
+   "modelSlug": "keystone-essential",
+   "category": "crypto",
+   "title": "Keystone Essential",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 11000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 36,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Keystone Essential - 11.000"
+  },
+  {
+   "id": "keystone-pro",
+   "model": "Keystone Pro",
+   "modelSlug": "keystone-pro",
+   "category": "crypto",
+   "title": "Keystone Pro",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 18500,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 37,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Keystone Pro - 18.500"
+  },
+  {
+   "id": "keystone-3-pro",
+   "model": "Keystone 3 Pro",
+   "modelSlug": "keystone-3-pro",
+   "category": "crypto",
+   "title": "Keystone 3 Pro",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 19000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 38,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Keystone 3 Pro-19.000"
+  },
+  {
+   "id": "keystone-tablet-plus",
+   "model": "Keystone Tablet Plus",
+   "modelSlug": "keystone-tablet-plus",
+   "category": "crypto",
+   "title": "Keystone Tablet Plus",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 8000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 39,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• Keystone Tablet Plus - 8.000"
+  },
+  {
+   "id": "yubikey-security-key-nfc-usb-a",
+   "model": "YubiKey Security Key NFC USB-A",
+   "modelSlug": "yubikey-security-key-nfc-usb-a",
+   "category": "crypto",
+   "title": "YubiKey Security Key NFC USB-A",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 5500,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 42,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• YubiKey Security Key NFC USB-A 5500"
+  },
+  {
+   "id": "yubikey-security-key-nfc-type-c",
+   "model": "YubiKey Security Key NFC Type-C",
+   "modelSlug": "yubikey-security-key-nfc-type-c",
+   "category": "crypto",
+   "title": "YubiKey Security Key NFC Type-C",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 6000,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 43,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• YubiKey Security Key NFC Type-C 6000"
+  },
+  {
+   "id": "yubikey-5-nfc-usb-a",
+   "model": "YubiKey 5 NFC USB-A",
+   "modelSlug": "yubikey-5-nfc-usb-a",
+   "category": "crypto",
+   "title": "YubiKey 5 NFC USB-A",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 7500,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 44,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• YubiKey 5 NFC USB-A 7500"
+  },
+  {
+   "id": "yubikey-5c-nfc-type-c",
+   "model": "YubiKey 5C NFC Type-C",
+   "modelSlug": "yubikey-5c-nfc-type-c",
+   "category": "crypto",
+   "title": "YubiKey 5C NFC Type-C",
+   "variant": {},
+   "regions": [],
+   "notes": [],
+   "price": 8500,
+   "inStock": true,
+   "source": {
+    "post": 9543,
+    "line": 45,
+    "date": "2026-07-18T14:12:50+00:00",
+    "update": false
+   },
+   "raw": "• YubiKey 5C NFC Type-C 8500"
+  },
+  {
+   "id": "yandeks-stantsiya-strit-zelenyy-5e8f6a",
+   "model": "Яндекс Станция Стрит",
+   "modelSlug": "yandeks-stantsiya-strit",
+   "category": "speakers",
+   "title": "Яндекс Станция Стрит зеленая",
+   "variant": {
+    "color": "Зелёный",
+    "colorHex": "#5e8f6a"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 9000,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 2,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "Умная колонка Яндекс.Станция Стрит зеленая - 9000"
+  },
+  {
+   "id": "yandeks-stantsiya-strit-oranzhevyy-f07a2c",
+   "model": "Яндекс Станция Стрит",
+   "modelSlug": "yandeks-stantsiya-strit",
+   "category": "speakers",
+   "title": "Яндекс Станция Стрит оранжевая",
+   "variant": {
+    "color": "Оранжевый",
+    "colorHex": "#f07a2c"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 9000,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 3,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "Умная колонка Яндекс.Станция Стрит  оранжевая  - 9000"
+  },
+  {
+   "id": "yandeks-stantsiya-strit-fioletovyy-7d5fb2",
+   "model": "Яндекс Станция Стрит",
+   "modelSlug": "yandeks-stantsiya-strit",
+   "category": "speakers",
+   "title": "Яндекс Станция Стрит фолетовая",
+   "variant": {
+    "color": "Фиолетовый",
+    "colorHex": "#7d5fb2"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 9000,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 4,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "Умная колонка Яндекс.Станция Стрит фолетовая - 9000"
+  },
+  {
+   "id": "yandeks-stantsiya-mini-3-seryy-8e9298",
+   "model": "Яндекс Станция Мини 3",
+   "modelSlug": "yandeks-stantsiya-mini-3",
+   "category": "speakers",
+   "title": "Яндекс Станция Мини 3 Серый",
+   "variant": {
+    "color": "Серый",
+    "colorHex": "#8e9298"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 8000,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 5,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "Умная колонка Яндекс Станция Мини 3 Серый - 8000"
+  },
+  {
+   "id": "yandeks-stantsiya-mini-3-chernyy-1c1d20",
+   "model": "Яндекс Станция Мини 3",
+   "modelSlug": "yandeks-stantsiya-mini-3",
+   "category": "speakers",
+   "title": "Яндекс Станция Мини 3 Черный",
+   "variant": {
+    "color": "Черный",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 8000,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 6,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "Умная колонка Яндекс Станция Мини 3 Черный - 8000"
+  },
+  {
+   "id": "samsung-galaxy-a56-8-256-chernyy-1c1d20",
+   "model": "Samsung Galaxy A56",
+   "modelSlug": "samsung-galaxy-a56",
+   "category": "android",
+   "title": "Samsung Galaxy A56 8/256 Черный",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Черный",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 31500,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 9,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "A56 8/256 Черный 31500"
+  },
+  {
+   "id": "samsung-galaxy-s25-fe-8-512-s731b-goluboy-8db8e0",
+   "model": "Samsung Galaxy S25 FE",
+   "modelSlug": "samsung-galaxy-s25-fe",
+   "category": "android",
+   "title": "Samsung Galaxy S25 FE 8/512 S731B Голубой",
+   "variant": {
+    "ram": 8,
+    "storage": 512,
+    "code": "S731B",
+    "color": "Голубой",
+    "colorHex": "#8db8e0"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 53800,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 11,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "S25 FE 8/512 S731B Голубой 53800"
+  },
+  {
+   "id": "samsung-galaxy-s25-fe-8-512-s731b-white-f4f4f2",
+   "model": "Samsung Galaxy S25 FE",
+   "modelSlug": "samsung-galaxy-s25-fe",
+   "category": "android",
+   "title": "Samsung Galaxy S25 FE 8/512 S731B White",
+   "variant": {
+    "ram": 8,
+    "storage": 512,
+    "code": "S731B",
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 53800,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 12,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "S25 FE 8/512 S731B White 53800"
+  },
+  {
+   "id": "xiaomi-17t-pro-5g-12-1024-blue-4f79b8",
+   "model": "Xiaomi 17T Pro 5G",
+   "modelSlug": "xiaomi-17t-pro-5g",
+   "category": "android",
+   "title": "Xiaomi 17T Pro 5G 12/1024 Blue",
+   "variant": {
+    "ram": 12,
+    "storage": 1024,
+    "color": "Blue",
+    "colorHex": "#4f79b8"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 65000,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 14,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "Xiaomi 17T Pro 5G 12/1024 Blue 65000"
+  },
+  {
+   "id": "xiaomi-redmi-note-17-pro-max-8-256-white-f4f4f2",
+   "model": "Xiaomi Redmi Note 17 Pro Max",
+   "modelSlug": "xiaomi-redmi-note-17-pro-max",
+   "category": "android",
+   "title": "Xiaomi Redmi Note 17 Pro Max 8/256GB White",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 33500,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 16,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "Xiaomi Redmi Note 17 Pro Max 8/256GB White 33 500"
+  },
+  {
+   "id": "poco-f9-ultra-16-512-black-1c1d20",
+   "model": "POCO F9 Ultra",
+   "modelSlug": "poco-f9-ultra",
+   "category": "android",
+   "title": "POCO F9 Ultra 16/512 Black",
+   "variant": {
+    "ram": 16,
+    "storage": 512,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 68000,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 18,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "Poco F9 Ultra 16/512 Black  68 000"
+  },
+  {
+   "id": "poco-x8-pro-512-white-f4f4f2",
+   "model": "POCO X8 Pro",
+   "modelSlug": "poco-x8-pro",
+   "category": "android",
+   "title": "POCO X8 Pro 512 White",
+   "variant": {
+    "storage": 512,
+    "color": "White",
+    "colorHex": "#f4f4f2"
+   },
+   "regions": [],
+   "notes": [],
+   "price": 39000,
+   "inStock": true,
+   "source": {
+    "post": 9842,
+    "line": 19,
+    "date": "2026-10-29T07:02:18+00:00",
+    "update": true
+   },
+   "raw": "POCO x 8 Pro 512 White - 39000"
+  }
+ ]
+}
