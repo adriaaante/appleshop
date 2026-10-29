@@ -196,7 +196,7 @@ export function homePage(ctx) {
       <div><h3>${esc(c.name)}</h3><p>${count(ms.length, 'модель', 'модели', 'моделей')} · от ${rub(min)}</p></div>
     </a>`;
   });
-  const changes = products.filter((p) => p.change && p.inStock).sort((a, b) => Math.abs(b.change) - Math.abs(a.change)).slice(0, 8);
+  const changes = products.filter((p) => p.change && p.inStock).sort((a, b) => Math.abs(b.change) - Math.abs(a.change)).slice(0, 9);
   const warranty = info.warranty;
   const main = `
 <section class="hero wrap">
