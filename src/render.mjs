@@ -84,9 +84,11 @@ function header({ base, config, categories, current }) {
 </header>`;
 }
 
+// Знак «Кнопочки»: четыре клавиши, одна нажата (акцентом и ниже остальных).
+const keysMark = `<svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><rect x="3" y="3" width="19" height="19" rx="6"/><rect x="26" y="3" width="19" height="19" rx="6"/><rect x="3" y="26" width="19" height="19" rx="6"/><rect class="pressed" x="26" y="29" width="19" height="16" rx="6"/></svg>`;
+
 function brandMark(brand) {
-  const m = brand.match(/^(.*?)\s*(\d+)$/);
-  return m ? `<span class="brand-name">${esc(m[1])}</span><span class="brand-num">${esc(m[2])}</span>` : `<span class="brand-name">${esc(brand)}</span>`;
+  return `${keysMark}<span class="brand-name">${esc(brand.toLowerCase())}</span>`;
 }
 
 const tgIcon = `<svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M21.4 4.6 2.9 11.7c-1 .4-1 1.6 0 1.9l4.6 1.5 1.8 5.5c.3.8 1.3 1 1.9.4l2.6-2.4 4.6 3.4c.7.5 1.7.1 1.9-.8l3.1-15.2c.2-1-.9-1.8-1.8-1.4zM9.6 14.5l-.4 4-1.4-4.4 10-6.4z" fill="currentColor"/></svg>`;
@@ -254,7 +256,7 @@ ${warranty ? `<section class="wrap block" aria-labelledby="w-h">
 </section>` : ''}`;
   return page({
     ...ctx,
-    title: `${config.brand} — iPhone, iPad, AirPods, Samsung и PlayStation${config.city ? ` в ${config.city}` : ''}`,
+    title: `${config.brand} — смартфоны, планшеты, часы и приставки${config.city ? ` в ${config.city}` : ''}`,
     description: `${count(inStock, 'позиция', 'позиции', 'позиций')} в наличии: iPhone от ${rub(Math.min(...models.filter((m) => m.category === 'iphone').map((m) => m.min)))}, iPad, Apple Watch, AirPods, Samsung, Pixel, PlayStation. Цены обновляются автоматически.`,
     canonical: config.siteUrl ? config.siteUrl.replace(/\/?$/, '/') : '',
     main,

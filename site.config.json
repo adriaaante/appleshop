@@ -1,12 +1,19 @@
 {
-  "brand": "TiMobile 148",
+  "brand": "Кнопочки",
   "channel": "Tm148sg",
   "channelId": -1001204672105,
   "siteUrl": "",
   "city": "",
-  "contacts": { "telegram": "", "phone": "", "address": "", "hours": "" },
+  "contacts": {
+    "telegram": "",
+    "phone": "",
+    "address": "",
+    "hours": ""
+  },
   "markupPercent": 0,
   "updatePostTtlDays": 14,
-  "excludeSections": ["Пломбы"],
+  "excludeSections": [
+    "Пломбы"
+  ],
   "metrikaId": ""
 }

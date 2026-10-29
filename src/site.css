@@ -75,8 +75,11 @@ button, input, textarea { font: inherit; color: inherit; }
 .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: saturate(1.4) blur(14px); -webkit-backdrop-filter: saturate(1.4) blur(14px); border-bottom: 1px solid var(--line); }
 .top-row { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 16px; padding-block: 12px; }
 .brand { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; font-family: var(--display); }
-.brand-name { font-weight: 800; font-size: 1.25rem; letter-spacing: -0.04em; }
-.brand-num { font-weight: 700; font-size: 0.8125rem; padding: 2px 7px; border-radius: 7px; background: var(--accent); color: var(--accent-ink); font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
+.brand { gap: 9px; }
+.brand-mark { width: 28px; height: 28px; flex: none; fill: var(--ink); }
+.brand-mark .pressed { fill: var(--accent); transition: transform 0.15s; }
+.brand:hover .brand-mark .pressed { transform: translateY(-3px); }
+.brand-name { font-weight: 800; font-size: 1.375rem; letter-spacing: -0.045em; line-height: 1; padding-bottom: 2px; }
 .search { position: relative; max-width: 520px; width: 100%; justify-self: center; }
 .search input { width: 100%; height: 42px; padding: 0 14px 0 40px; border-radius: 12px; border: 1px solid var(--line); background: var(--raise) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2359616d' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 13px center / 17px; }
 .search input:focus { border-color: var(--ink); outline: none; }
