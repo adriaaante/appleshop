@@ -16,9 +16,13 @@
 - `dist/` — генерируется, в git не хранится. Шрифты Geologica/Onest — из npm (`@fontsource-variable/*`), копируются при сборке.
 
 ## Деплой
-- `.github/workflows/update.yml`: каждые 30 мин (и при push в `main`) fetch → build → коммит `data/` в `main` → Pages.
-  Выкладка на GitHub Pages включается переменной репо `APPLESHOP_PAGES=true` (и Settings → Pages → Source: GitHub Actions);
-  для приватного репо Pages требует платный план GitHub. Пока хостинг не выбран — сайт нигде не опубликован.
+- Боевой сайт будет на хостинге со своим доменом (решение владельца 01.11.2026; хостинг и домен ещё не выбраны).
+- Тестовая копия: https://adriaaante.github.io/appleshop/ — `.github/workflows/update.yml` каждые 30 мин (и при push)
+  fetch → build → коммит `data/` → GitHub Pages (Settings → Pages → Source: GitHub Actions). Выкладка — только с ветки
+  по умолчанию (сейчас `claude/inspiring-curie-r3wvfr`, владельцу предложено поставить `main`); копия закрыта от
+  поисковиков (`APPLESHOP_PREVIEW_URL` → noindex и `Disallow: /`).
+- ⚠ ГРАБЛИ (30–31.10.2026): пока репо был приватным, запуски Actions падали без шагов — «recent account payments have
+  failed or your spending limit…». С 01.11 репо публичный, Actions бесплатны.
 
 ## Переменные окружения
 - `APPLESHOP_TELEGRAM_BOT_TOKEN` — токен бота @tgbestshopp_bot (админ канала, без прав публикации); секрет GitHub Actions.

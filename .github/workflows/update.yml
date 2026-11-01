@@ -1,11 +1,10 @@
-# Каждые 30 минут: забрать посты канала → собрать каталог и сайт → сохранить данные в main → выложить сайт.
+# Каждые 30 минут: забрать посты канала → собрать каталог и сайт → сохранить данные → выложить тестовую копию на GitHub Pages.
 name: Обновление каталога
 on:
   schedule:
     - cron: '7,37 * * * *'
   workflow_dispatch:
   push:
-    branches: [main]
     paths: ['src/**', 'scripts/**', 'site.config.json', 'package*.json']
 concurrency: { group: update, cancel-in-progress: false }
 permissions:
@@ -26,6 +25,8 @@ jobs:
         env:
           APPLESHOP_TELEGRAM_BOT_TOKEN: ${{ secrets.APPLESHOP_TELEGRAM_BOT_TOKEN }}
       - run: npm run build
+        env:
+          APPLESHOP_PREVIEW_URL: https://adriaaante.github.io/appleshop/
       - name: Сохранить посты и историю цен
         run: |
           git config user.name 'appleshop-bot'
@@ -33,11 +34,11 @@ jobs:
           git add data/
           git diff --cached --quiet || { git commit -m "Каталог: обновление цен $(date -u +%Y-%m-%dT%H:%MZ)" && git push; }
       - uses: actions/upload-pages-artifact@v3
-        if: vars.APPLESHOP_PAGES == 'true'
         with: { path: dist }
   deploy:
     needs: build
-    if: vars.APPLESHOP_PAGES == 'true'
+    # Pages разрешает выкладку только с ветки по умолчанию.
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     environment: { name: github-pages, url: '${{ steps.d.outputs.page_url }}' }
     steps:

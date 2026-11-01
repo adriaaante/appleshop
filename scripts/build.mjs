@@ -12,6 +12,8 @@ const write = async (p, s) => {
 };
 
 const config = await read('site.config.json');
+// Тестовая копия (GitHub Pages): APPLESHOP_PREVIEW_URL — её адрес; закрыта от поисковиков, чтобы не спорить с боевым доменом.
+const preview = process.env.APPLESHOP_PREVIEW_URL || '';
 const store = await read('data/posts.json');
 const now = new Date(process.env.BUILD_NOW || Date.now());
 const { products, info } = parseCatalog(store.posts, config, now);
@@ -99,8 +101,8 @@ for (const [pkg, name] of [['geologica', 'geologica'], ['onest', 'onest']])
   for (const subset of ['cyrillic', 'latin'])
     await cp(new URL(`node_modules/@fontsource-variable/${pkg}/files/${name}-${subset}-wght-normal.woff2`, root), new URL(`assets/fonts/${name}-${subset}.woff2`, dist));
 
-const ctx = { config, categories, models, products, meta, info, updates };
-const basePath = config.siteUrl ? new URL(config.siteUrl).pathname.replace(/\/?$/, '/') : '/';
+const ctx = { config, noindex: !!preview, categories, models, products, meta, info, updates };
+const basePath = new URL(preview || config.siteUrl || 'http://x/').pathname.replace(/\/?$/, '/');
 await write('dist/index.html', homePage({ ...ctx, base: '' }));
 await write('dist/search/index.html', searchPage({ ...ctx, base: '../' }));
 await write('dist/404.html', notFoundPage({ ...ctx, base: basePath }));
@@ -113,6 +115,6 @@ if (site) {
   const urls = ['/', ...categories.map((c) => `/c/${c.slug}/`), ...models.map((m) => `/p/${m.slug}/`)];
   await write('dist/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${site}${u}</loc><lastmod>${lastChange.slice(0, 10)}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 }
-await write('dist/robots.txt', `User-agent: *\nAllow: /\n${site ? `Sitemap: ${site}/sitemap.xml\n` : ''}`);
+await write('dist/robots.txt', preview ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\n${site ? `Sitemap: ${site}/sitemap.xml\n` : ''}`);
 
 console.log(`каталог: ${products.length} позиций, ${models.length} моделей, ${categories.length} разделов → dist/`);

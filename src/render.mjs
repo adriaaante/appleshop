@@ -40,7 +40,7 @@ function regionChip(codes) {
   return `<span class="region" title="Версия для рынка: ${esc(regionLabel(codes))}">${codes.map((c) => `<b>${esc(c)}</b>`).join('')}<span>${esc(regionLabel(codes))}</span></span>`;
 }
 
-function head({ title, description, base, canonical, jsonld, config }) {
+function head({ title, description, base, canonical, jsonld, config, noindex }) {
   const metrika = config.metrikaId
     ? `<script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(${+config.metrikaId},"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});</script>`
     : '';
@@ -52,6 +52,7 @@ function head({ title, description, base, canonical, jsonld, config }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 ${canonical ? `<link rel="canonical" href="${esc(canonical)}">` : ''}
+${noindex ? '<meta name="robots" content="noindex, nofollow">' : ''}
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
