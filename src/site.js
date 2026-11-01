@@ -130,6 +130,33 @@
     rows.forEach((r) => r.addEventListener('mouseenter', () => show(r.dataset.hex)));
   }
 
+  // ---------- движение на главной ----------
+  const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Счётчик позиций в заголовке добегает до настоящего числа (в HTML уже стоит итог — без JS всё видно).
+  const counter = $('.count-up');
+  if (counter && !still) {
+    const to = +counter.dataset.to;
+    const t0 = performance.now();
+    const fmt = new Intl.NumberFormat('ru-RU');
+    const tick = (t) => {
+      const k = Math.min(1, (t - t0) / 900);
+      counter.textContent = fmt.format(Math.round(to * (1 - Math.pow(1 - k, 3))));
+      if (k < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }
+  // Обложка чуть смещается за курсором — снимок «дышит».
+  const tilt = $('[data-tilt]');
+  if (tilt && !still && matchMedia('(pointer: fine)').matches) {
+    const img = $('.hero-img', tilt);
+    tilt.addEventListener('pointermove', (e) => {
+      const r = tilt.getBoundingClientRect();
+      img.style.setProperty('--tx', `${((e.clientX - r.left) / r.width - 0.5) * -14}px`);
+      img.style.setProperty('--ty', `${((e.clientY - r.top) / r.height - 0.5) * -14}px`);
+    });
+    tilt.addEventListener('pointerleave', () => { img.style.setProperty('--tx', '0px'); img.style.setProperty('--ty', '0px'); });
+  }
+
   // ---------- заявка ----------
   const dlg = $('#order');
   const form = $('#order-form');
@@ -203,9 +230,7 @@
         window.open(`https://t.me/${SHOP.tg}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
         say($('#order-done'), 'Открыли чат с менеджером — осталось нажать «Отправить».');
       } else {
-        const ok = await copy(msg);
-        window.open(`https://t.me/${SHOP.channel}`, '_blank', 'noopener');
-        say($('#order-done'), ok ? 'Текст заявки скопирован — вставьте его в сообщение менеджеру.' : 'Скопируйте текст заявки и отправьте его нам в Telegram.');
+        say($('#order-done'), (await copy(msg)) ? 'Текст заявки скопирован — отправьте его менеджеру.' : 'Скопируйте текст заявки и отправьте его менеджеру.');
       }
     });
   }

@@ -10,7 +10,7 @@
     "address": "",
     "hours": ""
   },
-  "markupPercent": 0,
+  "markupPercent": 5,
   "updatePostTtlDays": 14,
   "excludeSections": [
     "Пломбы"

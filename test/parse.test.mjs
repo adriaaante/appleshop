@@ -60,3 +60,13 @@ test('пост «Обновили наличие» старше срока не 
   assert.equal(parse('🍏Обновили наличие и цены🍏\nPoco F9 Ultra 16/512 Black 68 000', '2026-09-01T00:00:00Z').length, 0);
   assert.equal(parse('🍏Обновили наличие и цены🍏\nPoco F9 Ultra 16/512 Black 68 000').length, 1);
 });
+
+test('наценка магазина: +5% с округлением вверх, история — в ценах прайса', async () => {
+  const { roundPrice } = await import('../src/parse.mjs');
+  assert.equal(roundPrice(116500, 5), 122400);
+  assert.equal(roundPrice(300, 5), 320);
+  assert.equal(roundPrice(1000, 5), 1100);
+  assert.equal(roundPrice(8400, 0), 8400);
+  const [p] = parseCatalog([{ id: 1, date: '2026-10-29T07:00:00Z', text: '📱iPhone📱\n17 256 Gb Sage - 72500 🇮🇳' }], { ...cfg, markupPercent: 5 }, new Date('2026-10-29T12:00:00Z')).products;
+  assert.deepEqual([p.basePrice, p.price], [72500, 76200]);
+});

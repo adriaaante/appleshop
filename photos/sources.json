@@ -1,0 +1,357 @@
+{
+ "adapter-pitaniya-apple-20-vt": {
+  "src": "apple:MHJA3"
+ },
+ "adapter-pitaniya-apple-35-vt-usb-c": {
+  "src": "apple:MW2H3"
+ },
+ "airpods-4": {
+  "src": "apple:airpods-4-hero-select-202409"
+ },
+ "airpods-4-anc": {
+  "src": "apple:airpods-4-anc-select-202409"
+ },
+ "airpods-5": {
+  "src": "apple:airpods-5-select-202609"
+ },
+ "airpods-5-wireless": {
+  "src": "apple:airpods-5-select-202609"
+ },
+ "airpods-max-2": {
+  "colors": {
+   "Midnight": "https://www.apple.com/v/airpods/ag/images/overview/airpods_max_black__x3byrd2venmu_large_2x.png",
+   "Starlight": "https://www.apple.com/v/airpods/ag/images/overview/airpods_max_stardust__l9lr6719rmaa_large_2x.png",
+   "Orange": "https://www.apple.com/v/airpods/ag/images/overview/airpods_max_orange__gln3ifz5o9ei_large_2x.png",
+   "Purple": "https://www.apple.com/v/airpods/ag/images/overview/airpods_max_purple__d9y3g3n7cnyq_large_2x.png"
+  }
+ },
+ "airpods-pro-3": {
+  "src": "apple:airpods-pro-3-hero-select-202509"
+ },
+ "ambushyury-airpods-4": {
+  "src": "apple:airpods-4-hero-select-202409"
+ },
+ "ambushyury-airpods-4-anc": {
+  "src": "apple:airpods-4-anc-select-202409"
+ },
+ "ambushyury-airpods-5": {
+  "src": "apple:airpods-5-select-202609"
+ },
+ "ambushyury-airpods-pro-2": {
+  "src": "apple:MTJV3"
+ },
+ "ambushyury-airpods-pro-3": {
+  "src": "apple:airpods-pro-3-hero-select-202509"
+ },
+ "apple-pencil-pro": {
+  "src": "apple:MX2D3",
+  "rotate": -40
+ },
+ "apple-watch-se-3": {
+  "src": "apple:watch-compare-se-3-202609",
+  "cutout": true
+ },
+ "apple-watch-series-12": {
+  "src": "apple:watch-compare-series-12-202609",
+  "cutout": true
+ },
+ "ipad-11": {
+  "colors": {
+   "Silver": "apple:ipad-2022-hero-silver-cell-select",
+   "Blue": "apple:ipad-2022-hero-blue-cell-select"
+  }
+ },
+ "ipad-air-11-m3-2025": {
+  "colors": {
+   "Purple": "apple:ipad-air-select-11in-cell-purple-202405",
+   "Starlight": "apple:ipad-air-select-11in-cell-starlight-202405",
+   "Gray": "apple:ipad-air-select-11in-cell-spacegray-202405",
+   "Blue": "apple:ipad-air-select-11in-cell-blue-202405"
+  }
+ },
+ "ipad-air-11-m4-2026": {
+  "colors": {
+   "Purple": "apple:ipad-air-select-11in-cell-purple-202405",
+   "Starlight": "apple:ipad-air-select-11in-cell-starlight-202405",
+   "Gray": "apple:ipad-air-select-11in-cell-spacegray-202405",
+   "Blue": "apple:ipad-air-select-11in-cell-blue-202405"
+  }
+ },
+ "ipad-air-13-m3-2025": {
+  "colors": {
+   "Purple": "apple:ipad-air-select-13in-cell-purple-202405",
+   "Starlight": "apple:ipad-air-select-13in-cell-starlight-202405",
+   "Gray": "apple:ipad-air-select-13in-cell-spacegray-202405",
+   "Black": "apple:ipad-air-select-13in-cell-spacegray-202405",
+   "Blue": "apple:ipad-air-select-13in-cell-blue-202405"
+  }
+ },
+ "ipad-air-13-m4-2026": {
+  "colors": {
+   "Purple": "apple:ipad-air-select-13in-cell-purple-202405",
+   "Starlight": "apple:ipad-air-select-13in-cell-starlight-202405",
+   "Gray": "apple:ipad-air-select-13in-cell-spacegray-202405",
+   "Black": "apple:ipad-air-select-13in-cell-spacegray-202405",
+   "Blue": "apple:ipad-air-select-13in-cell-blue-202405"
+  }
+ },
+ "ipad-mini-7": {
+  "colors": {
+   "Gray": "apple:ipad-mini-select-cell-spacegray-202410",
+   "Blue": "apple:ipad-mini-select-cell-blue-202410",
+   "Purple": "apple:ipad-mini-select-cell-purple-202410",
+   "Starlight": "apple:ipad-mini-select-cell-starlight-202410"
+  }
+ },
+ "ipad-pro-13-m5-2025": {
+  "colors": {
+   "Black": "apple:ipad-pro-13-select-wificell-spaceblack-202405"
+  }
+ },
+ "iphone-17": {
+  "colors": {
+   "White": "apple:iphone-17-finish-select-white-202509",
+   "Black": "apple:iphone-17-finish-select-black-202509",
+   "Blue": "apple:iphone-17-finish-select-mistblue-202509",
+   "Sage": "apple:iphone-17-finish-select-sage-202509",
+   "Lavender": "apple:iphone-17-finish-select-lavender-202509"
+  }
+ },
+ "iphone-17-pro": {
+  "colors": {
+   "Blue": "apple:iphone-17-pro-finish-select-202509-6-3inch-deepblue",
+   "Orange": "apple:iphone-17-pro-finish-select-202509-6-3inch-cosmicorange",
+   "Silver": "apple:iphone-17-pro-finish-select-202509-6-3inch-silver"
+  },
+  "cutout": true,
+  "size": 5000
+ },
+ "iphone-17-pro-max": {
+  "colors": {
+   "Blue": "apple:iphone-17-pro-finish-select-202509-6-9inch-deepblue",
+   "Orange": "apple:iphone-17-pro-finish-select-202509-6-9inch-cosmicorange",
+   "Silver": "apple:iphone-17-pro-finish-select-202509-6-9inch-silver"
+  },
+  "cutout": true,
+  "size": 5000
+ },
+ "iphone-18-pro": {
+  "colors": {
+   "White": "apple:iphone-18-pro-finish-select-silver-202609",
+   "Silver": "apple:iphone-18-pro-finish-select-silver-202609",
+   "Black": "apple:iphone-18-pro-finish-select-black-202609",
+   "Burgundy": "apple:iphone-18-pro-finish-select-burgundy-202609",
+   "Glacier": "apple:iphone-18-pro-finish-select-glacier-202609"
+  }
+ },
+ "iphone-18-pro-max": {
+  "colors": {
+   "White": "apple:iphone-18-pro-finish-select-silver-202609",
+   "Silver": "apple:iphone-18-pro-finish-select-silver-202609",
+   "Black": "apple:iphone-18-pro-finish-select-black-202609",
+   "Burgundy": "apple:iphone-18-pro-finish-select-burgundy-202609",
+   "Glacier": "apple:iphone-18-pro-finish-select-glacier-202609"
+  }
+ },
+ "iphone-air": {
+  "colors": {
+   "White": "apple:iphone-air-finish-select-cloudwhite-202509",
+   "Gold": "apple:iphone-air-finish-select-lightgold-202509",
+   "Blue": "apple:iphone-air-finish-select-skyblue-202509",
+   "Black": "apple:iphone-air-finish-select-spaceblack-202509"
+  }
+ },
+ "iphone-duo": {
+  "colors": {
+   "White": "apple:iphone-duo-finish-select-star-white-202609",
+   "Night Sky": "apple:iphone-duo-finish-select-night-sky-202609"
+  }
+ },
+ "keys-airpods-4": {
+  "src": "apple:airpods-4-hero-select-202409"
+ },
+ "keys-airpods-4-anc": {
+  "src": "apple:airpods-4-anc-select-202409"
+ },
+ "keys-airpods-4-anc-usb-c": {
+  "src": "apple:airpods-4-anc-select-202409"
+ },
+ "keys-airpods-4-usb-c": {
+  "src": "apple:airpods-4-hero-select-202409"
+ },
+ "keys-airpods-5": {
+  "src": "apple:airpods-5-select-202609"
+ },
+ "keys-airpods-5-usb-c": {
+  "src": "apple:airpods-5-select-202609"
+ },
+ "keys-airpods-pro-2": {
+  "src": "apple:MTJV3"
+ },
+ "keys-airpods-pro-2-usb-c": {
+  "src": "apple:MTJV3"
+ },
+ "keys-airpods-pro-3": {
+  "src": "apple:airpods-pro-3-hero-select-202509"
+ },
+ "keys-airpods-pro-3-usb-c": {
+  "src": "apple:airpods-pro-3-hero-select-202509"
+ },
+ "keystone-3-pro": {
+  "src": "https://cdn.shopify.com/s/files/1/0029/3175/3060/files/3_pro.jpg?v=1779695258",
+  "cutout": true
+ },
+ "keystone-tablet-plus": {
+  "src": "https://cdn.shopify.com/s/files/1/0029/3175/3060/products/Plus1.jpg?v=1677056228",
+  "cutout": true
+ },
+ "ledger-flex": {
+  "src": "https://images.ctfassets.net/ge894kijjvls/6vpOFE5oxWpPEvYeM5aO5a/82357950b44c008a4f06bcdb7c1aecf7/og_pdp_flex_1x.webp",
+  "cutout": true,
+  "crop": [
+   0.55,
+   0.0,
+   1.0,
+   1.0
+  ]
+ },
+ "ledger-nano-5": {
+  "src": "https://images.ctfassets.net/ge894kijjvls/5ZetdAd5UgCGSJP0tzM5J1/615ab2d5197f1deb368337623c96796a/OG_pdp_lng5.png",
+  "cutout": true,
+  "crop": [
+   0.55,
+   0.0,
+   1.0,
+   1.0
+  ]
+ },
+ "ledger-nano-s-plus": {
+  "src": "https://images.ctfassets.net/ge894kijjvls/4Dncaugb7OI9uDJhxspu5C/5542a00355fe52dbf86633a9834a8054/og_pdp_lnsp_1x.webp",
+  "cutout": true,
+  "crop": [
+   0.55,
+   0.0,
+   1.0,
+   1.0
+  ]
+ },
+ "ledger-nano-x": {
+  "src": "https://images.ctfassets.net/ge894kijjvls/6S8DUAZnSj8qEgBRXXdT0H/63684c9f37de661b3ef752a31d03ed38/og_pdp_lnx_1x.webp",
+  "cutout": true,
+  "crop": [
+   0.55,
+   0.0,
+   1.0,
+   1.0
+  ]
+ },
+ "ledger-stax": {
+  "src": "https://images.ctfassets.net/ge894kijjvls/nXeVnAaA1r82OkpOHZZdt/ca6a9286f13d9d012de02984dfba8d05/og_pdp_stax_1x.webp",
+  "cutout": true,
+  "crop": [
+   0.55,
+   0.0,
+   1.0,
+   1.0
+  ]
+ },
+ "magic-mouse-usb-c": {
+  "colors": {
+   "White": "apple:MXK53",
+   "Black": "apple:MXK63"
+  }
+ },
+ "naushnik-airpods-4-anc-levyy": {
+  "src": "apple:airpods-4-anc-select-202409"
+ },
+ "naushnik-airpods-4-anc-pravyy": {
+  "src": "apple:airpods-4-anc-select-202409"
+ },
+ "naushnik-airpods-4-levyy": {
+  "src": "apple:airpods-4-hero-select-202409"
+ },
+ "naushnik-airpods-4-pravyy": {
+  "src": "apple:airpods-4-hero-select-202409"
+ },
+ "naushnik-airpods-5-levyy": {
+  "src": "apple:airpods-5-select-202609"
+ },
+ "naushnik-airpods-5-pravyy": {
+  "src": "apple:airpods-5-select-202609"
+ },
+ "naushnik-airpods-pro-2-levyy": {
+  "src": "apple:MTJV3"
+ },
+ "naushnik-airpods-pro-2-pravyy": {
+  "src": "apple:MTJV3"
+ },
+ "naushnik-airpods-pro-3-levyy": {
+  "src": "apple:airpods-pro-3-hero-select-202509"
+ },
+ "naushnik-airpods-pro-3-pravyy": {
+  "src": "apple:airpods-pro-3-hero-select-202509"
+ },
+ "playstation-5-pro": {
+  "src": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-dualsense-image-block-01-en-16aug24?$native$",
+  "cutout": true
+ },
+ "playstation-5-slim-digital": {
+  "src": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-cover-pearl-screenshot-01-en-23sep24?$native$",
+  "cutout": true
+ },
+ "playstation-5-slim-disk": {
+  "src": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-cover-pearl-screenshot-01-en-23sep24?$native$",
+  "cutout": true
+ },
+ "playstation-portal": {
+  "src": "https://gmedia.playstation.com/is/image/SIEPDC/PS-Portal-Cloud-Streaming-product-shot-02-en-02oct25?$native$",
+  "cutout": true
+ },
+ "playstation-vr2": {
+  "src": "https://gmedia.playstation.com/is/image/SIEPDC/PSVR2-thumbnail-01-en-22feb22?$native$",
+  "cutout": true
+ },
+ "playstation-vr2-plus-igra-horizon-call-of-the-mountain": {
+  "src": "https://gmedia.playstation.com/is/image/SIEPDC/PSVR2-thumbnail-01-en-22feb22?$native$",
+  "cutout": true
+ },
+ "samsung-galaxy-a07": {
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a075fzkdins/gallery/in-galaxy-a07-sm-a075-sm-a075fzkdins-thumb-549346685?$1300_1038_PNG$"
+ },
+ "samsung-galaxy-a07s": {
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/ae/sm-a077flvdmea/gallery/ae-galaxy-a07s-sm-a077-sm-a077flvdmea-thumb-554523737?$1300_1038_PNG$"
+ },
+ "samsung-galaxy-a17": {
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/uk/sm-a176bzkaeub/gallery/uk-galaxy-a17-5g-sm-a176-sm-a176bzkaeub-thumb-548472757?$1300_1038_PNG$"
+ },
+ "samsung-galaxy-a18": {
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/uk/sm-a185fzkdeub/gallery/uk-galaxy-a18-sm-a185-sm-a185fzkdeub-thumb-554899613?$1300_1038_PNG$"
+ },
+ "samsung-galaxy-a27": {
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/de/sm-a276bzkbeub/gallery/de-galaxy-a27-5g-sm-a276-sm-a276bzkbeub-thumb-553504268?$1300_1038_PNG$"
+ },
+ "samsung-galaxy-a36": {
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a366elvjins/gallery/in-galaxy-a36-5g-sm-a366-539188-sm-a366elvjins-thumb-545214984?$1300_1038_PNG$"
+ },
+ "samsung-galaxy-a37": {
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/uk/sm-a376bzageub/gallery/uk-galaxy-a37-5g-sm-a376-sm-a376bzageub-thumb-551708128?$1300_1038_PNG$"
+ },
+ "samsung-galaxy-a57": {
+  "src": "https://images.samsung.com/is/image/samsung/p6pim/de/sm-a576bdbdeub/gallery/de-galaxy-a57-5g-sm-a576-sm-a576bdbdeub-thumb-551640144?$1300_1038_PNG$"
+ },
+ "xiaomi-17t-pro-5g": {
+  "src": "https://i02.appmifile.com/800_operatorx_operatorx_opx/28/05/2026/6719f2e5c878ea3de4114140bfa6b5ed.png"
+ },
+ "yubikey-5-nfc-usb-a": {
+  "src": "https://resources.yubico.com/53ZDUYE6/at/gkcgnvjfqrk832k4sgq3j5/yubikey5anfc-hero.png?auto=webp&format=png&width=1200"
+ },
+ "yubikey-5c-nfc-type-c": {
+  "src": "https://resources.yubico.com/53ZDUYE6/at/chfm3rzmsrfff4tkgs94sj3/yubikey5cnfc-hero.png?auto=webp&format=png&width=1200"
+ },
+ "yubikey-security-key-nfc-type-c": {
+  "src": "https://resources.yubico.com/53ZDUYE6/at/qqb88cczkpx4swr5kz8tpkjq/securitykeycnfc-hero-ns.png?auto=webp&format=png&width=1200"
+ },
+ "yubikey-security-key-nfc-usb-a": {
+  "src": "https://resources.yubico.com/53ZDUYE6/at/qqb88cczkpx4swr5kz8tpkjq/securitykeyanfc-hero-ns.png?auto=webp&format=png&width=1200"
+ }
+}

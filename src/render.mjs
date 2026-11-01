@@ -7,7 +7,7 @@ export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&a
 const nf = new Intl.NumberFormat('ru-RU');
 export const rub = (n) => `${nf.format(n)}\u00a0₽`;
 const gb = (n) => (n >= 1024 ? `${n / 1024}\u00a0ТБ` : `${n}\u00a0ГБ`);
-const plural = (n, one, few, many) => {
+export const plural = (n, one, few, many) => {
   const m10 = n % 10, m100 = n % 100;
   return m10 === 1 && m100 !== 11 ? one : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? few : many;
 };
@@ -77,7 +77,7 @@ function header({ base, config, categories, current }) {
       <input id="q" name="q" type="search" autocomplete="off" placeholder="Модель, память, цвет" data-base="${base}">
       <div class="suggest" id="suggest" hidden></div>
     </form>
-    <a class="tg-link" href="${esc(contactUrl(config))}" target="_blank" rel="noopener">${tgIcon}<span>Написать</span></a>
+    ${contactUrl(config) ? `<a class="tg-link" href="${esc(contactUrl(config))}" target="_blank" rel="noopener">${tgIcon}<span>Написать</span></a>` : ''}
   </div>
   <nav class="cats wrap" aria-label="Разделы каталога">
     ${categories.map((c) => `<a href="${base}c/${c.slug}/"${c.slug === current ? ' aria-current="page"' : ''}>${esc(c.name)}</a>`).join('')}
@@ -96,7 +96,7 @@ const tgIcon = `<svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d=
 
 export function contactUrl(config) {
   const tg = (config.contacts.telegram || '').replace(/^@|^https?:\/\/t\.me\//, '');
-  return tg ? `https://t.me/${tg}` : `https://t.me/${config.channel}`;
+  return tg ? `https://t.me/${tg}` : ''; // канал-источник цен — не канал магазина, на сайт его не выводим
 }
 
 function footer({ base, config, info, categories, meta }) {
@@ -104,14 +104,14 @@ function footer({ base, config, info, categories, meta }) {
   const lines = [
     c.address && `<p>${esc(c.address)}</p>`,
     c.phone && `<p><a href="tel:${esc(c.phone.replace(/[^\d+]/g, ''))}">${esc(c.phone)}</a></p>`,
-    `<p><a href="${esc(contactUrl(config))}" target="_blank" rel="noopener">${c.telegram ? esc('@' + c.telegram.replace(/^@/, '')) : 'Telegram-канал @' + esc(config.channel)}</a></p>`,
+    c.telegram && `<p><a href="${esc(contactUrl(config))}" target="_blank" rel="noopener">${esc('@' + c.telegram.replace(/^@|^https?:\/\/t\.me\//g, ''))}</a></p>`,
     (c.hours || info.hours) && `<p>${esc(c.hours || info.hours)}</p>`,
   ].filter(Boolean);
   return `<footer class="foot">
   <div class="wrap foot-grid">
     <div><a class="brand" href="${base}">${brandMark(config.brand)}</a>${lines.join('')}</div>
     <nav aria-label="Каталог">${categories.map((x) => `<a href="${base}c/${x.slug}/">${esc(x.name)}</a>`).join('')}</nav>
-    <div class="foot-note"><p>Цены и наличие берутся из канала <a href="https://t.me/${esc(config.channel)}" target="_blank" rel="noopener">@${esc(config.channel)}</a> и обновляются автоматически. Проверено ${esc(meta.checked)}.</p><p>Цена действительна на момент обновления. Перед покупкой менеджер подтвердит наличие.</p></div>
+    <div class="foot-note"><p>Цены и наличие обновляются автоматически, последняя проверка — ${esc(meta.checked)}.</p><p>Цена действительна на момент обновления. Перед покупкой менеджер подтвердит наличие.</p></div>
   </div>
 </footer>`;
 }
@@ -132,11 +132,11 @@ function orderDialog(config) {
     <textarea id="o-comment" name="comment" rows="2" placeholder="Например, нужна доставка или trade-in"></textarea>
     <p class="order-err" id="order-err" role="alert" hidden></p>
     <div class="order-actions">
-      <button class="btn btn-accent" id="o-send" value="send">${config.leadEndpoint ? 'Отправить заявку' : 'Отправить в Telegram'}</button>
+      ${config.leadEndpoint || contactUrl(config) ? `<button class="btn btn-accent" id="o-send" value="send">${config.leadEndpoint ? 'Отправить заявку' : 'Отправить в Telegram'}</button>` : ''}
       <button class="btn btn-ghost" id="o-copy" type="button">Скопировать текст</button>
     </div>
     <p class="order-done" id="order-done" hidden></p>
-    <p class="muted small">${config.leadEndpoint ? 'Менеджер ответит в течение рабочего дня.' : 'Откроется чат с менеджером, текст заявки уже будет в поле сообщения.'}</p>
+    <p class="muted small">${config.leadEndpoint ? 'Менеджер ответит в течение рабочего дня.' : contactUrl(config) ? 'Откроется чат с менеджером, текст заявки уже будет в поле сообщения.' : 'Скопируйте текст заявки и отправьте его менеджеру.'}</p>
   </form>
 </dialog>`;
 }
@@ -150,10 +150,19 @@ ${main}
 </main>
 ${footer({ base, config, info, categories, meta })}
 ${orderDialog(config)}
-<script>window.SHOP=${JSON.stringify({ tg: (config.contacts.telegram || '').replace(/^@/, ''), channel: config.channel, lead: config.leadEndpoint || '', metrika: +config.metrikaId || 0 })}</script>
+<script>window.SHOP=${JSON.stringify({ tg: (config.contacts.telegram || '').replace(/^@/, ''), lead: config.leadEndpoint || '', metrika: +config.metrikaId || 0 })}</script>
 <script src="${base}assets/site.js" defer></script>
 </body>
 </html>`;
+}
+
+// Фото товара: официальный снимок без фона (photos/index.json) или силуэт, если снимка нет.
+// vt — имя для View Transitions: карточка «перетекает» в фото на странице модели.
+export function photo(m, base, color, { vt = false, cls = '', eager = false } = {}) {
+  const ph = m.photos;
+  if (!ph) return deviceSvg(deviceKind(m.name), m.variants.find((v) => v.variant.color === color)?.variant.colorHex || m.variants[0].variant.colorHex, m.name);
+  const src = (color && ph.colors[color]) || ph.main;
+  return `<img class="photo${cls ? ' ' + cls : ''}" src="${base}photos/${src}" alt="${esc(m.name + (color ? `, ${color}` : ''))}" width="1000" height="1000" decoding="async"${eager === 'high' ? ' fetchpriority="high"' : eager ? '' : ' loading="lazy"'}${vt ? ` style="view-transition-name:pa-${m.slug}"` : ''}>`;
 }
 
 function modelCard(m, base) {
@@ -161,27 +170,24 @@ function modelCard(m, base) {
   const first = m.variants.find((v) => v.inStock) || m.variants[0];
   const drop = m.variants.some((v) => v.change < 0);
   return `<a class="card" href="${base}p/${m.slug}/">
-    <div class="card-art">${deviceSvg(deviceKind(m.name), first.variant.colorHex, m.name)}</div>
+    <div class="card-art">${photo(m, base, first.variant.color, { vt: true })}</div>
     <div class="card-body">
       <h3>${esc(m.name)}</h3>
       ${colors.length > 1 ? `<div class="dots" aria-label="${esc(colors.map((c) => c[1]).join(', '))}">${colors.slice(0, 7).map(([hex]) => `<i style="--c:${hex}"></i>`).join('')}${colors.length > 7 ? `<span>+${colors.length - 7}</span>` : ''}</div>` : ''}
       <p class="card-meta">${m.variants.length > 1 ? count(m.variants.length, 'вариант', 'варианта', 'вариантов') : esc(variantParts(first.variant).join(' · ') || 'В наличии')}</p>
-      <p class="card-price">${m.inStock ? `${m.min !== m.max ? '<span>от</span> ' : ''}${rub(m.min)}` : '<span class="out">Нет в наличии</span>'}${drop ? '<em class="tag-down">Цена снижена</em>' : ''}</p>
+      <p class="card-price">${m.min == null ? '<span class="out">Цена уточняется</span>' : m.inStock ? `${m.min !== m.max ? '<span>от</span> ' : ''}${rub(m.min)}` : '<span class="out">Нет в наличии</span>'}${drop ? '<em class="tag-down">Цена снижена</em>' : ''}</p>
     </div>
   </a>`;
 }
 
-// Флагман в каждом цвете — веером: первое, что видит покупатель, — реальная модель из прайса.
+// Обложка: студийный снимок клавиш (знак «Кнопочек») и карточка флагмана из прайса с его настоящим фото.
 function heroArt(models, base) {
-  const phones = models.filter((m) => m.category === 'iphone' && m.inStock);
-  const colorsOf = (m) => [...new Map(m.variants.filter((v) => v.inStock && v.variant.colorHex).map((v) => [v.variant.colorHex, v.variant.color])).entries()];
-  const m = phones.sort((a, b) => colorsOf(b).length - colorsOf(a).length || b.max - a.max)[0];
-  if (!m) return '';
-  const colors = colorsOf(m).slice(0, 5);
-  return `<a class="hero-art" href="${base}p/${m.slug}/" style="--n:${colors.length}">
-    <div class="fan">${colors.map(([hex, name], i) => `<div class="fan-item" style="--i:${i}">${deviceSvg(deviceKind(m.name), hex, `${m.name}, ${name}`)}</div>`).join('')}</div>
-    <div class="hero-tag"><b>${esc(m.name)}</b><span>${esc(colors.map((c) => c[1]).join(' · '))}</span><em>от ${rub(m.min)}</em></div>
-  </a>`;
+  const phones = models.filter((m) => m.category === 'iphone' && m.inStock && m.photos);
+  const m = phones.sort((a, b) => Object.keys(b.photos.colors).length - Object.keys(a.photos.colors).length || b.max - a.max)[0];
+  return `<div class="hero-art" data-tilt>
+    <picture><source srcset="${base}assets/hero.avif" type="image/avif"><img class="hero-img" src="${base}assets/hero.webp" alt="Четыре клавиши, одна нажата — знак магазина «Кнопочки»" width="1024" height="1024" fetchpriority="high"></picture>
+    ${m ? `<a class="hero-tag" href="${base}p/${m.slug}/">${photo(m, base, Object.keys(m.photos.colors)[0], { cls: 'hero-tag-img', eager: 'high' })}<span class="hero-tag-text"><b>${esc(m.name)}</b><span>${count(Object.keys(m.photos.colors).length, 'цвет', 'цвета', 'цветов')} в наличии</span></span><em>от ${rub(m.min)}</em></a>` : ''}
+  </div>`;
 }
 
 export function homePage(ctx) {
@@ -189,22 +195,21 @@ export function homePage(ctx) {
   const inStock = products.filter((p) => p.inStock).length;
   const top = categories.map((c) => {
     const ms = models.filter((m) => m.category === c.slug);
-    const min = Math.min(...ms.filter((m) => m.inStock).map((m) => m.min));
-    const hero = [...ms].sort((a, b) => b.inStock - a.inStock || b.variants.length - a.variants.length)[0];
-    const hex = (hero.variants.find((v) => v.variant.colorHex && v.inStock) || hero.variants[0]).variant.colorHex;
+    const min = Math.min(...ms.filter((m) => m.inStock).map((m) => m.min).filter((x) => x != null));
+    const hero = [...ms].sort((a, b) => !!b.photos - !!a.photos || b.inStock - a.inStock || b.variants.length - a.variants.length)[0];
     return `<a class="cat" href="${base}c/${c.slug}/">
-      <div class="cat-art">${deviceSvg(deviceKind(hero.name), hex, c.name)}</div>
+      <div class="cat-art">${photo(hero, base, (hero.variants.find((v) => v.variant.colorHex && v.inStock) || hero.variants[0]).variant.color, { eager: true })}</div>
       <div><h3>${esc(c.name)}</h3><p>${count(ms.length, 'модель', 'модели', 'моделей')} · от ${rub(min)}</p></div>
     </a>`;
   });
-  const changes = products.filter((p) => p.change && p.inStock).sort((a, b) => Math.abs(b.change) - Math.abs(a.change)).slice(0, 9);
+  const changes = products.filter((p) => p.change && p.inStock && !p.suspect).sort((a, b) => Math.abs(b.change) - Math.abs(a.change)).slice(0, 9);
   const warranty = info.warranty;
   const main = `
 <section class="hero wrap">
   <div class="hero-text">
   <p class="eyebrow"><span class="live" aria-hidden="true"></span>Цены изменились ${esc(meta.changed)}</p>
-  <h1>${count(inStock, 'позиция', 'позиции', 'позиций')} техники с ценами на сегодня</h1>
-  <p class="lead">iPhone, iPad, Apple Watch, AirPods, Samsung, Pixel, PlayStation и криптокошельки. Каталог собирается из нашего Telegram-канала: изменили цену в канале — она меняется и здесь.</p>
+  <h1><span class="count-up" data-to="${inStock}">${inStock}</span> ${plural(inStock, 'позиция', 'позиции', 'позиций')} техники с&nbsp;ценами на&nbsp;сегодня</h1>
+  <p class="lead">iPhone, iPad, Apple Watch, AirPods, Samsung, Xiaomi, PlayStation и криптокошельки. Цены и наличие обновляются автоматически несколько раз в час — на сайте всегда актуальный прайс.</p>
   <form class="hero-search" action="${base}search/" role="search">
     <label class="sr" for="hq">Что ищете</label>
     <input id="hq" name="q" type="search" placeholder="Например, 17 Pro Max 256 или PS5 Slim" autocomplete="off">
@@ -230,7 +235,7 @@ ${changes.length ? `<section class="wrap block" aria-labelledby="ch-h">
 </section>` : ''}
 
 ${updates.items.length ? `<section class="wrap block" aria-labelledby="new-h">
-  <div class="block-head"><h2 id="new-h">Свежее поступление</h2><p>Пост в канале ${esc(updates.when)}</p></div>
+  <div class="block-head"><h2 id="new-h">Свежее поступление</h2><p>Обновлено ${esc(updates.when)}</p></div>
   <ul class="pricelist">${updates.items.map((p) => `<li><a href="${base}p/${p.modelSlug}/"><span>${esc(p.model)} <span class="muted">${esc(variantParts(p.variant).join(' · '))}</span></span><span class="pl-dots" aria-hidden="true"></span><b>${rub(p.price)}</b></a></li>`).join('')}</ul>
 </section>` : ''}
 
@@ -258,10 +263,10 @@ ${warranty ? `<section class="wrap block" aria-labelledby="w-h">
   return page({
     ...ctx,
     title: `${config.brand} — смартфоны, планшеты, часы и приставки${config.city ? ` в ${config.city}` : ''}`,
-    description: `${count(inStock, 'позиция', 'позиции', 'позиций')} в наличии: iPhone от ${rub(Math.min(...models.filter((m) => m.category === 'iphone').map((m) => m.min)))}, iPad, Apple Watch, AirPods, Samsung, Pixel, PlayStation. Цены обновляются автоматически.`,
+    description: `${count(inStock, 'позиция', 'позиции', 'позиций')} в наличии: iPhone от ${rub(Math.min(...models.filter((m) => m.category === 'iphone').map((m) => m.min).filter((x) => x != null)))}, iPad, Apple Watch, AirPods, Samsung, Xiaomi, PlayStation. Цены обновляются автоматически.`,
     canonical: config.siteUrl ? config.siteUrl.replace(/\/?$/, '/') : '',
     main,
-    jsonld: { '@context': 'https://schema.org', '@type': 'Store', name: config.brand, url: config.siteUrl || undefined, telephone: config.contacts.phone || undefined, address: config.contacts.address || undefined, sameAs: [`https://t.me/${config.channel}`] },
+    jsonld: { '@context': 'https://schema.org', '@type': 'Store', name: config.brand, url: config.siteUrl || undefined, telephone: config.contacts.phone || undefined, address: config.contacts.address || undefined, sameAs: contactUrl(config) ? [contactUrl(config)] : undefined },
   });
 }
 
@@ -279,7 +284,7 @@ export function categoryPage(ctx, cat) {
 <section class="wrap page-head">
   <nav class="crumbs" aria-label="Навигация"><a href="${base}">Главная</a><span>${esc(cat.name)}</span></nav>
   <h1>${esc(cat.name)}</h1>
-  <p class="lead">${count(ms.length, 'модель', 'модели', 'моделей')}, ${count(ms.reduce((n, m) => n + m.variants.length, 0), 'вариант', 'варианта', 'вариантов')} · от ${rub(Math.min(...ms.filter((m) => m.inStock).map((m) => m.min)))}</p>
+  <p class="lead">${count(ms.length, 'модель', 'модели', 'моделей')}, ${count(ms.reduce((n, m) => n + m.variants.length, 0), 'вариант', 'варианта', 'вариантов')} · от ${rub(Math.min(...ms.filter((m) => m.inStock).map((m) => m.min).filter((x) => x != null)))}</p>
   ${brands.length > 1 ? `<div class="chips" role="group" aria-label="Бренд" data-filter-cards><button class="chip" aria-pressed="true" data-brand="">Все</button>${brands.map((b) => `<button class="chip" aria-pressed="false" data-brand="${esc(b)}">${esc(b)}</button>`).join('')}</div>` : ''}
 </section>
 <section class="wrap block">
@@ -289,7 +294,7 @@ export function categoryPage(ctx, cat) {
     ...ctx,
     current: cat.slug,
     title: `${cat.name} — цены и наличие | ${config.brand}`,
-    description: `${cat.name}: ${ms.slice(0, 6).map((m) => m.name).join(', ')}. ${count(ms.length, 'модель', 'модели', 'моделей')} от ${rub(Math.min(...ms.map((m) => m.min)))}.`,
+    description: `${cat.name}: ${ms.slice(0, 6).map((m) => m.name).join(', ')}. ${count(ms.length, 'модель', 'модели', 'моделей')} от ${rub(Math.min(...ms.map((m) => m.min).filter((x) => x != null)))}.`,
     canonical: config.siteUrl ? `${config.siteUrl.replace(/\/$/, '')}/c/${cat.slug}/` : '',
     main,
     jsonld: { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Главная', item: config.siteUrl || undefined }, { '@type': 'ListItem', position: 2, name: cat.name }] },
@@ -305,12 +310,16 @@ const FILTERS = [
   ['region', 'Версия', (v) => v.regions.length && regionLabel(v.regions)],
 ];
 
-// Силуэт в каждом цвете модели: фильтр цвета на странице переключает их без перерисовки.
-function modelArt(m, first) {
-  const kind = deviceKind(m.name);
+// Фото (или силуэт) в каждом цвете модели: фильтр цвета на странице переключает их без перезагрузки.
+function modelArt(m, first, base) {
   const colors = [...new Map(m.variants.filter((v) => v.variant.colorHex).map((v) => [v.variant.colorHex, v.variant.color])).entries()];
+  const start = first.variant.colorHex || colors[0]?.[0];
+  if (m.photos) {
+    const shots = colors.length ? colors.filter(([, name]) => m.photos.colors[name] || m.photos.main) : [[start, first.variant.color]];
+    return shots.map(([hex, name], i) => photo(m, base, name, { vt: hex === start, eager: hex === start && 'high', cls: 'device' }).replace('<img', `<img data-hex="${hex || ''}"${hex === start || (!start && i === 0) ? '' : ' hidden'}`)).join('');
+  }
+  const kind = deviceKind(m.name);
   if (colors.length < 2) return deviceSvg(kind, first.variant.colorHex, m.name);
-  const start = first.variant.colorHex || colors[0][0];
   return colors.map(([hex, name]) => deviceSvg(kind, hex, `${m.name}, ${name}`, ` data-hex="${hex}"${hex === start ? '' : ' hidden'}`)).join('');
 }
 
@@ -331,8 +340,8 @@ export function modelPage(ctx, m) {
     return `<tr ${attrs} data-hex="${esc(v.variant.colorHex || '')}"${v.inStock ? '' : ' class="is-out"'}>
       <td class="v-name"><div>${v.variant.colorHex ? `<i class="sw" style="--c:${v.variant.colorHex}"></i>` : ''}<span>${esc(parts.join(' · ') || m.name)}${v.notes.length ? `<small>${esc(v.notes.join(' · '))}</small>` : ''}${v.variant.tiers ? `<small>${v.variant.tiers.map((t) => `от ${t.from} шт — ${rub(t.price)}`).join(' · ')}</small>` : ''}</span></div></td>
       <td class="v-region">${regionChip(v.regions)}</td>
-      <td class="v-price">${rub(v.price)}${v.change ? `<small class="${v.change < 0 ? 'down' : 'up'}">${v.change < 0 ? '−' : '+'}${rub(Math.abs(v.change))}</small>` : ''}</td>
-      <td class="v-buy">${v.inStock ? `<button class="btn btn-buy" data-order='${esc(JSON.stringify(item))}'>Заказать</button>` : '<span class="out">Нет в наличии</span>'}</td>
+      <td class="v-price">${v.suspect ? '<span class="out">Цена уточняется</span>' : rub(v.price)}${v.change ? `<small class="${v.change < 0 ? 'down' : 'up'}">${v.change < 0 ? '−' : '+'}${rub(Math.abs(v.change))}</small>` : ''}</td>
+      <td class="v-buy">${v.inStock && !v.suspect ? `<button class="btn btn-buy" data-order='${esc(JSON.stringify(item))}'>Заказать</button>` : '<span class="out">Нет в наличии</span>'}</td>
     </tr>`;
   });
   const related = ctx.models.filter((x) => x.category === m.category && x.slug !== m.slug).slice(0, 4);
@@ -340,11 +349,11 @@ export function modelPage(ctx, m) {
 <section class="wrap model">
   <nav class="crumbs" aria-label="Навигация"><a href="${base}">Главная</a><a href="${base}c/${cat.slug}/">${esc(cat.name)}</a><span>${esc(m.name)}</span></nav>
   <div class="model-grid">
-    <div class="model-art" id="model-art">${modelArt(m, first)}</div>
+    <div class="model-art" id="model-art">${modelArt(m, first, base)}</div>
     <div class="model-info">
       <h1>${esc(m.name)}</h1>
-      <p class="model-price">${m.inStock ? `${m.min !== m.max ? '<span>от</span> ' : ''}${rub(m.min)}${m.min !== m.max ? ` <span>до ${rub(m.max)}</span>` : ''}` : '<span class="out">Нет в наличии</span>'}</p>
-      <p class="muted">${count(vs.length, 'вариант', 'варианта', 'вариантов')} · цены обновлены ${esc(when(m.updated, meta.now))} · <a href="https://t.me/${esc(config.channel)}/${m.posts[0]}" target="_blank" rel="noopener">пост в канале</a></p>
+      <p class="model-price">${m.min == null ? '<span class="out">Цена уточняется</span>' : m.inStock ? `${m.min !== m.max ? '<span>от</span> ' : ''}${rub(m.min)}${m.min !== m.max ? ` <span>до ${rub(m.max)}</span>` : ''}` : '<span class="out">Нет в наличии</span>'}</p>
+      <p class="muted">${count(vs.length, 'вариант', 'варианта', 'вариантов')} · цены обновлены ${esc(when(m.updated, meta.now))}</p>
       ${filters.length ? `<div class="filters" id="filters">${filters.map((f) => `<div class="filter"><p class="filter-label">${f.label}</p><div class="chips" role="group" aria-label="${f.label}">${f.values.map((val) => `<button class="chip" aria-pressed="false" data-key="${f.key}" data-val="${esc(val)}">${f.key === 'color' && colorOf[val] ? `<i class="sw" style="--c:${colorOf[val]}"></i>` : ''}${esc(val)}</button>`).join('')}</div></div>`).join('')}</div>` : ''}
     </div>
   </div>
@@ -354,16 +363,16 @@ export function modelPage(ctx, m) {
       <thead><tr><th scope="col">Вариант</th><th scope="col">Версия</th><th scope="col">Цена</th><th scope="col"><span class="sr">Заказ</span></th></tr></thead>
       <tbody>${rows.join('')}</tbody>
     </table>
-    <p class="empty" id="no-match" hidden>Такого сочетания сейчас нет. Снимите один из фильтров или <a href="${esc(contactUrl(config))}" target="_blank" rel="noopener">спросите менеджера</a> — привезём под заказ.</p>
+    <p class="empty" id="no-match" hidden>Такого сочетания сейчас нет. Снимите один из фильтров${contactUrl(config) ? ` или <a href="${esc(contactUrl(config))}" target="_blank" rel="noopener">спросите менеджера</a> — привезём под заказ` : ''}.</p>
   </div>
 </section>
 ${related.length ? `<section class="wrap block"><div class="block-head"><h2>Ещё в разделе «${esc(cat.name)}»</h2></div><div class="cards cards-fit">${related.map((x) => modelCard(x, base)).join('')}</div></section>` : ''}`;
-  const offers = vs.filter((v) => v.inStock);
+  const offers = vs.filter((v) => v.inStock && !v.suspect);
   return page({
     ...ctx,
     current: cat.slug,
-    title: `${m.name} — купить, цена от ${rub(m.min)} | ${config.brand}`,
-    description: `${m.name}: ${count(vs.length, 'вариант', 'варианта', 'вариантов')}${filters.find((f) => f.key === 'storage') ? `, память ${filters.find((f) => f.key === 'storage').values.join(', ')}` : ''}. Цена от ${rub(m.min)}, в наличии. Проверка до активации, гарантия 7 дней.`,
+    title: `${m.name} — купить${m.min != null ? `, цена от ${rub(m.min)}` : ''} | ${config.brand}`,
+    description: `${m.name}: ${count(vs.length, 'вариант', 'варианта', 'вариантов')}${filters.find((f) => f.key === 'storage') ? `, память ${filters.find((f) => f.key === 'storage').values.join(', ')}` : ''}${m.min != null ? `. Цена от ${rub(m.min)}, в наличии` : ''}. Проверка до активации, гарантия 7 дней.`,
     canonical: config.siteUrl ? `${config.siteUrl.replace(/\/$/, '')}/p/${m.slug}/` : '',
     main,
     jsonld: {
@@ -372,7 +381,7 @@ ${related.length ? `<section class="wrap block"><div class="block-head"><h2>Ещ
       name: m.name,
       brand: { '@type': 'Brand', name: m.brand },
       category: cat.name,
-      offers: offers.length
+      offers: m.min == null ? undefined : offers.length
         ? { '@type': 'AggregateOffer', priceCurrency: 'RUB', lowPrice: m.min, highPrice: m.max, offerCount: offers.length, availability: 'https://schema.org/InStock' }
         : { '@type': 'Offer', priceCurrency: 'RUB', price: m.min, availability: 'https://schema.org/OutOfStock' },
     },

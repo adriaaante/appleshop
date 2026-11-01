@@ -189,7 +189,14 @@ export function slugify(s) {
     .replace(/^-|-$/g, '');
 }
 
-const roundPrice = (p, markup) => (markup ? Math.round((p * (1 + markup / 100)) / 100) * 100 : p);
+// Цена на сайте = цена из прайса + наценка магазина (site.config.json → markupPercent), округление вверх:
+// до 10 ₽ у дешёвого (стекло 300 → 320), до 100 ₽ у остального (116 500 → 122 400).
+export const roundPrice = (p, markup) => {
+  if (!markup) return p;
+  const v = p * (1 + markup / 100);
+  const step = v < 1000 ? 10 : 100;
+  return Math.ceil(v / step - 1e-9) * step;
+};
 
 // posts: [{id, date, text, removed}] → { products, info }
 export function parseCatalog(posts, config, now = new Date()) {
@@ -266,6 +273,7 @@ export function parseCatalog(posts, config, now = new Date()) {
         regions,
         notes,
         price: roundPrice(price, config.markupPercent),
+        basePrice: price, // из прайса, без наценки — по ней история цен
         inStock: !out,
         source: { post: post.id, line: lineNo, date: post.date, update: isUpdate },
         raw: raw.trim(),

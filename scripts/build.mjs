@@ -1,6 +1,6 @@
 // data/posts.json → каталог (data/catalog.json), история цен (data/history.json) и сайт (dist/).
 import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
-import { CATEGORIES, parseCatalog } from '../src/parse.mjs';
+import { CATEGORIES, parseCatalog, roundPrice } from '../src/parse.mjs';
 import { categoryPage, homePage, modelPage, notFoundPage, regionLabel, searchPage, variantParts, when } from '../src/render.mjs';
 
 const root = new URL('..', import.meta.url);
@@ -23,7 +23,8 @@ if (products.length < 50) throw new Error(`В каталоге всего ${prod
 const sign = store.posts.map((p) => p.author).find((a) => /работаем/i.test(a || ''));
 if (sign) info.hours = sign.replace(/^\d+\s*/, '');
 
-// История цен: запись добавляется, только когда цена или наличие изменились.
+// История цен — в ценах прайса (без наценки), чтобы смена наценки не выглядела как скачок цен.
+// Запись добавляется, только когда цена или наличие изменились.
 const history = await read('data/history.json', '{}');
 history.createdAt ||= now.toISOString();
 history.items ||= {};
@@ -32,7 +33,7 @@ const current = new Set(products.map((p) => p.id));
 for (const p of products) {
   const rec = (history.items[p.id] ||= []);
   const last = rec.at(-1);
-  if (!last || last.gone || last.p !== p.price || !!last.out !== !p.inStock) rec.push({ t, p: p.price, ...(p.inStock ? {} : { out: 1 }) });
+  if (!last || last.gone || last.p !== p.basePrice || !!last.out !== !p.inStock) rec.push({ t, p: p.basePrice, ...(p.inStock ? {} : { out: 1 }) });
 }
 for (const [id, rec] of Object.entries(history.items)) if (!current.has(id) && !rec.at(-1).gone) rec.push({ t, gone: 1 });
 
@@ -41,7 +42,14 @@ for (const p of products) {
   const rec = history.items[p.id].filter((r) => !r.gone);
   const cur = rec.at(-1);
   const prev = rec.slice(0, -1).reverse().find((r) => r.p !== cur.p);
-  if (prev && now - new Date(cur.t) < WEEK) p.change = cur.p - prev.p;
+  if (prev && now - new Date(cur.t) < WEEK) p.change = p.price - roundPrice(prev.p, config.markupPercent);
+  // Опечатка в прайсе (99900 вместо 9990): цена скачком в 2,5+ раза от прошлой — на сайте «цена уточняется».
+  const last = rec.slice(0, -1).reverse().find((r) => r.p && !r.suspect);
+  if (last && (cur.p / last.p > 2.5 || cur.p / last.p < 0.4)) {
+    p.suspect = true;
+    delete p.change;
+    console.warn(`⚠ подозрительная цена: ${p.title} ${p.regions.join(',')} — ${last.p} → ${cur.p} (пост ${p.source.post})`);
+  }
 }
 
 // Модели = страницы сайта.
@@ -54,13 +62,17 @@ for (const p of products) {
 }
 for (const m of models) {
   m.variants.sort((a, b) => (a.variant.storage || 0) - (b.variant.storage || 0) || (a.variant.size || '').localeCompare(b.variant.size || '') || a.price - b.price);
-  const live = m.variants.filter((v) => v.inStock);
+  const live = m.variants.filter((v) => v.inStock && !v.suspect);
   m.inStock = live.length > 0;
-  m.min = Math.min(...(live.length ? live : m.variants).map((v) => v.price));
-  m.max = Math.max(...(live.length ? live : m.variants).map((v) => v.price));
+  const priced = live.length ? live : m.variants.filter((v) => !v.suspect);
+  m.min = priced.length ? Math.min(...priced.map((v) => v.price)) : null; // null — все цены под вопросом
+  m.max = priced.length ? Math.max(...priced.map((v) => v.price)) : null;
   const changed = m.posts.map((id) => store.posts.find((x) => x.id === id)?.changedAt).filter(Boolean).sort().at(-1);
   m.updated = changed || store.fetchedAt;
 }
+// Фото моделей (scripts/photos.py → photos/index.json); нет снимка — на сайте силуэт.
+const photoIndex = await read('photos/index.json', '{}');
+for (const m of models) m.photos = photoIndex[m.slug] || null;
 const categories = CATEGORIES.filter((c) => models.some((m) => m.category === c.slug)).map(({ slug, name }) => ({ slug, name }));
 
 function brandOf(model) {
@@ -85,7 +97,7 @@ const updates = {
 // Каталог для поиска на сайте и для истории в git.
 const catalog = products.map((p) => ({
   id: p.id, s: p.modelSlug, m: p.model, c: p.category, v: variantParts(p.variant).join(' · '),
-  r: regionLabel(p.regions), p: p.price, o: p.inStock ? 0 : 1, h: p.variant.colorHex || '',
+  r: regionLabel(p.regions), p: p.price, o: p.inStock && !p.suspect ? 0 : 1, h: p.variant.colorHex || '',
 }));
 await write('data/catalog.json', JSON.stringify({ updatedAt: lastChange, products }, null, 1) + '\n');
 await write('data/history.json', JSON.stringify(history) + '\n');
@@ -97,6 +109,9 @@ await mkdir(new URL('assets/fonts/', dist), { recursive: true });
 await cp(new URL('src/site.css', root), new URL('assets/site.css', dist));
 await cp(new URL('src/site.js', root), new URL('assets/site.js', dist));
 await cp(new URL('src/favicon.svg', root), new URL('assets/favicon.svg', dist));
+await cp(new URL('src/hero.webp', root), new URL('assets/hero.webp', dist));
+await cp(new URL('src/hero.avif', root), new URL('assets/hero.avif', dist));
+await cp(new URL('photos/', root), new URL('photos/', dist), { recursive: true, filter: (f) => !f.endsWith('.json') });
 for (const [pkg, name] of [['geologica', 'geologica'], ['onest', 'onest']])
   for (const subset of ['cyrillic', 'latin'])
     await cp(new URL(`node_modules/@fontsource-variable/${pkg}/files/${name}-${subset}-wght-normal.woff2`, root), new URL(`assets/fonts/${name}-${subset}.woff2`, dist));
