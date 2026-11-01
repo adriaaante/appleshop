@@ -888,7 +888,7 @@
     "US"
    ],
    "notes": [],
-   "price": 18200,
+   "price": 18000,
    "inStock": true,
    "source": {
     "post": 9535,
@@ -896,7 +896,8 @@
     "date": "2026-07-18T14:03:45+00:00",
     "update": false
    },
-   "raw": "SE3 40 mm Midnight - 18200 🇺🇸S/M"
+   "raw": "SE3 40 mm Midnight - 18000 🇺🇸S/M",
+   "change": -200
   },
   {
    "id": "apple-watch-se-3-40-mm-midnight-232a35-s-m-m-l-2026-us",
@@ -926,7 +927,7 @@
    "raw": "SE3 40 mm Midnight - 20500 🇺🇸S/M ,M/L (2026)"
   },
   {
-   "id": "apple-watch-se-3-40-mm-starlight-ece4d6-s-m-2026-us",
+   "id": "apple-watch-se-3-40-mm-starlight-ece4d6-s-m-m-l-2026-us",
    "model": "Apple Watch SE 3",
    "modelSlug": "apple-watch-se-3",
    "category": "watch",
@@ -935,7 +936,7 @@
     "size": "40 мм",
     "color": "Starlight",
     "colorHex": "#ece4d6",
-    "band": "S/M",
+    "band": "S/M, M/L",
     "year": 2026
    },
    "regions": [
@@ -996,7 +997,7 @@
     "US"
    ],
    "notes": [],
-   "price": 33000,
+   "price": 32500,
    "inStock": true,
    "source": {
     "post": 9535,
@@ -1004,7 +1005,8 @@
     "date": "2026-07-18T14:03:45+00:00",
     "update": false
    },
-   "raw": "S12 42 mm Black - 33000 🇺🇸 S/M"
+   "raw": "S12 42 mm Black - 32500 🇺🇸 S/M",
+   "change": -500
   },
   {
    "id": "apple-watch-series-12-42-mm-black-1c1d20-m-l-us",
@@ -1106,7 +1108,7 @@
    "inStock": true,
    "source": {
     "post": 9535,
-    "line": 14,
+    "line": 13,
     "date": "2026-07-18T14:03:45+00:00",
     "update": false
    },
@@ -1154,7 +1156,7 @@
     "US"
    ],
    "notes": [],
-   "price": 38500,
+   "price": 37900,
    "inStock": true,
    "source": {
     "post": 9535,
@@ -1162,7 +1164,8 @@
     "date": "2026-07-18T14:03:45+00:00",
     "update": false
    },
-   "raw": "S12 46 mm Black - 38500 🇺🇸 M/L"
+   "raw": "S12 46 mm Black - 37900 🇺🇸 M/L",
+   "change": -600
   },
   {
    "id": "apple-watch-series-12-46-mm-gold-e2cfa6-m-l-us",
@@ -2059,7 +2062,7 @@
     "IN"
    ],
    "notes": [],
-   "price": 72900,
+   "price": 72600,
    "inStock": true,
    "source": {
     "post": 9536,
@@ -2067,8 +2070,8 @@
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
-   "raw": "17 256 Gb White - 72900 🇮🇳",
-   "change": -500
+   "raw": "17 256 Gb White - 72600 🇮🇳",
+   "change": -300
   },
   {
    "id": "iphone-17-256-blue-4f79b8-in",
@@ -2371,7 +2374,7 @@
     "KR"
    ],
    "notes": [],
-   "price": 153000,
+   "price": 152000,
    "inStock": true,
    "source": {
     "post": 9536,
@@ -4304,7 +4307,7 @@
    "inStock": true,
    "source": {
     "post": 9538,
-    "line": 18,
+    "line": 16,
     "date": "2026-07-18T14:08:04+00:00",
     "update": false
    },
@@ -4549,6 +4552,32 @@
    "change": -100
   },
   {
+   "id": "samsung-galaxy-a27-8-256-black-1c1d20-my",
+   "model": "Samsung Galaxy A27",
+   "modelSlug": "samsung-galaxy-a27",
+   "category": "android",
+   "title": "Samsung Galaxy A27 8/256 Black",
+   "variant": {
+    "ram": 8,
+    "storage": 256,
+    "color": "Black",
+    "colorHex": "#1c1d20"
+   },
+   "regions": [
+    "MY"
+   ],
+   "notes": [],
+   "price": 25700,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 25,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A27 8/256 Black 25700 🇲🇾"
+  },
+  {
    "id": "samsung-galaxy-a27-8-256-blue-4f79b8-my",
    "model": "Samsung Galaxy A27",
    "modelSlug": "samsung-galaxy-a27",
@@ -4595,7 +4624,7 @@
    "inStock": true,
    "source": {
     "post": 9538,
-    "line": 29,
+    "line": 28,
     "date": "2026-07-18T14:08:04+00:00",
     "update": false
    },
@@ -4622,7 +4651,7 @@
    "inStock": true,
    "source": {
     "post": 9538,
-    "line": 30,
+    "line": 29,
     "date": "2026-07-18T14:08:04+00:00",
     "update": false
    },
@@ -4648,7 +4677,7 @@
    "inStock": true,
    "source": {
     "post": 9538,
-    "line": 31,
+    "line": 30,
     "date": "2026-07-18T14:08:04+00:00",
     "update": false
    },
@@ -4674,7 +4703,7 @@
    "inStock": true,
    "source": {
     "post": 9538,
-    "line": 32,
+    "line": 31,
     "date": "2026-07-18T14:08:04+00:00",
     "update": false
    },
@@ -5049,7 +5078,7 @@
    "inStock": true,
    "source": {
     "post": 9538,
-    "line": 46,
+    "line": 44,
     "date": "2026-07-18T14:08:04+00:00",
     "update": false
    },
@@ -5075,7 +5104,7 @@
    "inStock": true,
    "source": {
     "post": 9538,
-    "line": 47,
+    "line": 45,
     "date": "2026-07-18T14:08:04+00:00",
     "update": false
    },
@@ -5132,6 +5161,32 @@
     "update": false
    },
    "raw": "A57 8/128 Navy — 29 800 🇰🇿"
+  },
+  {
+   "id": "samsung-galaxy-a57-8-128-navy-22324f-ae",
+   "model": "Samsung Galaxy A57",
+   "modelSlug": "samsung-galaxy-a57",
+   "category": "android",
+   "title": "Samsung Galaxy A57 8/128 Navy",
+   "variant": {
+    "ram": 8,
+    "storage": 128,
+    "color": "Navy",
+    "colorHex": "#22324f"
+   },
+   "regions": [
+    "AE"
+   ],
+   "notes": [],
+   "price": 30000,
+   "inStock": true,
+   "source": {
+    "post": 9538,
+    "line": 46,
+    "date": "2026-07-18T14:08:04+00:00",
+    "update": false
+   },
+   "raw": "A57 8/128 Navy 30000 🇦🇪"
   },
   {
    "id": "samsung-galaxy-a57-8-256-gray-8e9298-ru",
@@ -5228,7 +5283,7 @@
     "RU"
    ],
    "notes": [],
-   "price": 34200,
+   "price": 34100,
    "inStock": true,
    "source": {
     "post": 9538,
