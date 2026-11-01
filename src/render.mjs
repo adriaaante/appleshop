@@ -174,7 +174,7 @@ function modelCard(m, base) {
     <div class="card-body">
       <h3>${esc(m.name)}</h3>
       ${colors.length > 1 ? `<div class="dots" aria-label="${esc(colors.map((c) => c[1]).join(', '))}">${colors.slice(0, 7).map(([hex]) => `<i style="--c:${hex}"></i>`).join('')}${colors.length > 7 ? `<span>+${colors.length - 7}</span>` : ''}</div>` : ''}
-      <p class="card-meta">${m.variants.length > 1 ? count(m.variants.length, 'вариант', 'варианта', 'вариантов') : esc(variantParts(first.variant).join(' · ') || 'В наличии')}</p>
+      <p class="card-meta">${m.variants.length > 1 ? count(m.variants.length, 'вариант', 'варианта', 'вариантов') : esc(variantParts(first.variant).join(' · ') || (m.inStock ? 'В наличии' : ''))}</p>
       <p class="card-price">${m.min == null ? '<span class="out">Цена уточняется</span>' : m.inStock ? `${m.min !== m.max ? '<span>от</span> ' : ''}${rub(m.min)}` : '<span class="out">Нет в наличии</span>'}${drop ? '<em class="tag-down">Цена снижена</em>' : ''}</p>
     </div>
   </a>`;
@@ -278,7 +278,8 @@ function warrantyHtml(text) {
 
 export function categoryPage(ctx, cat) {
   const { base, models, config } = ctx;
-  const ms = models.filter((m) => m.category === cat.slug);
+  // Сначала модели с настоящими фото, потом остальные — порядок внутри групп как в прайсе.
+  const ms = models.filter((m) => m.category === cat.slug).sort((a, b) => !!b.photos - !!a.photos);
   const brands = [...new Set(ms.map((m) => m.brand))];
   const main = `
 <section class="wrap page-head">

@@ -148,7 +148,7 @@ button, input, textarea { font: inherit; color: inherit; }
 .cat { display: grid; grid-template-rows: auto 1fr; gap: 10px; padding: 14px; border-radius: var(--r); background: var(--surface); text-decoration: none; transition: background 0.2s; }
 .cat:hover { background: var(--raise); }
 .cat-art { height: 132px; display: grid; place-items: center; border-radius: 12px; background: var(--studio); overflow: hidden; }
-.cat-art .device { height: 92px; transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.cat-art .device { height: 116px; transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
 .cat-art .photo { width: 112px; height: 112px; }
 .cat:hover .device, .card:hover .device { transform: translateY(-4px) rotate(-2deg); }
 /* Фото товаров: все без фона, на одной «студийной» подложке, с одинаковой тенью */
@@ -158,6 +158,8 @@ button, input, textarea { font: inherit; color: inherit; }
 .cat p { font-size: 0.875rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 .device-floor { fill: var(--floor); }
+.device-mask * { fill: #fff !important; stroke: #fff; }
+.card-art .device, .cat-art .device { filter: drop-shadow(0 14px 18px rgba(10, 14, 20, 0.16)) drop-shadow(0 2px 3px rgba(10, 14, 20, 0.12)); }
 .device { filter: drop-shadow(0 1px 0.5px rgba(0, 0, 0, 0.22)) drop-shadow(0 10px 14px rgba(0, 0, 0, 0.12)); overflow: visible; }
 
 .ticker, .pricelist, .results { list-style: none; margin: 0; padding: 0; }
@@ -215,7 +217,7 @@ button, input, textarea { font: inherit; color: inherit; }
 .card:hover { background: var(--raise); }
 .card-art { height: 220px; display: grid; place-items: center; background: var(--studio); overflow: hidden; }
 .card-art .photo { width: 176px; height: 176px; }
-.card-art .device { height: 156px; transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.card-art .device { height: 184px; transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
 .card-body { display: grid; align-content: start; gap: 6px; padding: 14px 16px 16px; }
 .card-meta { font-size: 0.875rem; color: var(--muted); }
 .card-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-top: 4px; font-family: var(--display); font-size: 1.25rem; font-weight: 650; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }

@@ -16,7 +16,9 @@
   `src/site.css`, `src/site.js` (поиск, фильтры вариантов, заявка), `src/favicon.svg`.
 - `photos/` — фото товаров: `sources.json` (модель → официальный снимок производителя, по цветам) → `scripts/photos.py` →
   `photos/<модель>/<цвет>.webp` (без фона, по центру квадрата 1000×1000 — все на одной «студийной» подложке) и `index.json`.
-  Нет снимка (Яндекс Станции, SafePal, Tangem, OneKey, Ellipal, POCO/Redmi, S25 FE, Watch Ultra 2, Fitbit, стекло) — силуэт.
+  Нет снимка (Яндекс Станции, SafePal, Tangem, OneKey, Ellipal, Keystone Essential/Pro, CoolWallet, Redmi Note 17 Pro Max,
+  Watch Ultra 2, Fitbit, стекло) — объёмный силуэт того же размера; в разделе такие модели идут после моделей с фото.
+  Xiaomi/POCO: packshot — на странице mi.com/uk/product/<модель>/buy (картинка `*operatorx*` или `*_item_uk*`).
 - `src/hero.webp|avif` — обложка (сгенерирована в Higgsfield, gpt_image_2_5: студийные клавиши — знак бренда; 01.11.2026).
 - `dist/` — генерируется, в git не хранится. Шрифты Geologica/Onest — из npm (`@fontsource-variable/*`), копируются при сборке.
 

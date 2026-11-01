@@ -329,6 +329,14 @@
   "main": "playstation-vr2-plus-igra-horizon-call-of-the-mountain/main.webp",
   "colors": {}
  },
+ "poco-f9-ultra": {
+  "main": "poco-f9-ultra/main.webp",
+  "colors": {}
+ },
+ "poco-x8-pro": {
+  "main": "poco-x8-pro/main.webp",
+  "colors": {}
+ },
  "samsung-galaxy-a07": {
   "main": "samsung-galaxy-a07/main.webp",
   "colors": {}
@@ -359,6 +367,14 @@
  },
  "samsung-galaxy-a57": {
   "main": "samsung-galaxy-a57/main.webp",
+  "colors": {}
+ },
+ "samsung-galaxy-s25-fe": {
+  "main": "samsung-galaxy-s25-fe/main.webp",
+  "colors": {}
+ },
+ "samsung-galaxy-smarttag-2": {
+  "main": "samsung-galaxy-smarttag-2/main.webp",
   "colors": {}
  },
  "xiaomi-17t-pro-5g": {

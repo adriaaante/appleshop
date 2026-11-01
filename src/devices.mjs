@@ -32,10 +32,11 @@ const shapes = {
   mouse: (c, d) => `<rect x="34" y="20" width="52" height="120" rx="26" fill="${c}"/><path d="M60 28 v28" stroke="${d}" stroke-width="2"/>`,
   adapter: (c, d) => `<rect x="30" y="48" width="60" height="60" rx="10" fill="${c}"/><rect x="42" y="30" width="8" height="20" rx="2" fill="#b9bdc4"/><rect x="70" y="30" width="8" height="20" rx="2" fill="#b9bdc4"/><rect x="48" y="84" width="24" height="7" rx="3.5" fill="${d}"/>`,
   glass: (c, d) => `<rect x="30" y="8" width="60" height="144" rx="14" fill="${c}" fill-opacity=".35" stroke="${d}" stroke-width="2" stroke-dasharray="5 4"/><path d="M42 30 l14 -14 M42 52 l36 -36" stroke="#ffffff" stroke-opacity=".8" stroke-width="3" stroke-linecap="round"/>`,
+  card: (c, d) => `<rect x="10" y="58" width="100" height="64" rx="8" fill="${c}"/><rect x="22" y="78" width="18" height="14" rx="3" fill="#d3a84b"/><rect x="22" y="104" width="50" height="4" rx="2" fill="${d}"/><rect x="18" y="44" width="100" height="64" rx="8" fill="${shade(c, 1.25)}" opacity=".9" transform="translate(-14 4)"/>`,
   tag: (c, d) => `<rect x="32" y="40" width="56" height="76" rx="20" fill="${c}"/><circle cx="60" cy="56" r="7" fill="none" stroke="${d}" stroke-width="4"/>`,
 };
 
-const DEFAULTS = { airpods: '#f4f4f2', 'airpods-max': '#d6d8db', earbud: '#f4f4f2', console: '#f4f4f2', vr: '#f4f4f2', portal: '#f4f4f2', crypto: '#22252a', key: '#1c1d20', speaker: '#3a3c40', pencil: '#f4f4f2', mouse: '#f4f4f2', adapter: '#f4f4f2', glass: '#cfe1ea', tag: '#1c1d20', ipad: '#8e9298' };
+const DEFAULTS = { airpods: '#f4f4f2', 'airpods-max': '#d6d8db', earbud: '#f4f4f2', console: '#f4f4f2', vr: '#f4f4f2', portal: '#f4f4f2', crypto: '#22252a', card: '#2a2d33', key: '#1c1d20', speaker: '#3a3c40', pencil: '#f4f4f2', mouse: '#f4f4f2', adapter: '#f4f4f2', glass: '#cfe1ea', tag: '#1c1d20', ipad: '#8e9298' };
 
 export function deviceKind(model) {
   const rules = [
@@ -43,14 +44,19 @@ export function deviceKind(model) {
     [/^iPad/, 'ipad'], [/^Apple Watch/, 'watch'], [/Fitbit/, 'tracker'], [/^AirPods Max/, 'airpods-max'], [/^AirPods/, 'airpods'],
     [/^Наушник|^Амбушюры/, 'earbud'], [/^Кейс AirPods/, 'airpods'], [/^Google Pixel/, 'pixel'], [/SmartTag/, 'tag'],
     [/^(Samsung|Honor|Huawei|Nothing|OnePlus|Xiaomi|Redmi|POCO)/, 'android'], [/VR2/, 'vr'], [/Portal/, 'portal'],
-    [/^PlayStation/, 'console'], [/^(YubiKey|Tangem|OneKey KeyTag)/, 'key'], [/^(Ledger|SafePal|CoolWallet|Ellipal|OneKey|Keystone)/, 'crypto'],
+    [/^PlayStation/, 'console'], [/^Tangem/, 'card'], [/^(YubiKey|OneKey KeyTag)/, 'key'], [/^(Ledger|SafePal|CoolWallet|Ellipal|OneKey|Keystone)/, 'crypto'],
     [/^Яндекс/, 'speaker'], [/Pencil/, 'pencil'], [/Mouse/, 'mouse'], [/Адаптер/, 'adapter'], [/стекло/, 'glass'],
   ];
   return (rules.find(([re]) => re.test(model)) || [null, 'android'])[1];
 }
 
+let uid = 0;
+
+// Объём поверх плоского силуэта: блик сверху слева и тень снизу справа, наложенные по маске самой формы.
 export function deviceSvg(kind, color, label = '', attrs = '') {
   const c = color || DEFAULTS[kind] || '#8e9298';
   const d = shade(c, 0.78);
-  return `<svg class="device" viewBox="0 0 120 160" role="img" aria-label="${label}"${attrs}><ellipse cx="60" cy="156" rx="40" ry="3" class="device-floor"/>${shapes[kind](c, d)}</svg>`;
+  const id = `dv${++uid}`;
+  const body = shapes[kind](c, d);
+  return `<svg class="device" viewBox="0 0 120 160" role="img" aria-label="${label}"${attrs}><defs><linearGradient id="${id}g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset=".75" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient><mask id="${id}m" class="device-mask">${body}</mask></defs><ellipse cx="60" cy="156" rx="40" ry="3" class="device-floor"/>${body}<rect width="120" height="160" fill="url(#${id}g)" mask="url(#${id}m)"/></svg>`;
 }
