@@ -1,4 +1,4 @@
-# Каждые 30 минут: забрать посты канала → собрать каталог и сайт → сохранить данные → выложить тестовую копию на GitHub Pages.
+# Каждые 30 минут: забрать посты канала → собрать каталог и сайт → сохранить данные в main → выложить тестовую копию в ветку gh-pages.
 name: Обновление каталога
 on:
   schedule:
@@ -9,8 +9,6 @@ on:
 concurrency: { group: update, cancel-in-progress: false }
 permissions:
   contents: write
-  pages: write
-  id-token: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -35,14 +33,13 @@ jobs:
           git config user.email 'appleshop-bot@users.noreply.github.com'
           git add data/
           git diff --cached --quiet || { git commit -m "Каталог: обновление цен $(date -u +%Y-%m-%dT%H:%MZ)" && git push; }
-      - uses: actions/upload-pages-artifact@v3
-        with: { path: dist }
-  deploy:
-    needs: build
-    # Окружение github-pages разрешает выкладку только из main.
-    if: github.ref_name == 'main' || github.event_name == 'schedule'
-    runs-on: ubuntu-latest
-    environment: { name: github-pages, url: '${{ steps.d.outputs.page_url }}' }
-    steps:
-      - id: d
-        uses: actions/deploy-pages@v4
+      # Готовый сайт — в ветку gh-pages; Pages выкладывает её сам (Settings → Pages → Deploy from a branch → gh-pages).
+      - name: Выложить в gh-pages
+        if: github.ref_name == 'main' || github.event_name == 'schedule'
+        run: |
+          touch dist/.nojekyll
+          cd dist
+          git init -q -b gh-pages
+          git add -A
+          git -c user.name=appleshop-bot -c user.email=appleshop-bot@users.noreply.github.com commit -q -m "Сайт: сборка ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages

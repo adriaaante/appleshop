@@ -18,10 +18,10 @@
 ## Деплой
 - Боевой сайт будет на хостинге со своим доменом (решение владельца 01.11.2026; хостинг и домен ещё не выбраны).
 - Тестовая копия: https://adriaaante.github.io/appleshop/ — `.github/workflows/update.yml` каждые 30 мин (и при push)
-  fetch → build → коммит `data/` в `main` → GitHub Pages (Source: GitHub Actions). Окружение github-pages пускает только
-  `main`; расписание GitHub запускает с ветки по умолчанию (сейчас `claude/inspiring-curie-r3wvfr`) — такой запуск
-  отклоняется защитой, пока владелец не поставит Default branch = `main`. Копия закрыта от поисковиков
-  (`APPLESHOP_PREVIEW_URL` → noindex и `Disallow: /`).
+  fetch → build → коммит `data/` в `main` → готовый `dist/` форс-пушем в ветку `gh-pages` (Pages: Deploy from a branch →
+  `gh-pages` / root — так решил владелец 01.11.2026). Копия закрыта от поисковиков (`APPLESHOP_PREVIEW_URL` → noindex, `Disallow: /`).
+- ⚠ ГРАБЛИ (01.11.2026): `git merge` с конфликтом в `data/posts.json` + `git add -A` закоммитили конфликтные метки в main.
+  Данные двух веток не сливать: взять чистую версию файла и пересобрать (`npm run update`).
 - ⚠ ГРАБЛИ (30–31.10.2026): пока репо был приватным, запуски Actions падали без шагов — «recent account payments have
   failed or your spending limit…». С 01.11 репо публичный, Actions бесплатны.
 
