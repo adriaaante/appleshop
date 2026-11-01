@@ -15,7 +15,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Данные (посты, история цен) всегда живут в main — и при запуске по расписанию с ветки по умолчанию.
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
       - run: npm ci
@@ -37,8 +39,8 @@ jobs:
         with: { path: dist }
   deploy:
     needs: build
-    # Pages разрешает выкладку только с ветки по умолчанию.
-    if: github.ref_name == github.event.repository.default_branch
+    # Окружение github-pages разрешает выкладку только из main.
+    if: github.ref_name == 'main' || github.event_name == 'schedule'
     runs-on: ubuntu-latest
     environment: { name: github-pages, url: '${{ steps.d.outputs.page_url }}' }
     steps:
