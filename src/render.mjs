@@ -59,6 +59,7 @@ ${noindex ? '<meta name="robots" content="noindex, nofollow">' : ''}
 <meta property="og:locale" content="ru_RU">
 <meta name="theme-color" content="#eceef1" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d1014" media="(prefers-color-scheme: dark)">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="icon" href="${base}assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="${base}assets/fonts/geologica-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${base}assets/site.css">
@@ -77,7 +78,10 @@ function header({ base, config, categories, current }) {
       <input id="q" name="q" type="search" autocomplete="off" placeholder="Модель, память, цвет" data-base="${base}">
       <div class="suggest" id="suggest" hidden></div>
     </form>
-    ${contactUrl(config) ? `<a class="tg-link" href="${esc(contactUrl(config))}" target="_blank" rel="noopener">${tgIcon}<span>Написать</span></a>` : ''}
+    <div class="top-actions">
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Переключить тему" title="Светлая или тёмная тема">${sunIcon}${moonIcon}</button>
+      ${contactUrl(config) ? `<a class="tg-link" href="${esc(contactUrl(config))}" target="_blank" rel="noopener">${tgIcon}<span>Написать</span></a>` : ''}
+    </div>
   </div>
   <nav class="cats wrap" aria-label="Разделы каталога">
     ${categories.map((c) => `<a href="${base}c/${c.slug}/"${c.slug === current ? ' aria-current="page"' : ''}>${esc(c.name)}</a>`).join('')}
@@ -93,6 +97,9 @@ function brandMark(brand) {
 }
 
 const tgIcon = `<svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M21.4 4.6 2.9 11.7c-1 .4-1 1.6 0 1.9l4.6 1.5 1.8 5.5c.3.8 1.3 1 1.9.4l2.6-2.4 4.6 3.4c.7.5 1.7.1 1.9-.8l3.1-15.2c.2-1-.9-1.8-1.8-1.4zM9.6 14.5l-.4 4-1.4-4.4 10-6.4z" fill="currentColor"/></svg>`;
+
+const sunIcon = `<svg viewBox="0 0 24 24" aria-hidden="true" class="ico i-sun"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+const moonIcon = `<svg viewBox="0 0 24 24" aria-hidden="true" class="ico i-moon"><path d="M20.2 14.6A8.5 8.5 0 0 1 9.4 3.8a8.5 8.5 0 1 0 10.8 10.8z" fill="currentColor"/></svg>`;
 
 export function contactUrl(config) {
   const tg = (config.contacts.telegram || '').replace(/^@|^https?:\/\/t\.me\//, '');

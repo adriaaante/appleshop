@@ -70,3 +70,9 @@ test('наценка магазина: +5% с округлением вверх,
   const [p] = parseCatalog([{ id: 1, date: '2026-10-29T07:00:00Z', text: '📱iPhone📱\n17 256 Gb Sage - 72500 🇮🇳' }], { ...cfg, markupPercent: 5 }, new Date('2026-10-29T12:00:00Z')).products;
   assert.deepEqual([p.basePrice, p.price], [72500, 76200]);
 });
+
+test('память, слипшаяся с названием: «Pixel 11 Pro XL16/512GB»', () => {
+  const [p] = parse('Google Pixel 11 Pro XL16/512GB Obsidian CA   103000');
+  assert.equal(p.model, 'Google Pixel 11 Pro XL');
+  assert.deepEqual([p.variant.ram, p.variant.storage, p.price], [16, 512, 103000]);
+});

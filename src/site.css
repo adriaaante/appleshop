@@ -91,6 +91,20 @@ button, input, textarea { font: inherit; color: inherit; }
 .suggest small { grid-column: 1; color: var(--muted); font-size: 0.8125rem; }
 .suggest em { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-style: normal; font-weight: 650; font-family: var(--display); font-variant-numeric: tabular-nums; }
 .suggest .all { display: block; text-align: center; color: var(--accent); font-weight: 600; font-size: 0.875rem; }
+.top-actions { display: flex; align-items: center; gap: 8px; }
+.theme-btn { display: inline-grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; border: 1px solid var(--line); background: var(--raise); color: var(--ink); cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
+.theme-btn:hover { border-color: var(--ink); }
+.theme-btn .ico { width: 19px; height: 19px; transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.theme-btn:hover .ico { transform: rotate(-20deg); }
+/* В светлой теме кнопка предлагает тёмную (луна), в тёмной — светлую (солнце) */
+.theme-btn .i-sun { display: none; }
+:root[data-theme='dark'] .theme-btn .i-sun { display: block; }
+:root[data-theme='dark'] .theme-btn .i-moon { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .theme-btn .i-sun { display: block; }
+  :root:not([data-theme='light']) .theme-btn .i-moon { display: none; }
+}
+::view-transition-old(root), ::view-transition-new(root) { mix-blend-mode: normal; }
 .tg-link { display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 14px; border-radius: 12px; background: var(--ink); color: var(--bg); text-decoration: none; font-weight: 600; font-size: 0.9375rem; }
 .tg-link:hover { background: var(--accent); color: var(--accent-ink); }
 .ico { width: 18px; height: 18px; flex: none; }

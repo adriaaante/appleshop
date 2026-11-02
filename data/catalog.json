@@ -5613,12 +5613,14 @@
    "change": 400
   },
   {
-   "id": "google-pixel-11-pro-xl16-512gb-obsidian-26272b-ca",
-   "model": "Google Pixel 11 Pro XL16/512GB",
-   "modelSlug": "google-pixel-11-pro-xl16-512gb",
+   "id": "google-pixel-11-pro-xl-16-512-obsidian-26272b-ca",
+   "model": "Google Pixel 11 Pro XL",
+   "modelSlug": "google-pixel-11-pro-xl",
    "category": "android",
-   "title": "Google Pixel 11 Pro XL16/512GB Obsidian",
+   "title": "Google Pixel 11 Pro XL 16/512GB Obsidian",
    "variant": {
+    "ram": 16,
+    "storage": 512,
     "color": "Obsidian",
     "colorHex": "#26272b"
    },

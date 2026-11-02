@@ -130,6 +130,38 @@
     rows.forEach((r) => r.addEventListener('mouseenter', () => show(r.dataset.hex)));
   }
 
+  // ---------- тема: светлая / тёмная ----------
+  // Пока посетитель не выбрал — как в системе; выбор хранится в localStorage и применяется до отрисовки (скрипт в <head>).
+  const root = document.documentElement;
+  const darkOS = window.matchMedia('(prefers-color-scheme: dark)');
+  const current = () => root.dataset.theme || (darkOS.matches ? 'dark' : 'light');
+  const themeBtn = $('#theme-btn');
+  const syncTheme = () => {
+    const t = current();
+    if (themeBtn) {
+      themeBtn.setAttribute('aria-label', t === 'dark' ? 'Включить светлую тему' : 'Включить тёмную тему');
+      themeBtn.title = themeBtn.getAttribute('aria-label');
+    }
+    $$('meta[name="theme-color"]').forEach((m) => {
+      m.removeAttribute('media');
+      m.content = t === 'dark' ? '#0d1014' : '#eceef1';
+    });
+  };
+  if (themeBtn) {
+    themeBtn.addEventListener('click', () => {
+      const next = current() === 'dark' ? 'light' : 'dark';
+      const apply = () => {
+        root.dataset.theme = next;
+        syncTheme();
+      };
+      try { localStorage.setItem('theme', next); } catch (e) { /* без хранилища тема действует до перезагрузки */ }
+      if (document.startViewTransition && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.startViewTransition(apply);
+      else apply();
+    });
+    darkOS.addEventListener('change', syncTheme);
+    syncTheme();
+  }
+
   // ---------- движение на главной ----------
   const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   // Счётчик позиций в заголовке добегает до настоящего числа (в HTML уже стоит итог — без JS всё видно).

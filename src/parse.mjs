@@ -106,6 +106,7 @@ const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 function fullTitle(name, ctx) {
   let t = name.replace(/\s+/g, ' ').trim();
   const sec = ctx.section || '';
+  t = t.replace(/([A-Za-z])(\d{1,2}\s*\/\s*\d{2,4})/g, '$1 $2'); // «Pro XL16/512GB» — память слиплась с названием
   t = t.replace(/^Air Pods/i, 'AirPods').replace(/^Google fit ?bit/i, 'Google Fitbit');
   let m;
   if ((m = t.match(/^(?:Air)?Pods (.+?) (левое|правое)( ANC)?$/i))) return `Наушник AirPods ${m[1]}${m[3] || ''} ${m[2].toLowerCase() === 'левое' ? 'левый' : 'правый'}`;
