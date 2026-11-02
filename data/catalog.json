@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T09:21:36.535Z",
+ "updatedAt": "2026-11-02T10:51:27.990Z",
  "products": [
   {
    "id": "airpods-4-in",
@@ -1900,6 +1900,34 @@
    "change": 800
   },
   {
+   "id": "iphone-18-pro-max-512-burgundy-6e2433-tolko-esim-jp",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 512 Gb Burgundy",
+   "variant": {
+    "storage": 512,
+    "color": "Burgundy",
+    "colorHex": "#6e2433",
+    "sim": "Только eSIM"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 143400,
+   "basePrice": 136500,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 40,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 512 Gb Burgundy - 136500 🇯🇵(e-sim)",
+   "change": -1000
+  },
+  {
    "id": "iphone-18-pro-max-1024-black-1c1d20-kr",
    "model": "iPhone 18 Pro Max",
    "modelSlug": "iphone-18-pro-max",
@@ -1919,7 +1947,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 42,
+    "line": 43,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -1927,7 +1955,34 @@
    "change": 600
   },
   {
-   "id": "iphone-18-pro-max-1024-burgundy-6e2433-tolko-esim-us",
+   "id": "iphone-18-pro-max-1024-black-1c1d20-tolko-esim-jp",
+   "model": "iPhone 18 Pro Max",
+   "modelSlug": "iphone-18-pro-max",
+   "category": "iphone",
+   "title": "iPhone 18 Pro Max 1 TB Black",
+   "variant": {
+    "storage": 1024,
+    "color": "Black",
+    "colorHex": "#1c1d20",
+    "sim": "Только eSIM"
+   },
+   "regions": [
+    "JP"
+   ],
+   "notes": [],
+   "price": 184500,
+   "basePrice": 175700,
+   "inStock": true,
+   "source": {
+    "post": 9536,
+    "line": 44,
+    "date": "2026-07-18T14:05:20+00:00",
+    "update": false
+   },
+   "raw": "18 Pro Max 1 TB Black - 175700 🇯🇵(e-sim)"
+  },
+  {
+   "id": "iphone-18-pro-max-1024-burgundy-6e2433-tolko-esim-jp",
    "model": "iPhone 18 Pro Max",
    "modelSlug": "iphone-18-pro-max",
    "category": "iphone",
@@ -1939,7 +1994,7 @@
     "sim": "Только eSIM"
    },
    "regions": [
-    "US"
+    "JP"
    ],
    "notes": [],
    "price": 185600,
@@ -1947,11 +2002,12 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 43,
+    "line": 45,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
-   "raw": "18 Pro Max 1 TB Burgundy - 176700 🇺🇸(e-sim)"
+   "raw": "18 Pro Max 1 TB Burgundy - 176700 🇯🇵(e-sim)",
+   "change": -300
   },
   {
    "id": "iphone-air-256-white-f4f4f2-ae",
@@ -1973,7 +2029,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 47,
+    "line": 50,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2000,7 +2056,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 48,
+    "line": 51,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2027,7 +2083,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 50,
+    "line": 53,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2053,7 +2109,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 51,
+    "line": 54,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2080,7 +2136,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 53,
+    "line": 56,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2106,7 +2162,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 54,
+    "line": 57,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2132,7 +2188,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 55,
+    "line": 58,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2158,7 +2214,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 58,
+    "line": 61,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2184,7 +2240,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 59,
+    "line": 62,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2211,7 +2267,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 60,
+    "line": 63,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2238,7 +2294,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 61,
+    "line": 64,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2265,7 +2321,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 64,
+    "line": 67,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2292,7 +2348,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 66,
+    "line": 69,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2319,7 +2375,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 67,
+    "line": 70,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2346,7 +2402,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 70,
+    "line": 73,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2375,7 +2431,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 71,
+    "line": 74,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2402,7 +2458,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 72,
+    "line": 75,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
@@ -2429,7 +2485,7 @@
    "inStock": true,
    "source": {
     "post": 9536,
-    "line": 75,
+    "line": 78,
     "date": "2026-07-18T14:05:20+00:00",
     "update": false
    },
