@@ -16,9 +16,13 @@
   `src/site.css`, `src/site.js` (поиск, фильтры вариантов, заявка), `src/favicon.svg`.
 - `photos/` — фото товаров: `sources.json` (модель → официальный снимок производителя, по цветам) → `scripts/photos.py` →
   `photos/<модель>/<цвет>.webp` (без фона, по центру квадрата 1000×1000 — все на одной «студийной» подложке) и `index.json`.
-  Нет снимка (Яндекс Станции, SafePal, Tangem, OneKey, Ellipal, Keystone Essential/Pro, CoolWallet, Redmi Note 17 Pro Max,
-  Watch Ultra 2, Fitbit, стекло) — объёмный силуэт того же размера; в разделе такие модели идут после моделей с фото.
-  Xiaomi/POCO: packshot — на странице mi.com/uk/product/<модель>/buy (картинка `*operatorx*` или `*_item_uk*`).
+  Нет снимка (02.11.2026: Яндекс Станции, SafePal, Tangem, OneKey, Ellipal, Keystone Essential/Pro, Pixel 11/11 Pro XL/
+  11 Pro Fold/8, Honor TURBO/X5e S, Watch Ultra 2, Fitbit, стекло) — объёмный силуэт того же размера, в разделе — после моделей с фото.
+  Где брать официальные снимки: Xiaomi/POCO — mi.com/<uk|es|my>/product/<модель>/buy (`*operatorx*`, `*_item_*`); Honor —
+  www-file.honor.com/…/product-series/<модель>/<модель>-id-<цвет>-back.png (со страницы honor.com/global/phones/); Huawei —
+  consumer.huawei.com/dam/…/pdp/phones/<модель>/list-<цвет>.png; OnePlus — oneplus.com/<cc>/<модель>/specs (`*-1080x1080.png`);
+  Nothing — eu.nothing.tech/products/<handle>.json (по одному запросу, без частых повторов); Google — store.google.com
+  (почти одни жизненные фото); CoolWallet, Keystone — Shopify `/products/<handle>.json`.
 - `src/hero.webp|avif` — обложка (сгенерирована в Higgsfield, gpt_image_2_5: студийные клавиши — знак бренда; 01.11.2026).
 - `dist/` — генерируется, в git не хранится. Шрифты Geologica/Onest — из npm (`@fontsource-variable/*`), копируются при сборке.
 

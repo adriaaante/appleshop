@@ -7422,7 +7422,7 @@
    "raw": "OnePlus 15 5G 16/512Gb CPH2749 Sand Storm 🇺🇸  83500"
   },
   {
-   "id": "oneplus-15-5g-16-512-cph2749-violet-7d5fb2-us-ultra",
+   "id": "oneplus-15-5g-16-512-cph2749-ultra-violet-6d4f9c-us",
    "model": "OnePlus 15 5G",
    "modelSlug": "oneplus-15-5g",
    "category": "android",
@@ -7431,15 +7431,13 @@
     "ram": 16,
     "storage": 512,
     "code": "CPH2749",
-    "color": "Violet",
-    "colorHex": "#7d5fb2"
+    "color": "Ultra Violet",
+    "colorHex": "#6d4f9c"
    },
    "regions": [
     "US"
    ],
-   "notes": [
-    "Ultra"
-   ],
+   "notes": [],
    "price": 86000,
    "basePrice": 81900,
    "inStock": true,

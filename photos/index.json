@@ -68,6 +68,87 @@
   "main": "apple-watch-series-12/main.webp",
   "colors": {}
  },
+ "coolwallet-pro": {
+  "main": "coolwallet-pro/main.webp",
+  "colors": {}
+ },
+ "google-pixel-10": {
+  "main": "google-pixel-10/main.webp",
+  "colors": {}
+ },
+ "google-pixel-10-pro": {
+  "main": "google-pixel-10-pro/main.webp",
+  "colors": {}
+ },
+ "google-pixel-10a": {
+  "main": "google-pixel-10a/main.webp",
+  "colors": {}
+ },
+ "honor-400": {
+  "main": "honor-400/midnight-black.webp",
+  "colors": {
+   "Midnight Black": "honor-400/midnight-black.webp"
+  }
+ },
+ "honor-600": {
+  "main": "honor-600/orange.webp",
+  "colors": {
+   "Orange": "honor-600/orange.webp"
+  }
+ },
+ "honor-600-lite": {
+  "main": "honor-600-lite/desert-gold.webp",
+  "colors": {
+   "Desert Gold": "honor-600-lite/desert-gold.webp",
+   "Sprout Green": "honor-600-lite/sprout-green.webp",
+   "Velvet Gray": "honor-600-lite/velvet-gray.webp",
+   "Velvet Black": "honor-600-lite/velvet-black.webp"
+  }
+ },
+ "honor-600-pro": {
+  "main": "honor-600-pro/black.webp",
+  "colors": {
+   "Black": "honor-600-pro/black.webp",
+   "Orange": "honor-600-pro/orange.webp",
+   "Golden White": "honor-600-pro/golden-white.webp"
+  }
+ },
+ "honor-x9d": {
+  "main": "honor-x9d/midnight-black.webp",
+  "colors": {
+   "Midnight Black": "honor-x9d/midnight-black.webp",
+   "Black": "honor-x9d/black.webp",
+   "Sunrise Gold": "honor-x9d/sunrise-gold.webp",
+   "Forest Green": "honor-x9d/forest-green.webp"
+  }
+ },
+ "huawei-mate-80-pro": {
+  "main": "huawei-mate-80-pro/gold.webp",
+  "colors": {
+   "Gold": "huawei-mate-80-pro/gold.webp"
+  }
+ },
+ "huawei-nova-16z": {
+  "main": "huawei-nova-16z/main.webp",
+  "colors": {}
+ },
+ "huawei-pura-80": {
+  "main": "huawei-pura-80/gold.webp",
+  "colors": {
+   "Gold": "huawei-pura-80/gold.webp",
+   "Black": "huawei-pura-80/black.webp",
+   "White": "huawei-pura-80/white.webp"
+  }
+ },
+ "huawei-pura-90s-pro-max-5g": {
+  "main": "huawei-pura-90s-pro-max-5g/blush-gold.webp",
+  "colors": {
+   "Blush Gold": "huawei-pura-90s-pro-max-5g/blush-gold.webp",
+   "Blaze Purple": "huawei-pura-90s-pro-max-5g/blaze-purple.webp",
+   "Orange Ocean": "huawei-pura-90s-pro-max-5g/orange-ocean.webp",
+   "Graphite Black": "huawei-pura-90s-pro-max-5g/graphite-black.webp"
+  }
+ },
  "ipad-11": {
   "main": "ipad-11/silver.webp",
   "colors": {
@@ -305,6 +386,59 @@
   "main": "naushnik-airpods-pro-3-pravyy/main.webp",
   "colors": {}
  },
+ "nothing-phone-3": {
+  "main": "nothing-phone-3/white.webp",
+  "colors": {
+   "White": "nothing-phone-3/white.webp",
+   "Black": "nothing-phone-3/black.webp"
+  }
+ },
+ "nothing-phone-3a": {
+  "main": "nothing-phone-3a/main.webp",
+  "colors": {}
+ },
+ "nothing-phone-3a-lite": {
+  "main": "nothing-phone-3a-lite/white.webp",
+  "colors": {
+   "White": "nothing-phone-3a-lite/white.webp",
+   "Black": "nothing-phone-3a-lite/black.webp"
+  }
+ },
+ "nothing-phone-4a": {
+  "main": "nothing-phone-4a/white.webp",
+  "colors": {
+   "White": "nothing-phone-4a/white.webp",
+   "Black": "nothing-phone-4a/black.webp",
+   "Pink": "nothing-phone-4a/pink.webp",
+   "Blue": "nothing-phone-4a/blue.webp"
+  }
+ },
+ "nothing-phone-4a-pro": {
+  "main": "nothing-phone-4a-pro/main.webp",
+  "colors": {}
+ },
+ "nothing-phone-4b": {
+  "main": "nothing-phone-4b/black.webp",
+  "colors": {
+   "Black": "nothing-phone-4b/black.webp"
+  }
+ },
+ "oneplus-13s": {
+  "main": "oneplus-13s/silk-green.webp",
+  "colors": {
+   "Silk Green": "oneplus-13s/silk-green.webp",
+   "Black Velvet": "oneplus-13s/black-velvet.webp"
+  }
+ },
+ "oneplus-15-5g": {
+  "main": "oneplus-15-5g/sand-storm.webp",
+  "colors": {
+   "Sand Storm": "oneplus-15-5g/sand-storm.webp",
+   "Black": "oneplus-15-5g/black.webp",
+   "Infinite Black": "oneplus-15-5g/infinite-black.webp",
+   "Ultra Violet": "oneplus-15-5g/ultra-violet.webp"
+  }
+ },
  "playstation-5-pro": {
   "main": "playstation-5-pro/main.webp",
   "colors": {}
@@ -379,6 +513,10 @@
  },
  "xiaomi-17t-pro-5g": {
   "main": "xiaomi-17t-pro-5g/main.webp",
+  "colors": {}
+ },
+ "xiaomi-redmi-note-17-pro-max": {
+  "main": "xiaomi-redmi-note-17-pro-max/main.webp",
   "colors": {}
  },
  "yubikey-5-nfc-usb-a": {

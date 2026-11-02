@@ -55,6 +55,79 @@
   "src": "apple:watch-compare-series-12-202609",
   "cutout": true
  },
+ "coolwallet-pro": {
+  "src": "https://cdn.shopify.com/s/files/1/0641/3995/2301/files/Coolwallet-Pro-02.webp?v=1736397301",
+  "cutout": true
+ },
+ "google-pixel-10": {
+  "src": "https://lh3.googleusercontent.com/uKS6tpepgnOv8cPyZiguZjy78QN3u4t8AYgtrLNJPbNUYwq1RXBC9R3q4xx-4gCSYkKJXzxAJvFfurgmkGLB28VcSMRAEMvHNQ=s1600",
+  "cutout": true
+ },
+ "google-pixel-10-pro": {
+  "src": "https://lh3.googleusercontent.com/QN0PAB_Q19QFiED43V_jrAhNF7k7_ifUUXB0fFBnoK0TAG2NXk5RQKPi5t4eF4uSKf5CaL7hs3UIFrnbv4gadjCvuIgBHPah=s1600",
+  "cutout": true
+ },
+ "google-pixel-10a": {
+  "src": "https://lh3.googleusercontent.com/KEokAR8z9Ekw7hWFO93gx0bweF23QralIhDY_FcUFigfa6SGz34CMR5AoTgNUjr5g9vt8_UR1EWaov0yDjpaK3kIXQjqvYtFqA=s1600",
+  "cutout": true
+ },
+ "honor-400": {
+  "colors": {
+   "Midnight Black": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-400/honor-400-id-black-back.png"
+  }
+ },
+ "honor-600": {
+  "colors": {
+   "Orange": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600/honor-600-id-orange-back.png"
+  }
+ },
+ "honor-600-lite": {
+  "colors": {
+   "Desert Gold": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-lite/honor-600-lite-id-gold-back.png",
+   "Sprout Green": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-lite/honor-600-lite-id-green-back.png",
+   "Velvet Gray": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-lite/honor-600-lite-id-grey-back.png",
+   "Velvet Black": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-lite/honor-600-lite-id-black-back.png"
+  }
+ },
+ "honor-600-pro": {
+  "colors": {
+   "Black": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/honor-600-pro-id-black-back.png",
+   "Orange": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/honor-600-pro-id-orange-back.png",
+   "Golden White": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/honor-600-pro-id-white-back.png"
+  }
+ },
+ "honor-x9d": {
+  "colors": {
+   "Midnight Black": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9d/honor-x9d-black-back.png",
+   "Black": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9d/honor-x9d-black-back.png",
+   "Sunrise Gold": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9d/honor-x9d-gold-back.png",
+   "Forest Green": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-x9d/honor-x9d-green-back.png"
+  }
+ },
+ "huawei-mate-80-pro": {
+  "colors": {
+   "Gold": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/mate80-pro/list-gold.png"
+  }
+ },
+ "huawei-nova-16z": {
+  "src": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/cn/mkt/launch/260601/phones/nova16-z.jpg",
+  "cutout": true
+ },
+ "huawei-pura-80": {
+  "colors": {
+   "Gold": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura80/list-gold.png",
+   "Black": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura80/list-black.png",
+   "White": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura80/list-white.png"
+  }
+ },
+ "huawei-pura-90s-pro-max-5g": {
+  "colors": {
+   "Blush Gold": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura90s-pro-max/list-blush-gold.png",
+   "Blaze Purple": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura90s-pro-max/list-blaze-purple.png",
+   "Orange Ocean": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura90s-pro-max/list-orange-ocean.png",
+   "Graphite Black": "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/phones/pura90s-pro-max/list-graphite-black.png"
+  }
+ },
  "ipad-11": {
   "colors": {
    "Silver": "apple:ipad-2022-hero-silver-cell-select",
@@ -291,6 +364,51 @@
  "naushnik-airpods-pro-3-pravyy": {
   "src": "apple:airpods-pro-3-hero-select-202509"
  },
+ "nothing-phone-3": {
+  "colors": {
+   "White": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/0000s_0011_Phone-3-white.png?v=1753439855",
+   "Black": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/0000s_0012_Phone-3-black.png?v=1753439855"
+  }
+ },
+ "nothing-phone-3a": {
+  "src": "https://checkout-eu.nothing.tech/cdn/shop/files/0000s_0004_Phone-3a-white.png"
+ },
+ "nothing-phone-3a-lite": {
+  "colors": {
+   "White": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/BulbT-White.png?v=1761641842",
+   "Black": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/BulbT-Black.png?v=1761641842"
+  }
+ },
+ "nothing-phone-4a": {
+  "colors": {
+   "White": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/Phone-4a-White.png?v=1772251093",
+   "Black": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/Phone-4a-Black.png?v=1772251092",
+   "Pink": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/Phone-4a-Pink.png?v=1772251092",
+   "Blue": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/Phone-4a-Blue.png?v=1772251093"
+  }
+ },
+ "nothing-phone-4a-pro": {
+  "src": "https://checkout-eu.nothing.tech/cdn/shop/files/Phone-4a-Pro-White.png"
+ },
+ "nothing-phone-4b": {
+  "colors": {
+   "Black": "https://cdn.shopify.com/s/files/1/0584/0932/0622/files/product-thumbnail-black.webp?v=1783318309"
+  }
+ },
+ "oneplus-13s": {
+  "colors": {
+   "Silk Green": "https://www.oneplus.com/content/dam/oneplus/2025/specs/13s/images/OnePlus13S-Green-Silk-1080x1080.png",
+   "Black Velvet": "https://www.oneplus.com/content/dam/oneplus/2025/specs/13s/images/OnePlus13S-Black-Velvet-1080x1080.png"
+  }
+ },
+ "oneplus-15-5g": {
+  "colors": {
+   "Sand Storm": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/15/spec/OnePlus15-sand-1080x1080.png",
+   "Black": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/15/spec/OnePlus15-black-1080x1080.png",
+   "Infinite Black": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/15/spec/OnePlus15-black-1080x1080.png",
+   "Ultra Violet": "https://www.oneplus.com/content/dam/oneplus/2025/product-station/15/spec/OnePlus15-ultra-violet-1080x1080.png"
+  }
+ },
  "playstation-5-pro": {
   "src": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-dualsense-image-block-01-en-16aug24?$native$",
   "cutout": true
@@ -353,6 +471,9 @@
  },
  "xiaomi-17t-pro-5g": {
   "src": "https://i02.appmifile.com/800_operatorx_operatorx_opx/28/05/2026/6719f2e5c878ea3de4114140bfa6b5ed.png"
+ },
+ "xiaomi-redmi-note-17-pro-max": {
+  "src": "https://i02.appmifile.com/90_operatorx_operatorx_xm/25/08/2026/07c12ab9babd62aa1bdd00a34cdf3622.png"
  },
  "yubikey-5-nfc-usb-a": {
   "src": "https://resources.yubico.com/53ZDUYE6/at/gkcgnvjfqrk832k4sgq3j5/yubikey5anfc-hero.png?auto=webp&format=png&width=1200"

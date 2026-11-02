@@ -29,7 +29,7 @@ const COLORS = Object.entries({
   'velvet gray': ['Velvet Gray', '#8a8d93'], 'forest green': ['Forest Green', '#3d5a45'], 'midnight black': ['Midnight Black', '#16181d'],
   'sunrise gold': ['Sunrise Gold', '#e3c48e'], 'blaze purple': ['Blaze Purple', '#7a4fa0'], 'blush gold': ['Blush Gold', '#e6c3ad'],
   'graphite black': ['Graphite Black', '#2a2c30'], 'orange ocean': ['Orange Ocean', '#e9733c'], 'black velvet': ['Black Velvet', '#1b1b1d'],
-  'silk green': ['Silk Green', '#9fb7a2'], 'sand storm': ['Sand Storm', '#cdb89a'], 'infinite black': ['Infinite Black', '#121316'],
+  'silk green': ['Silk Green', '#9fb7a2'], 'ultra violet': ['Ultra Violet', '#6d4f9c'], 'sand storm': ['Sand Storm', '#cdb89a'], 'infinite black': ['Infinite Black', '#121316'],
   graygreen: ['Gray Green', '#7f8c80'], lightgray: ['Light Gray', '#c9ccd1'], icyblue: ['Icy Blue', '#bcd6e8'],
   midnight: ['Midnight', '#232a35'], starlight: ['Starlight', '#ece4d6'], burgundy: ['Burgundy', '#6e2433'], glacier: ['Glacier', '#cfe1ea'],
   sage: ['Sage', '#a9b79b'], lavender: ['Lavender', '#c8bfe4'], lavander: ['Lavender', '#c8bfe4'], obsidian: ['Obsidian', '#26272b'],
