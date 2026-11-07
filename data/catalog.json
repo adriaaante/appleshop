@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T15:53:38.429Z",
+ "updatedAt": "2026-11-07T20:10:26.324Z",
  "products": [
   {
    "id": "airpods-4-in",
@@ -2204,32 +2204,6 @@
    },
    "raw": "17 256 Gb Lavender - 73500 🇮🇳",
    "change": -300
-  },
-  {
-   "id": "iphone-17-pro-256-blue-4f79b8-kr",
-   "model": "iPhone 17 Pro",
-   "modelSlug": "iphone-17-pro",
-   "category": "iphone",
-   "title": "iPhone 17 Pro 256Gb blue",
-   "variant": {
-    "storage": 256,
-    "color": "Blue",
-    "colorHex": "#4f79b8"
-   },
-   "regions": [
-    "KR"
-   ],
-   "notes": [],
-   "price": 99800,
-   "basePrice": 95000,
-   "inStock": true,
-   "source": {
-    "post": 9536,
-    "line": 60,
-    "date": "2026-07-18T14:05:20+00:00",
-    "update": false
-   },
-   "raw": "17 Pro 256Gb blue  - 95000🇰🇷"
   },
   {
    "id": "iphone-17-pro-max-256-orange-f07a2c-eu",
