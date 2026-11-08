@@ -91,8 +91,11 @@ const store = JSON.parse(await readFile(postsFile, 'utf8').catch(() => '{"posts"
 const byId = new Map(store.posts.map((p) => [p.id, p]));
 const now = new Date().toISOString();
 
+// С 08.11.2026 канал закрыт (нет публичного адреса): веб-версия пуста, цены приходят только через бота.
 const web = await scrapeWeb();
-if (!web.length) throw new Error(`t.me/s/${config.channel}: не найдено ни одного поста — разметка страницы изменилась?`);
+if (!web.length && !process.env.APPLESHOP_TELEGRAM_BOT_TOKEN)
+  throw new Error(`t.me/s/${config.channel} не открывается (канал закрыт?), а APPLESHOP_TELEGRAM_BOT_TOKEN не задан — цены взять неоткуда`);
+if (!web.length) console.warn(`t.me/s/${config.channel} не открывается — беру только правки, полученные ботом`);
 const webIds = new Set(web.map((p) => p.id));
 
 for (const p of web) {
@@ -112,8 +115,8 @@ for (const p of web) {
     changedAt: old && old.text === text ? old.changedAt : now,
   });
 }
-// Полный обход прошёл — пост, которого нет в веб-версии, удалён из канала.
-for (const p of byId.values()) if (!webIds.has(p.id)) p.removed = true;
+// Полный обход веб-версии прошёл — пост, которого в ней нет, удалён из канала. Без веб-версии удаления не видны.
+if (web.length) for (const p of byId.values()) if (!webIds.has(p.id)) p.removed = true;
 
 for (const p of await botUpdates()) {
   const old = byId.get(p.id) || {};
